@@ -1,0 +1,58 @@
+APP_VERSION_CODE=1
+APP_VERSION_NAME=1.0
+ANDROID_VERSION=7.1.2
+PACKAGE_NAME=org.chimple.bali
+REPORT_ID=778e8d15-8f89-4370-8c59-a63119d28b5c
+BUILD=BOARD=dragon
+	BOOTLOADER=Google_Smaug.7900.50.0
+	BRAND=google
+	CPU_ABI=arm64-v8a
+	CPU_ABI2=
+	DEVICE=dragon
+	DISPLAY=N2G48C
+	FINGERPRINT=google/ryu/dragon:7.1.2/N2G48C/4104010:user/release-keys
+	HARDWARE=dragon
+	HOST=wphq10.hot.corp.google.com
+	ID=N2G48C
+	IS_DEBUGGABLE=false
+	IS_EMULATOR=false
+	MANUFACTURER=Google
+	MODEL=Pixel C
+	PERMISSIONS_REVIEW_REQUIRED=false
+	PRODUCT=ryu
+	RADIO=unknown
+	SERIAL=6112001529
+	SUPPORTED_32_BIT_ABIS=["armeabi-v7a","armeabi"]
+	SUPPORTED_64_BIT_ABIS=["arm64-v8a"]
+	SUPPORTED_ABIS=["arm64-v8a","armeabi-v7a","armeabi"]
+	TAGS=release-keys
+	TIME=1497556050000
+	TYPE=user
+	UNKNOWN=unknown
+	USER=android-build
+	VERSION.ACTIVE_CODENAMES=[]
+	VERSION.BASE_OS=
+	VERSION.CODENAME=REL
+	VERSION.INCREMENTAL=4104010
+	VERSION.PREVIEW_SDK_INT=0
+	VERSION.RELEASE=7.1.2
+	VERSION.RESOURCES_SDK_INT=25
+	VERSION.SDK=25
+	VERSION.SDK_INT=25
+	VERSION.SECURITY_PATCH=2017-08-05
+STACK_TRACE=android.database.sqlite.SQLiteCantOpenDatabaseException: unable to open database file (code 14)
+	at android.database.sqlite.SQLiteConnection.nativeExecuteForCursorWindow(Native Method)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:845)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:143)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:132)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:219)
+	at android.database.AbstractCursor.moveToFirst(AbstractCursor.java:258)
+	at org.chimple.bali.db.dao.UserDao_Impl$3.compute(UserDao_Impl.java:220)
+	at org.chimple.bali.db.dao.UserDao_Impl$3.compute(UserDao_Impl.java:197)
+	at android.arch.lifecycle.ComputableLiveData$2.run(ComputableLiveData.java:87)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
