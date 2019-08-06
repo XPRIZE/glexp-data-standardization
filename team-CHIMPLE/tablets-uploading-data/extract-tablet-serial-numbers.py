@@ -11,6 +11,7 @@ import os
 import warnings
 import glob
 import ntpath
+import csv
 
 import serial_number_util
 
@@ -43,6 +44,8 @@ verify_date(date)
 date_directory_iterator = os.scandir(directory_containing_weekly_data)
 print(os.path.basename(__file__), "date_directory_iterator: {}".format(date_directory_iterator))
 with date_directory_iterator as village_id_dir_entries:
+    csv_rows = []
+
     for village_id_dir_entry in village_id_dir_entries:
         print(os.path.basename(__file__), "village_id_dir_entry: {}".format(village_id_dir_entry))
 
@@ -58,6 +61,9 @@ with date_directory_iterator as village_id_dir_entries:
         if village_id not in village_ids:
             warnings.warn("village_id not in village_ids: {}".format(village_id))
             continue
+
+        # Add each extracted tablet serial number to an array
+        tablet_serials = []
 
         # Iterate all subdirectories and files contained within the village ID directory
         print(os.path.basename(__file__), "Iterating all subdirectories and files for village_id " + str(village_id) + ": \"{}/**/*\"".format(village_id_dir_entry.path))
@@ -78,6 +84,18 @@ with date_directory_iterator as village_id_dir_entries:
             print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
             if not is_valid_tablet_serial_number:
                 continue
+            elif basename not in tablet_serials:
+                tablet_serials.append(basename)
 
-            # Export to CSV
-            # TODO
+        csv_row = ['CHIMPLE', village_id, date, tablet_serials]
+        print("Adding CSV row: {}".format(csv_row))
+        csv_rows.append(csv_row)
+
+    # Export to a CSV file with the following columns: team,village_id,week_end_date,tablet_serials
+    csv_filename = "tablets-uploading-data-CHIMPLE_" + date + ".csv"
+    print("Writing tablet serials to the file \"" + csv_filename + "\"")
+    with open(csv_filename, mode='w') as csv_file:
+        csv_fieldnames = ['team', 'village_id', 'week_end_date', 'tablet_serials']
+        csv_writer = csv.writer(csv_file, csv_fieldnames)
+        csv_writer.writerow(['team', 'village_id', 'week_end_date', 'tablet_serials'])
+        csv_writer.writerows(csv_rows)
