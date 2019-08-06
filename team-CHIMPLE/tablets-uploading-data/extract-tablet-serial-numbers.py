@@ -1,7 +1,7 @@
 # Extracts tablet serial numbers from log files collected from tablets, and stores them in a standardized format.
 #
 # Example usage:
-#     python extract-tablet-serial-numbers.py ../tablet-usage-data/2019-02-18
+#     python3 extract-tablet-serial-numbers.py ../tablet-usage-data/2019-02-08
 #
 # The extracted data will be stored in a file named `tablets-uploading-data-CHIMPLE_<DATE>.csv`.
 
@@ -28,7 +28,7 @@ print(os.path.basename(__file__), "sys.version: {}".format(sys.version))
 # Expect an argument representing a directory containing one week of data, e.g. "../tablet-usage-data/2019-02-18"
 if len(sys.argv) < 2:
     # Abort execution
-    exit("Example usage: python extract-tablet-serial-numbers.py ../tablet-usage-data/2019-02-18")
+    exit("Example usage: python3 extract-tablet-serial-numbers.py ../tablet-usage-data/2019-02-08")
 directory_containing_weekly_data = sys.argv[1]
 print(os.path.basename(__file__), "directory_containing_weekly_data: \"{}\"".format(directory_containing_weekly_data))
 
