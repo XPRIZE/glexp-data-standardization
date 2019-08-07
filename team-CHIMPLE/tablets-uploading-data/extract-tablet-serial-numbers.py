@@ -87,15 +87,23 @@ with date_directory_iterator as village_id_dir_entries:
             elif basename not in tablet_serials:
                 tablet_serials.append(basename)
 
+        # Sort tablet_serials by value (ascending)
+        tablet_serials = sorted(tablet_serials, key=lambda x: x[0])
+
         csv_row = ['CHIMPLE', village_id, date, tablet_serials]
         print("Adding CSV row: {}".format(csv_row))
         csv_rows.append(csv_row)
 
-    # Export to a CSV file with the following columns: team,village_id,week_end_date,tablet_serials
+    # Define columns
+    csv_fieldnames = ['team', 'village_id', 'week_end_date', 'tablet_serials']
+
+    # Sort rows by village_id (2nd column)
+    csv_rows = sorted(csv_rows, key=lambda x: x[1])
+
+    # Export to a CSV file
     csv_filename = "tablets-uploading-data-CHIMPLE_" + date + ".csv"
     print("Writing tablet serials to the file \"" + csv_filename + "\"")
     with open(csv_filename, mode='w') as csv_file:
-        csv_fieldnames = ['team', 'village_id', 'week_end_date', 'tablet_serials']
         csv_writer = csv.writer(csv_file, csv_fieldnames)
-        csv_writer.writerow(['team', 'village_id', 'week_end_date', 'tablet_serials'])
+        csv_writer.writerow(csv_fieldnames)
         csv_writer.writerows(csv_rows)
