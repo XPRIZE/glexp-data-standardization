@@ -90,12 +90,12 @@ with date_directory_iterator as village_id_dir_entries:
         # Sort tablet_serials by value (ascending)
         tablet_serials = sorted(tablet_serials, key=lambda x: x[0])
 
-        csv_row = ['CHIMPLE', village_id, date, tablet_serials]
+        csv_row = ['CHIMPLE', village_id, date, len(tablet_serials), tablet_serials]
         print("Adding CSV row: {}".format(csv_row))
         csv_rows.append(csv_row)
 
     # Define columns
-    csv_fieldnames = ['team', 'village_id', 'week_end_date', 'tablet_serials']
+    csv_fieldnames = ['team', 'village_id', 'week_end_date', 'tablet_serials_count', 'tablet_serials']
 
     # Sort rows by village_id (2nd column)
     csv_rows = sorted(csv_rows, key=lambda x: x[1])
