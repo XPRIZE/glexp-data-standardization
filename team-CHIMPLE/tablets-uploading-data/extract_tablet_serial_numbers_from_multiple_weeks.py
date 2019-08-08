@@ -44,9 +44,27 @@ for week_end_date in data_collection_week_end_dates:
 # Combine each CSV file for one week of data into one file
 print(os.path.basename(__file__), "Writing data to \"tablets-uploading-data-CHIMPLE.csv\"...")
 with open('tablets-uploading-data-CHIMPLE.csv', 'w') as outfile:
+    infile_count = 0
     for week_end_date in data_collection_week_end_dates:
+        print(os.path.basename(__file__), "\n\n"
+                                          "**********\n")
         csv_filename_weekly = "tablets-uploading-data-CHIMPLE_" + week_end_date + ".csv"
         print(os.path.basename(__file__), "csv_filename: \"{}\"".format(csv_filename_weekly))
         with open(csv_filename_weekly) as infile:
-            outfile.write(infile.read())
+            infile_row_count = 0
+            for line in infile:
+                print(os.path.basename(__file__), "line: {}".format(line))
+                print(os.path.basename(__file__), "infile_row_count: {}".format(infile_row_count))
+
+                # Column headers are included in each weekly file.
+                # Only include them once, and skip them for each subsequent file.
+                is_column_header_row = (infile_row_count == 0)
+                is_first_infile = (infile_count == 0)
+                skip_row = (is_column_header_row and not is_first_infile)
+
+                if not skip_row:
+                    outfile.write(line)
+
+                infile_row_count += 1
+        infile_count += 1
 print(os.path.basename(__file__), "Writing data to \"tablets-uploading-data-CHIMPLE.csv\" complete!")
