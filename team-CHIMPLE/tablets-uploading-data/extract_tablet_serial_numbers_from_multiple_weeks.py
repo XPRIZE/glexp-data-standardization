@@ -37,9 +37,16 @@ print(os.path.basename(__file__), "len(data_collection_week_end_dates): {}".form
 
 # Extract tablet serial numbers and store them in a CSV file for each week of data
 for week_end_date in data_collection_week_end_dates:
-    print(os.path.basename(__file__), "week_end_date: \"{}\"".format(week_end_date))
-
     directory_containing_weekly_data = BASE_PATH + os.sep + week_end_date
     print(os.path.basename(__file__), "directory_containing_weekly_data: \"{}\"".format(directory_containing_weekly_data))
-
     extract_tablet_serial_numbers.extract_from_week(directory_containing_weekly_data)
+
+# Combine each CSV file for one week of data into one file
+print(os.path.basename(__file__), "Writing data to \"tablets-uploading-data-CHIMPLE.csv\"...")
+with open('tablets-uploading-data-CHIMPLE.csv', 'w') as outfile:
+    for week_end_date in data_collection_week_end_dates:
+        csv_filename_weekly = "tablets-uploading-data-CHIMPLE_" + week_end_date + ".csv"
+        print(os.path.basename(__file__), "csv_filename: \"{}\"".format(csv_filename_weekly))
+        with open(csv_filename_weekly) as infile:
+            outfile.write(infile.read())
+print(os.path.basename(__file__), "Writing data to \"tablets-uploading-data-CHIMPLE.csv\" complete!")
