@@ -1,0 +1,71 @@
+APP_VERSION_CODE=1
+APP_VERSION_NAME=1.0
+ANDROID_VERSION=7.1.2
+PACKAGE_NAME=org.chimple.bali
+REPORT_ID=2227a63c-c111-40f9-8480-497fec6f82ae
+BUILD=BOARD=dragon
+	BOOTLOADER=Google_Smaug.7900.50.0
+	BRAND=google
+	CPU_ABI=arm64-v8a
+	CPU_ABI2=
+	DEVICE=dragon
+	DISPLAY=N2G48C
+	FINGERPRINT=google/ryu/dragon:7.1.2/N2G48C/4104010:user/release-keys
+	HARDWARE=dragon
+	HOST=wphq10.hot.corp.google.com
+	ID=N2G48C
+	IS_DEBUGGABLE=false
+	IS_EMULATOR=false
+	MANUFACTURER=Google
+	MODEL=Pixel C
+	PERMISSIONS_REVIEW_REQUIRED=false
+	PRODUCT=ryu
+	RADIO=unknown
+	SERIAL=5A27001436
+	SUPPORTED_32_BIT_ABIS=["armeabi-v7a","armeabi"]
+	SUPPORTED_64_BIT_ABIS=["arm64-v8a"]
+	SUPPORTED_ABIS=["arm64-v8a","armeabi-v7a","armeabi"]
+	TAGS=release-keys
+	TIME=1497556050000
+	TYPE=user
+	UNKNOWN=unknown
+	USER=android-build
+	VERSION.ACTIVE_CODENAMES=[]
+	VERSION.BASE_OS=
+	VERSION.CODENAME=REL
+	VERSION.INCREMENTAL=4104010
+	VERSION.PREVIEW_SDK_INT=0
+	VERSION.RELEASE=7.1.2
+	VERSION.RESOURCES_SDK_INT=25
+	VERSION.SDK=25
+	VERSION.SDK_INT=25
+	VERSION.SECURITY_PATCH=2017-08-05
+STACK_TRACE=java.lang.RuntimeException: An error occurred while executing doInBackground()
+	at android.support.v4.content.ModernAsyncTask$3.done(ModernAsyncTask.java:161)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)
+	at java.util.concurrent.FutureTask.setException(FutureTask.java:223)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+Caused by: java.lang.NullPointerException: Attempt to read from field 'int org.chimple.bali.db.entity.User.coins' on a null object reference
+	at org.chimple.bali.launcher.AppsLoader.loadInBackground(AppsLoader.java:72)
+	at org.chimple.bali.launcher.AppsLoader.loadInBackground(AppsLoader.java:39)
+	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:302)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:45)
+	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:138)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	... 3 more
+java.lang.NullPointerException: Attempt to read from field 'int org.chimple.bali.db.entity.User.coins' on a null object reference
+	at org.chimple.bali.launcher.AppsLoader.loadInBackground(AppsLoader.java:72)
+	at org.chimple.bali.launcher.AppsLoader.loadInBackground(AppsLoader.java:39)
+	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:302)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:57)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:45)
+	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:138)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+

@@ -1,0 +1,86 @@
+APP_VERSION_CODE=1
+APP_VERSION_NAME=1.0
+ANDROID_VERSION=7.1.2
+PACKAGE_NAME=org.chimple.bali
+REPORT_ID=dca88af9-febb-4b4b-9412-99dafeb3ad19
+BUILD=BOARD=dragon
+	BOOTLOADER=Google_Smaug.7900.50.0
+	BRAND=google
+	CPU_ABI=arm64-v8a
+	CPU_ABI2=
+	DEVICE=dragon
+	DISPLAY=N2G48C
+	FINGERPRINT=google/ryu/dragon:7.1.2/N2G48C/4104010:user/release-keys
+	HARDWARE=dragon
+	HOST=wphq10.hot.corp.google.com
+	ID=N2G48C
+	IS_DEBUGGABLE=false
+	IS_EMULATOR=false
+	MANUFACTURER=Google
+	MODEL=Pixel C
+	PERMISSIONS_REVIEW_REQUIRED=false
+	PRODUCT=ryu
+	RADIO=unknown
+	SERIAL=6116001956
+	SUPPORTED_32_BIT_ABIS=["armeabi-v7a","armeabi"]
+	SUPPORTED_64_BIT_ABIS=["arm64-v8a"]
+	SUPPORTED_ABIS=["arm64-v8a","armeabi-v7a","armeabi"]
+	TAGS=release-keys
+	TIME=1497556050000
+	TYPE=user
+	UNKNOWN=unknown
+	USER=android-build
+	VERSION.ACTIVE_CODENAMES=[]
+	VERSION.BASE_OS=
+	VERSION.CODENAME=REL
+	VERSION.INCREMENTAL=4104010
+	VERSION.PREVIEW_SDK_INT=0
+	VERSION.RELEASE=7.1.2
+	VERSION.RESOURCES_SDK_INT=25
+	VERSION.SDK=25
+	VERSION.SDK_INT=25
+	VERSION.SECURITY_PATCH=2017-08-05
+STACK_TRACE=java.lang.RuntimeException: Unable to resume activity {org.chimple.bali/org.chimple.bali.launcher.LauncherScreen}: java.lang.RuntimeException: Could not read input channel file descriptors from parcel.
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3430)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3470)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1528)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6121)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:889)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+Caused by: java.lang.RuntimeException: Could not read input channel file descriptors from parcel.
+	at android.view.InputChannel.nativeReadFromParcel(Native Method)
+	at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+	at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:841)
+	at android.view.ViewRootImpl.setView(ViewRootImpl.java:640)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:342)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+	at android.app.Dialog.show(Dialog.java:329)
+	at org.chimple.bali.launcher.LauncherScreen.onResume(LauncherScreen.java:97)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1269)
+	at android.app.Activity.performResume(Activity.java:6786)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3407)
+	... 8 more
+java.lang.RuntimeException: Could not read input channel file descriptors from parcel.
+	at android.view.InputChannel.nativeReadFromParcel(Native Method)
+	at android.view.InputChannel.readFromParcel(InputChannel.java:148)
+	at android.view.IWindowSession$Stub$Proxy.addToDisplay(IWindowSession.java:841)
+	at android.view.ViewRootImpl.setView(ViewRootImpl.java:640)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:342)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:93)
+	at android.app.Dialog.show(Dialog.java:329)
+	at org.chimple.bali.launcher.LauncherScreen.onResume(LauncherScreen.java:97)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1269)
+	at android.app.Activity.performResume(Activity.java:6786)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3407)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3470)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1528)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6121)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:889)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+

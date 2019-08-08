@@ -1,0 +1,63 @@
+APP_VERSION_CODE=1
+APP_VERSION_NAME=1.0
+ANDROID_VERSION=7.1.2
+PACKAGE_NAME=org.chimple.bali
+REPORT_ID=37ccb6cc-47b4-4e30-ae89-820fde7a8efd
+BUILD=BOARD=dragon
+	BOOTLOADER=Google_Smaug.7900.50.0
+	BRAND=google
+	CPU_ABI=arm64-v8a
+	CPU_ABI2=
+	DEVICE=dragon
+	DISPLAY=N2G48C
+	FINGERPRINT=google/ryu/dragon:7.1.2/N2G48C/4104010:user/release-keys
+	HARDWARE=dragon
+	HOST=wphq10.hot.corp.google.com
+	ID=N2G48C
+	IS_DEBUGGABLE=false
+	IS_EMULATOR=false
+	MANUFACTURER=Google
+	MODEL=Pixel C
+	PERMISSIONS_REVIEW_REQUIRED=false
+	PRODUCT=ryu
+	RADIO=unknown
+	SERIAL=6116001169
+	SUPPORTED_32_BIT_ABIS=["armeabi-v7a","armeabi"]
+	SUPPORTED_64_BIT_ABIS=["arm64-v8a"]
+	SUPPORTED_ABIS=["arm64-v8a","armeabi-v7a","armeabi"]
+	TAGS=release-keys
+	TIME=1497556050000
+	TYPE=user
+	UNKNOWN=unknown
+	USER=android-build
+	VERSION.ACTIVE_CODENAMES=[]
+	VERSION.BASE_OS=
+	VERSION.CODENAME=REL
+	VERSION.INCREMENTAL=4104010
+	VERSION.PREVIEW_SDK_INT=0
+	VERSION.RELEASE=7.1.2
+	VERSION.RESOURCES_SDK_INT=25
+	VERSION.SDK=25
+	VERSION.SDK_INT=25
+	VERSION.SECURITY_PATCH=2017-08-05
+STACK_TRACE=java.lang.IndexOutOfBoundsException: Index: 9, Size: 9
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at org.chimple.bali.ui.FlashCardAdapter.getItem(FlashCardAdapter.java:101)
+	at org.chimple.bali.ui.FlashCardAdapter.getView(FlashCardAdapter.java:116)
+	at android.widget.AdapterViewAnimator.showOnly(AdapterViewAnimator.java:545)
+	at android.widget.AdapterViewAnimator.setDisplayedChild(AdapterViewAnimator.java:310)
+	at android.widget.AdapterViewAnimator.setDisplayedChild(AdapterViewAnimator.java:296)
+	at android.widget.AdapterViewAnimator.showNext(AdapterViewAnimator.java:339)
+	at android.widget.AdapterViewFlipper.showNext(AdapterViewFlipper.java:199)
+	at android.widget.AdapterViewAnimator.advance(AdapterViewAnimator.java:1072)
+	at org.chimple.bali.activity.LessonActivity$1.onClick(LessonActivity.java:132)
+	at android.view.View.performClick(View.java:5637)
+	at android.view.View$PerformClick.run(View.java:22429)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6121)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:889)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+

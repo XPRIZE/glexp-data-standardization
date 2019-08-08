@@ -1,0 +1,85 @@
+APP_VERSION_CODE=1
+APP_VERSION_NAME=1.0
+ANDROID_VERSION=7.1.2
+PACKAGE_NAME=org.chimple.bali
+REPORT_ID=72a0fe22-2cf7-43cc-a3b6-b93f88f7fa7d
+BUILD=BOARD=dragon
+	BOOTLOADER=Google_Smaug.7900.50.0
+	BRAND=google
+	CPU_ABI=arm64-v8a
+	CPU_ABI2=
+	DEVICE=dragon
+	DISPLAY=N2G48C
+	FINGERPRINT=google/ryu/dragon:7.1.2/N2G48C/4104010:user/release-keys
+	HARDWARE=dragon
+	HOST=wphq10.hot.corp.google.com
+	ID=N2G48C
+	IS_DEBUGGABLE=false
+	IS_EMULATOR=false
+	MANUFACTURER=Google
+	MODEL=Pixel C
+	PERMISSIONS_REVIEW_REQUIRED=false
+	PRODUCT=ryu
+	RADIO=unknown
+	SERIAL=6116001338
+	SUPPORTED_32_BIT_ABIS=["armeabi-v7a","armeabi"]
+	SUPPORTED_64_BIT_ABIS=["arm64-v8a"]
+	SUPPORTED_ABIS=["arm64-v8a","armeabi-v7a","armeabi"]
+	TAGS=release-keys
+	TIME=1497556050000
+	TYPE=user
+	UNKNOWN=unknown
+	USER=android-build
+	VERSION.ACTIVE_CODENAMES=[]
+	VERSION.BASE_OS=
+	VERSION.CODENAME=REL
+	VERSION.INCREMENTAL=4104010
+	VERSION.PREVIEW_SDK_INT=0
+	VERSION.RELEASE=7.1.2
+	VERSION.RESOURCES_SDK_INT=25
+	VERSION.SDK=25
+	VERSION.SDK_INT=25
+	VERSION.SECURITY_PATCH=2017-08-05
+STACK_TRACE=java.lang.RuntimeException: An error occurred while executing doInBackground()
+	at android.os.AsyncTask$3.done(AsyncTask.java:325)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)
+	at java.util.concurrent.FutureTask.setException(FutureTask.java:223)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+Caused by: android.database.sqlite.SQLiteCantOpenDatabaseException: unable to open database file (code 14)
+	at android.database.sqlite.SQLiteConnection.nativeExecute(Native Method)
+	at android.database.sqlite.SQLiteConnection.execute(SQLiteConnection.java:555)
+	at android.database.sqlite.SQLiteSession.beginTransactionUnchecked(SQLiteSession.java:323)
+	at android.database.sqlite.SQLiteSession.beginTransaction(SQLiteSession.java:298)
+	at android.database.sqlite.SQLiteDatabase.beginTransaction(SQLiteDatabase.java:507)
+	at android.database.sqlite.SQLiteDatabase.beginTransaction(SQLiteDatabase.java:418)
+	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.beginTransaction(FrameworkSQLiteDatabase.java:67)
+	at android.arch.persistence.room.RoomDatabase.beginTransaction(RoomDatabase.java:213)
+	at org.chimple.bali.db.dao.UserLogDao_Impl.insertUserLog(UserLogDao_Impl.java:70)
+	at org.chimple.bali.repo.UserLogRepo$1.doInBackground(UserLogRepo.java:39)
+	at org.chimple.bali.repo.UserLogRepo$1.doInBackground(UserLogRepo.java:34)
+	at android.os.AsyncTask$2.call(AsyncTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	... 4 more
+android.database.sqlite.SQLiteCantOpenDatabaseException: unable to open database file (code 14)
+	at android.database.sqlite.SQLiteConnection.nativeExecute(Native Method)
+	at android.database.sqlite.SQLiteConnection.execute(SQLiteConnection.java:555)
+	at android.database.sqlite.SQLiteSession.beginTransactionUnchecked(SQLiteSession.java:323)
+	at android.database.sqlite.SQLiteSession.beginTransaction(SQLiteSession.java:298)
+	at android.database.sqlite.SQLiteDatabase.beginTransaction(SQLiteDatabase.java:507)
+	at android.database.sqlite.SQLiteDatabase.beginTransaction(SQLiteDatabase.java:418)
+	at android.arch.persistence.db.framework.FrameworkSQLiteDatabase.beginTransaction(FrameworkSQLiteDatabase.java:67)
+	at android.arch.persistence.room.RoomDatabase.beginTransaction(RoomDatabase.java:213)
+	at org.chimple.bali.db.dao.UserLogDao_Impl.insertUserLog(UserLogDao_Impl.java:70)
+	at org.chimple.bali.repo.UserLogRepo$1.doInBackground(UserLogRepo.java:39)
+	at org.chimple.bali.repo.UserLogRepo$1.doInBackground(UserLogRepo.java:34)
+	at android.os.AsyncTask$2.call(AsyncTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
