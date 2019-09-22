@@ -83,7 +83,7 @@ def extract_from_week(directory_containing_weekly_data):
                 is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
                 print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
                 if not is_valid_tablet_serial_number:
-                    continue
+                    raise ValueError("Invalid tablet_serial: \"{}\"".format(tablet_serial))
                 elif tablet_serial not in tablet_serials:
                     tablet_serials.append(tablet_serial)
 

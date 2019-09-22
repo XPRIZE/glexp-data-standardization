@@ -1,0 +1,13 @@
+java.lang.RuntimeException: Decoder_endUtt returned -1
+
+--------- Stack trace ---------
+
+    edu.cmu.pocketsphinx.PocketSphinxJNI.Decoder_endUtt(Native Method)
+    edu.cmu.pocketsphinx.Decoder.endUtt(Decoder.java:95)
+    edu.cmu.xprize.listener.SpeechRecognizer$RecognizerThread.run(SpeechRecognizer.java:642)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+

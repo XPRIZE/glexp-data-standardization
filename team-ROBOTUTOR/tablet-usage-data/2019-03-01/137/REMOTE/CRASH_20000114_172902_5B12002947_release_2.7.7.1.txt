@@ -1,0 +1,18 @@
+java.util.concurrent.TimeoutException: android.media.MediaPlayer.finalize() timed out after 10 seconds
+
+--------- Stack trace ---------
+
+    android.os.BinderProxy.transactNative(Native Method)
+    android.os.BinderProxy.transact(Binder.java:615)
+    com.android.internal.app.IAppOpsService$Stub$Proxy.stopWatchingMode(IAppOpsService.java:435)
+    android.media.PlayerBase.baseRelease(PlayerBase.java:136)
+    android.media.MediaPlayer.finalize(MediaPlayer.java:2810)
+    java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:222)
+    java.lang.Daemons$FinalizerDaemon.run(Daemons.java:209)
+    java.lang.Thread.run(Thread.java:761)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+

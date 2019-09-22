@@ -1,0 +1,58 @@
+java.lang.IllegalArgumentException: pointerIndex out of range
+
+--------- Stack trace ---------
+
+    android.view.MotionEvent.nativeGetAxisValue(Native Method)
+    android.view.MotionEvent.getX(MotionEvent.java:2122)
+    android.widget.HorizontalScrollView.onInterceptTouchEvent(HorizontalScrollView.java:549)
+    cmu.xprize.util.CLinkedScrollView.onInterceptTouchEvent(CLinkedScrollView.java:111)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2175)
+    android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2632)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2321)
+    android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2632)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2321)
+    android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2632)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2321)
+    android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2632)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2321)
+    android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2632)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2321)
+    android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2632)
+    android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2321)
+    com.android.internal.policy.DecorView.superDispatchTouchEvent(DecorView.java:413)
+    com.android.internal.policy.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1808)
+    android.app.Activity.dispatchTouchEvent(Activity.java:3061)
+    cmu.xprize.robotutor.RoboTutor.dispatchTouchEvent(RoboTutor.java:404)
+    com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:375)
+    android.view.View.dispatchPointerEvent(View.java:10243)
+    android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4438)
+    android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4306)
+    android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+    android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+    android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+    android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3999)
+    android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+    android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4056)
+    android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+    android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+    android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+    android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+    android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+    android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:6246)
+    android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:6220)
+    android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:6181)
+    android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:6349)
+    android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+    android.os.MessageQueue.nativePollOnce(Native Method)
+    android.os.MessageQueue.next(MessageQueue.java:323)
+    android.os.Looper.loop(Looper.java:136)
+    android.app.ActivityThread.main(ActivityThread.java:6119)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
