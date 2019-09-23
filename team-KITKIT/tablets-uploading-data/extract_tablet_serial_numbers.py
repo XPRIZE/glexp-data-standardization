@@ -65,6 +65,7 @@ def extract_from_week(directory_containing_weekly_data):
                 print(os.path.basename(__file__), "file_path: {}".format(file_path))
 
                 # Expect the following file structure:
+                #  - "2017-12-22/57/remote/5A27001661_log_1.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_booktest.6115000540.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.5A23001564.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.6116002162.A.log.zip"
@@ -72,6 +73,9 @@ def extract_from_week(directory_containing_weekly_data):
                 #  - "2018-05-25/57/REMOTE/library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/todoschoollauncher_enuma_com_todoschoollauncher.5A23001564.lastlog.txt"
                 #  - "2018-05-25/59/REMOTE/6114000050_user0.zip"
+                #  - "2018-06-22/84/remote/5A28000934_.aux.zip"
+                #  - "2018-11-09/83/REMOTE/crashlog.com_enuma_todoschoollockscreen.txt
+                #  - "2018-11-09/83/REMOTE/crashlog.library_todoschool_enuma_com_todoschoollibrary.txt
 
                 # Skip if the current item is a directory
                 if os.path.isdir(file_path):
@@ -84,7 +88,10 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Extract the tablet serial number from the filename
                 tablet_serial = ""
-                if basename.startswith("com_enuma_booktest."):
+                if ("_log_" in basename) and basename.endswith(".txt"):
+                    # E.g. "5A27001661_log_1.txt"
+                    tablet_serial = basename[0:10]
+                elif basename.startswith("com_enuma_booktest."):
                     # E.g. "com_enuma_booktest.6115000540.lastlog.txt"
                     tablet_serial = basename[19:29]
                 elif basename.startswith("com_enuma_xprize."):
@@ -96,9 +103,16 @@ def extract_from_week(directory_containing_weekly_data):
                 elif basename.startswith("todoschoollauncher_enuma_com_todoschoollauncher."):
                     # E.g. "todoschoollauncher_enuma_com_todoschoollauncher.5A23001564.lastlog.txt"
                     tablet_serial = basename[48:58]
-                elif "_user" in basename and basename.endswith(".zip"):
+                elif ("_user" in basename) and basename.endswith(".zip"):
                     # E.g. "6114000050_user0.zip"
                     tablet_serial = basename[0:10]
+                elif basename.endswith("_.aux.zip"):
+                    # E.g. "5A28000934_.aux.zip"
+                    tablet_serial = basename[0:10]
+                elif basename.startswith("crashlog."):
+                    # E.g. "crashlog.com_enuma_todoschoollockscreen.txt" or "crashlog.library_todoschool_enuma_com_todoschoollibrary.txt"
+                    # Skip, since the filename does not contain a tablet serial number.
+                    continue
                 print(os.path.basename(__file__), "tablet_serial: \"{}\"".format(tablet_serial))
 
                 # Skip if the current filename does not contain a valid tablet serial number
