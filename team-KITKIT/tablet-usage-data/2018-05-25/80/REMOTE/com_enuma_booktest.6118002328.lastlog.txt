@@ -1,0 +1,6 @@
+{"appName":"com.enuma.booktest","timeStamp":1526821196,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526831936238,"3.snow":"2018-05-20 18:58:56"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526821196,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526821217,"event":{"action":"back_pressed","category":"MITI KUMI","label":"","value":3},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526821224,"event":{"action":"tagScreen","category":"USINGIZI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526821230,"event":{"action":"back_pressed","category":"USINGIZI","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526821235,"event":{"action":"tagScreen","category":"NINAWEZA KUSAIDIA"},"user":"user0"}

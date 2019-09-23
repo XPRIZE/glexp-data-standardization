@@ -1,0 +1,3 @@
+{"appName":"com.enuma.booktest","timeStamp":1527131545,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527097006869,"3.snow":"2018-05-23 20:36:46"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527131545,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527131552,"event":{"action":"back_pressed","category":"MITI KUMI","label":"","value":0},"user":"user0"}
