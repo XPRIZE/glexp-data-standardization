@@ -1,0 +1,4 @@
+{"appName":"com.enuma.booktest","timeStamp":1483839510,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526890644312,"3.snow":"2018-05-21 11:17:24"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483839510,"event":{"action":"tagScreen","category":"TAJA WANYAMA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483839527,"event":{"action":"back_pressed","category":"TAJA WANYAMA","label":"","value":3},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483839527,"event":{"action":"back_pressed","category":"TAJA WANYAMA","label":"","value":3},"user":"user0"}

@@ -1,0 +1,44 @@
+{"appName":"com.enuma.booktest","timeStamp":1526823396,"event":{"action":"tagScreen","category":"USINGIZI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823436,"event":{"action":"finish_read","category":"USINGIZI","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823442,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823478,"event":{"action":"finish_read","category":"MITI KUMI","label":"","value":10},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823497,"event":{"action":"tagScreen","category":"NIKO TAYARI KUJIFUNZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823527,"event":{"action":"finish_read","category":"NIKO TAYARI KUJIFUNZA","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823532,"event":{"action":"tagScreen","category":"MTOTO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823554,"event":{"action":"finish_read","category":"MTOTO","label":"","value":5},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823573,"event":{"action":"tagScreen","category":"TUNA MAEMBE"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823620,"event":{"action":"finish_read","category":"TUNA MAEMBE","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823625,"event":{"action":"tagScreen","category":"HUU NI USO WANGU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823628,"event":{"action":"back_pressed","category":"HUU NI USO WANGU","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823633,"event":{"action":"tagScreen","category":"KOTI LANGU LA MVUA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823675,"event":{"action":"finish_read","category":"KOTI LANGU LA MVUA","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823687,"event":{"action":"tagScreen","category":"RANGI MTAANI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823753,"event":{"action":"finish_read","category":"RANGI MTAANI","label":"","value":9},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823760,"event":{"action":"tagScreen","category":"MSITUNI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823833,"event":{"action":"finish_read","category":"MSITUNI","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823840,"event":{"action":"tagScreen","category":"WAPAKA RANGI WADOGO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823930,"event":{"action":"finish_read","category":"WAPAKA RANGI WADOGO","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823939,"event":{"action":"tagScreen","category":"Maumbo yako wapi? "},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823942,"event":{"action":"back_pressed","category":"Maumbo yako wapi? ","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823946,"event":{"action":"tagScreen","category":"TUJIFUNZE KUHUSU SIMBA!"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823968,"event":{"action":"finish_read","category":"TUJIFUNZE KUHUSU SIMBA!","label":"","value":4},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526823990,"event":{"action":"tagScreen","category":"MAMBA ALIYEPOTEA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526824066,"event":{"action":"finish_read","category":"MAMBA ALIYEPOTEA","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526824078,"event":{"action":"tagScreen","category":"WANGARI MAATHAI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526824086,"event":{"action":"back_pressed","category":"WANGARI MAATHAI","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901123,"event":{"action":"back_pressed","category":"WANGARI MAATHAI","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901200,"event":{"action":"tagScreen","category":"NINAWEZA KUSAIDIA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901207,"event":{"action":"back_pressed","category":"NINAWEZA KUSAIDIA","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901213,"event":{"action":"tagScreen","category":"TAJA WANYAMA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901278,"event":{"action":"back_pressed","category":"TAJA WANYAMA","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901301,"event":{"action":"tagScreen","category":"MAMBA ALIYEPOTEA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526901375,"event":{"action":"back_pressed","category":"MAMBA ALIYEPOTEA","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526987930,"event":{"action":"tagScreen","category":"PAKA NA PANYA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526987942,"event":{"action":"back_pressed","category":"PAKA NA PANYA","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526987946,"event":{"action":"tagScreen","category":"TAJA WANYAMA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526988043,"event":{"action":"back_pressed","category":"TAJA WANYAMA","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526988055,"event":{"action":"tagScreen","category":"NANI ANATAKA KUCHEZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526988206,"event":{"action":"finish_read","category":"NANI ANATAKA KUCHEZA","label":"","value":5},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526988226,"event":{"action":"tagScreen","category":"WAPAKA RANGI WADOGO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526988242,"event":{"action":"back_pressed","category":"WAPAKA RANGI WADOGO","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526988242,"event":{"action":"back_pressed","category":"WAPAKA RANGI WADOGO","label":"","value":1},"user":"user0"}

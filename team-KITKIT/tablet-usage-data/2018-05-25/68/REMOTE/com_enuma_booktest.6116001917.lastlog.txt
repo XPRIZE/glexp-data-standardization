@@ -1,0 +1,3 @@
+{"appName":"com.enuma.booktest","timeStamp":1526917044,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526915884904,"3.snow":"2018-05-21 18:18:04"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526917044,"event":{"action":"tagScreen","category":"NIKO TAYARI KUJIFUNZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1526917077,"event":{"action":"finish_read","category":"NIKO TAYARI KUJIFUNZA","label":"","value":7},"user":"user0"}

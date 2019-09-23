@@ -1,0 +1,56 @@
+{"appName":"com.enuma.booktest","timeStamp":1483787171,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787219,"event":{"action":"back_pressed","category":"MITI KUMI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787301,"event":{"action":"tagScreen","category":"TEMBO MKUBWA NA SUNGURA MDOGO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787390,"event":{"action":"finish_read","category":"TEMBO MKUBWA NA SUNGURA MDOGO","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787404,"event":{"action":"tagScreen","category":"MAMBA ALIYEPOTEA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787451,"event":{"action":"finish_read","category":"MAMBA ALIYEPOTEA","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787488,"event":{"action":"tagScreen","category":"NDEGE"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787520,"event":{"action":"finish_read","category":"NDEGE","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483787553,"event":{"action":"tagScreen","category":"WANYAMA WANAHITAJI KULA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792684,"event":{"action":"tagScreen","category":"HABARI, WANYAMA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792728,"event":{"action":"finish_read","category":"HABARI, WANYAMA","label":"","value":10},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792739,"event":{"action":"tagScreen","category":"NINAWEZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792758,"event":{"action":"finish_read","category":"NINAWEZA","label":"","value":6},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792792,"event":{"action":"tagScreen","category":"NG’OMBE WETU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792866,"event":{"action":"finish_read","category":"NG’OMBE WETU","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792874,"event":{"action":"tagScreen","category":"Bei ya Harufu"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792886,"event":{"action":"back_pressed","category":"Bei ya Harufu","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792930,"event":{"action":"tagScreen","category":"PAKA NA PANYA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792936,"event":{"action":"back_pressed","category":"PAKA NA PANYA","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792944,"event":{"action":"tagScreen","category":"NIKO TAYARI KUJIFUNZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483792948,"event":{"action":"back_pressed","category":"NIKO TAYARI KUJIFUNZA","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793039,"event":{"action":"tagScreen","category":"Bei ya Harufu"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793044,"event":{"action":"back_pressed","category":"Bei ya Harufu","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793053,"event":{"action":"tagScreen","category":"KUCHEZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793094,"event":{"action":"back_pressed","category":"KUCHEZA","label":"","value":2},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793112,"event":{"action":"tagScreen","category":"Hadithi ya Dan-Kun"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793117,"event":{"action":"back_pressed","category":"Hadithi ya Dan-Kun","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793133,"event":{"action":"tagScreen","category":"MTOTO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793134,"event":{"action":"back_pressed","category":"MTOTO","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483793169,"event":{"action":"tagScreen","category":"UFALME WENYE FURAHA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483794910,"event":{"action":"tagScreen","category":"NINAPENDA RANGI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483794923,"event":{"action":"back_pressed","category":"NINAPENDA RANGI","label":"","value":3},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483794935,"event":{"action":"tagScreen","category":"HUU NI USO WANGU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483794948,"event":{"action":"back_pressed","category":"HUU NI USO WANGU","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797416,"event":{"action":"tagScreen","category":"TAJA WANYAMA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797446,"event":{"action":"finish_read","category":"TAJA WANYAMA","label":"","value":10},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797483,"event":{"action":"tagScreen","category":"HUU NI USO WANGU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797531,"event":{"action":"finish_read","category":"HUU NI USO WANGU","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797542,"event":{"action":"tagScreen","category":"MAEMBE MATANO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797544,"event":{"action":"back_pressed","category":"MAEMBE MATANO","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797549,"event":{"action":"tagScreen","category":"USINGIZI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797589,"event":{"action":"finish_read","category":"USINGIZI","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797599,"event":{"action":"tagScreen","category":"NIANGALIE NIKIENDA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797605,"event":{"action":"back_pressed","category":"NIANGALIE NIKIENDA","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797615,"event":{"action":"tagScreen","category":"NINAWEZA KUSAIDIA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797627,"event":{"action":"back_pressed","category":"NINAWEZA KUSAIDIA","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797632,"event":{"action":"tagScreen","category":"Dunia"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797670,"event":{"action":"finish_read","category":"Dunia","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797686,"event":{"action":"tagScreen","category":"MTI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797724,"event":{"action":"finish_read","category":"MTI","label":"","value":6},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797743,"event":{"action":"tagScreen","category":"TEMBO MKUBWA NA SUNGURA MDOGO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797835,"event":{"action":"finish_read","category":"TEMBO MKUBWA NA SUNGURA MDOGO","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797852,"event":{"action":"tagScreen","category":"KULUNGU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797944,"event":{"action":"finish_read","category":"KULUNGU","label":"","value":10},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483797954,"event":{"action":"tagScreen","category":"SHAABAN NA DINOSAURIA ANAYECHEZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483798033,"event":{"action":"finish_read","category":"SHAABAN NA DINOSAURIA ANAYECHEZA","label":"","value":8},"user":"user0"}

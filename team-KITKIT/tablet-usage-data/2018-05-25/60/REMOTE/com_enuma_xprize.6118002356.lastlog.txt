@@ -1,0 +1,3 @@
+{"appName":"com.enuma.xprize","timeStamp":1483274919,"event":{"!datetime":"2017-01-01T12:48:39Z",".func":"touchEvent_Begin_End","0.nodeName":"","1.data":"CiBBCpBZCzCHC6C6C+DtDAEtC1GECcH1CIIiCIIi","_localTimestamp":1.483274919222199E9,"_userName":"user0","action":"StrictLogManager"},"user":"user0"}
+{"appName":"com.enuma.xprize","timeStamp":1483274931,"event":{"!datetime":"2017-01-01T12:48:51Z",".func":"curriculumChoice_Begin","_localTimestamp":1.48327493185123E9,"_userName":"user0","action":"StrictLogManager"},"user":"user0"}
+{"appName":"com.enuma.xprize","timeStamp":1483274936,"event":{"!datetime":"2017-01-01T12:48:56Z",".func":"curriculumChoice_End","_localTimestamp":1.4832749369059E9,"_userName":"user0","action":"StrictLogManager"},"user":"user0"}

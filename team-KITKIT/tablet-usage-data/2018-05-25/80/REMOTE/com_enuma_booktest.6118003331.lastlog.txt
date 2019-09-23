@@ -1,0 +1,8 @@
+{"appName":"com.enuma.booktest","timeStamp":1483639947,"event":{"action":"tagScreen","category":"NGUO TATU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483639968,"event":{"action":"back_pressed","category":"NGUO TATU","label":"","value":2},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483639977,"event":{"action":"tagScreen","category":"KOTI LANGU LA MVUA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483640007,"event":{"action":"finish_read","category":"KOTI LANGU LA MVUA","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483640013,"event":{"action":"tagScreen","category":"PAKA KILA MAHALI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483640025,"event":{"action":"back_pressed","category":"PAKA KILA MAHALI","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483640033,"event":{"action":"tagScreen","category":"RANGI MTAANI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483640048,"event":{"action":"back_pressed","category":"RANGI MTAANI","label":"","value":1},"user":"user0"}
