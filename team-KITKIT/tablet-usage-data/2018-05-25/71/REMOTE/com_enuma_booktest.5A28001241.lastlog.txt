@@ -1,0 +1,73 @@
+{"appName":"com.enuma.booktest","timeStamp":1483672339,"event":{"action":"tagScreen","category":"WANYAMA WANAHITAJI KULA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672364,"event":{"action":"back_pressed","category":"WANYAMA WANAHITAJI KULA","label":"","value":2},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672374,"event":{"action":"tagScreen","category":"MAMBA ALIYEPOTEA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672691,"event":{"action":"finish_read","category":"MAMBA ALIYEPOTEA","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672702,"event":{"action":"tagScreen","category":"WANGARI MAATHAI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672732,"event":{"action":"back_pressed","category":"WANGARI MAATHAI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672753,"event":{"action":"tagScreen","category":"NDEGE"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483672794,"event":{"action":"back_pressed","category":"NDEGE","label":"","value":5},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704638,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704645,"event":{"action":"back_pressed","category":"MITI KUMI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704657,"event":{"action":"tagScreen","category":"WAPAKA RANGI WADOGO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704722,"event":{"action":"finish_read","category":"WAPAKA RANGI WADOGO","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704742,"event":{"action":"tagScreen","category":"RANGI MTAANI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704761,"event":{"action":"back_pressed","category":"RANGI MTAANI","label":"","value":2},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704771,"event":{"action":"tagScreen","category":"MAMBA ALIYEPOTEA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483704867,"event":{"action":"back_pressed","category":"MAMBA ALIYEPOTEA","label":"","value":9},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483833707,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483833707,"event":{"action":"tagScreen","category":"WANYAMA WA BAHARINI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483833766,"event":{"action":"finish_read","category":"WANYAMA WA BAHARINI","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483833787,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483833787,"event":{"action":"tagScreen","category":"NINAPENDA RANGI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483833797,"event":{"action":"back_pressed","category":"NINAPENDA RANGI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483834959,"event":{"action":"back_pressed","category":"NINAPENDA RANGI","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527055300,"event":{"action":"back_pressed","category":"NINAPENDA RANGI","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058601,"event":{"action":"tagScreen","category":"KOTI LANGU LA MVUA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058633,"event":{"action":"finish_read","category":"KOTI LANGU LA MVUA","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058673,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058673,"event":{"action":"tagScreen","category":"JUU NA CHINI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058679,"event":{"action":"back_pressed","category":"JUU NA CHINI","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058697,"event":{"action":"tagScreen","category":"MTOTO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058701,"event":{"action":"back_pressed","category":"MTOTO","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058715,"event":{"action":"tagScreen","category":"PAKA KILA MAHALI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058799,"event":{"action":"finish_read","category":"PAKA KILA MAHALI","label":"","value":11},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058813,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058813,"event":{"action":"tagScreen","category":"PAKA KILA MAHALI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058819,"event":{"action":"back_pressed","category":"PAKA KILA MAHALI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058831,"event":{"action":"tagScreen","category":"USINGIZI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058883,"event":{"action":"finish_read","category":"USINGIZI","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058902,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058902,"event":{"action":"tagScreen","category":"NJOO TUVUE SAMAKI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058971,"event":{"action":"finish_read","category":"NJOO TUVUE SAMAKI","label":"","value":9},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058986,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058986,"event":{"action":"tagScreen","category":"MIMI NI MIMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527058993,"event":{"action":"back_pressed","category":"MIMI NI MIMI","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059006,"event":{"action":"tagScreen","category":"MARIAM NA HASIRA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059043,"event":{"action":"back_pressed","category":"MARIAM NA HASIRA","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059063,"event":{"action":"tagScreen","category":"MWEZINI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059089,"event":{"action":"back_pressed","category":"MWEZINI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059107,"event":{"action":"tagScreen","category":"Hadithi ya Mchoyo"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059109,"event":{"action":"back_pressed","category":"Hadithi ya Mchoyo","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059120,"event":{"action":"tagScreen","category":"MARIAM NA HASIRA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059395,"event":{"action":"finish_read","category":"MARIAM NA HASIRA","label":"","value":14},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059416,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059416,"event":{"action":"tagScreen","category":"TUNAWEZA KUWA MARAFIKI?"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059504,"event":{"action":"finish_read","category":"TUNAWEZA KUWA MARAFIKI?","label":"","value":13},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059517,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059517,"event":{"action":"tagScreen","category":"JUU NA CHINI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527059552,"event":{"action":"back_pressed","category":"JUU NA CHINI","label":"","value":3},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527060784,"event":{"action":"finish_read","category":"JUU NA CHINI","label":"","value":9},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064143,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064143,"event":{"action":"tagScreen","category":"PAKA NI MARAFIKI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064194,"event":{"action":"finish_read","category":"PAKA NI MARAFIKI","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064206,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064207,"event":{"action":"tagScreen","category":"Raketi yangu iko wapi?"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064209,"event":{"action":"back_pressed","category":"Raketi yangu iko wapi?","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064227,"event":{"action":"tagScreen","category":"WANGARI MAATHAI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064345,"event":{"action":"finish_read","category":"WANGARI MAATHAI","label":"","value":9},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064357,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064357,"event":{"action":"tagScreen","category":"MWEZINI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064506,"event":{"action":"finish_read","category":"MWEZINI","label":"","value":12},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064516,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1527015231477,"3.snow":"2018-05-22 21:53:51"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064516,"event":{"action":"tagScreen","category":"MSITUNI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1527064588,"event":{"action":"finish_read","category":"MSITUNI","label":"","value":8},"user":"user0"}

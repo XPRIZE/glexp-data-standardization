@@ -1,0 +1,265 @@
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885220,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526900199052,"3.snow":"2018-05-21 13:56:39"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885220,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885220,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885223,"event":{"category":"library","action":"start_video","label":"Karibu Kitkit Shule","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885223,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Karibu Kitkit Shule","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885227,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Karibu Kitkit Shule","value":3691},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885227,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885227,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885227,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Karibu Kitkit Shule","value":3691},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885233,"event":{"category":"library","action":"start_book","label":"sw_215","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885302,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885303,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885331,"event":{"category":"library","action":"start_book","label":"sw_405","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885350,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885350,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885357,"event":{"category":"library","action":"start_book","label":"sw_325","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885434,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885434,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885438,"event":{"category":"library","action":"start_book","label":"sw_217","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885477,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885477,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885495,"event":{"category":"library","action":"start_video","label":"O","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885495,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"O","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885589,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"O","value":94119},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885590,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885590,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885590,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"O","value":94119},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885591,"event":{"category":"library","action":"start_video","label":"N","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885591,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"N","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885692,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"N","value":100774},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885692,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885692,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885692,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"N","value":100774},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885694,"event":{"category":"library","action":"start_video","label":"M","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885694,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"M","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885888,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"N","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885889,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"N","value":1239},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885889,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885889,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885889,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"N","value":1239},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885892,"event":{"category":"library","action":"start_video","label":"K","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526885892,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"K","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886024,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"K","value":350529},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886024,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886024,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886025,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"K","value":350529},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886030,"event":{"category":"library","action":"start_video","label":"A","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886030,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"A","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886094,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"A","value":333439},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886095,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886095,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886095,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"A","value":333439},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886098,"event":{"category":"library","action":"start_video","label":"Maumbo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886099,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Maumbo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886101,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Maumbo","value":2453},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886101,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886101,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886101,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Maumbo","value":2453},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886106,"event":{"category":"library","action":"start_video","label":"Mafungu ya thamani","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886106,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Mafungu ya thamani","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886266,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886266,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886266,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Mafungu ya thamani","value":152494},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886276,"event":{"category":"library","action":"start_video","label":"KUJUMLISHA","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886276,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"KUJUMLISHA","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886432,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886432,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886432,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"KUJUMLISHA","value":227512},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886435,"event":{"category":"library","action":"start_video","label":"Kujumlisha na kutoa","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886435,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Kujumlisha na kutoa","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886532,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"KUJUMLISHA","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886566,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"KUJUMLISHA","value":33880},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886566,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886566,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886567,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"KUJUMLISHA","value":33880},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886575,"event":{"category":"library","action":"start_video","label":"Ndege ya maumbo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886576,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Ndege ya maumbo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886577,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Ndege ya maumbo","value":1699},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886577,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886577,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886578,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Ndege ya maumbo","value":1699},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886581,"event":{"category":"library","action":"start_video","label":"D","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886582,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"D","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886942,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886942,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886942,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"D","value":356126},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886959,"event":{"category":"library","action":"start_video","label":"Namna ya kutumia tabuleti darasani","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526886960,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Namna ya kutumia tabuleti darasani","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887074,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887074,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887075,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Namna ya kutumia tabuleti darasani","value":113315},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887087,"event":{"category":"library","action":"start_video","label":"Kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887087,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887229,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887229,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526887229,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Kubwa na ndogo","value":137026},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888623,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526906009604,"3.snow":"2018-05-21 15:33:29"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888623,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888623,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888624,"event":{"category":"library","action":"start_video","label":"Karibu Kitkit Shule","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888624,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Karibu Kitkit Shule","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888680,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Namna ya kutumia tabuleti","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888681,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Namna ya kutumia tabuleti","value":1126},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888681,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888681,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888681,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Namna ya kutumia tabuleti","value":1126},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888714,"event":{"category":"library","action":"start_video","label":"Herufi kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888714,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Herufi kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888791,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Herufi kubwa na ndogo","value":44125},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888792,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Herufi kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888824,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Herufi kubwa na ndogo","value":96436},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888824,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888824,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888824,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Herufi kubwa na ndogo","value":96436},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888827,"event":{"category":"library","action":"start_video","label":"Alama za Uandishi","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888827,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Alama za Uandishi","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888877,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Alama za Uandishi","value":49686},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888877,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888877,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888877,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Alama za Uandishi","value":49686},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888880,"event":{"category":"library","action":"start_video","label":"Kanuni za herufi Kubwa","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888880,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Kanuni za herufi Kubwa","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888949,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888949,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888949,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Kanuni za herufi Kubwa","value":86700},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888974,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526888974,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889090,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":115216},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889090,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889090,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889090,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":115216},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889102,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889102,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889215,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":112786},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889215,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889215,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889215,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":112786},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889227,"event":{"category":"library","action":"start_book","label":"sw_409","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889241,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889241,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889251,"event":{"category":"library","action":"start_book","label":"sw_317","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889251,"event":{"category":"library","action":"start_book","label":"sw_317","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889256,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889256,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889261,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889261,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889346,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":84538},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889346,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889346,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526889346,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":84538},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890439,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890439,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890445,"event":{"category":"library","action":"start_book","label":"sw_213","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890499,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890499,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890515,"event":{"category":"library","action":"start_book","label":"sw_316","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890549,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890549,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890551,"event":{"category":"library","action":"start_book","label":"sw_328","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890624,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890625,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890633,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890633,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890762,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890762,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890762,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":119787},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890772,"event":{"category":"library","action":"start_video","label":"Herufi kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890772,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Herufi kubwa na ndogo","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890875,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Herufi kubwa na ndogo","value":126727},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890875,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890875,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890876,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Herufi kubwa na ndogo","value":126727},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890880,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890880,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890882,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":1972},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890882,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890882,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890882,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":1972},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890882,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890882,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890884,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":2018},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890884,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890884,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890885,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":2018},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890886,"event":{"category":"library","action":"start_video","label":"Karibu Kitkit Shule","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890886,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Karibu Kitkit Shule","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890921,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Karibu Kitkit Shule","value":34485},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890921,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890921,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890921,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Karibu Kitkit Shule","value":34485},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890925,"event":{"category":"library","action":"start_video","label":"Namna ya kuchaji tabuleti","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890925,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Namna ya kuchaji tabuleti","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890927,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Namna ya kuchaji tabuleti","value":1830},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890927,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890927,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526890927,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Namna ya kuchaji tabuleti","value":1830},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893304,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526909710258,"3.snow":"2018-05-21 16:35:10"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893304,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893304,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893318,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893318,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893333,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":15041},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893333,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893333,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893334,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":15041},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893362,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893362,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893374,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893374,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893387,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":12439},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893397,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893399,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893399,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893400,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893402,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893402,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893404,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":2242},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893407,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893409,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893409,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893409,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893410,"event":{"category":"library","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893410,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893413,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":2581},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893416,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893417,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893417,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893417,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893419,"event":{"category":"library","action":"start_video","label":"Moja mpaka ishirini!","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893419,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Moja mpaka ishirini!","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526893422,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Moja mpaka ishirini!","value":3073},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899291,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Moja mpaka ishirini!","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899292,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vyura ya Hesabu","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899294,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vyura ya Hesabu","value":1502},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899294,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899294,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899294,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vyura ya Hesabu","value":1502},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899308,"event":{"category":"library","action":"start_video","label":"L","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899308,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"L","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899439,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"L","value":351289},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899439,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899439,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899440,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"L","value":351289},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899441,"event":{"category":"library","action":"start_video","label":"M","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899441,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"M","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899454,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"M","value":13556},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899454,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899454,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899455,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"M","value":13556},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899507,"event":{"category":"library","action":"start_video","label":"B","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899507,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"B","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899605,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"B","value":97039},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899636,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526918065243,"3.snow":"2018-05-21 18:54:25"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899636,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"B","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899637,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Ch","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899642,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Ch","value":4603},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899642,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899642,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899642,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Ch","value":4603},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899646,"event":{"category":"library","action":"start_video","label":"D","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899646,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"D","value":0},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899897,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"D","value":250840},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899897,"event":{"category":"VideoFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899897,"event":{"category":"BookFragment","action":"tagScreen"},"user":"user0"}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1526899897,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"D","value":250840},"user":"user0"}

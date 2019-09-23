@@ -1,0 +1,164 @@
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483273778,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483625789,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483625789,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526839748105","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483625789,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-20 21:09:08","value":1526839748116},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483625789,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526839748116,"3.snow":"2018-05-20 21:09:08"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483625789,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483629442,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483629442,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526843401270","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483629442,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-20 22:10:01","value":1526843401316},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483629442,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483629442,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526843401316,"3.snow":"2018-05-20 22:10:01"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483633342,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483633342,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526847301123","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483633342,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-20 23:15:01","value":1526847301161},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483633342,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526847301161,"3.snow":"2018-05-20 23:15:01"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483633342,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483637182,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483637182,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526851140989","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483637182,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-21 00:19:01","value":1526851141045},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483637182,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483637182,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526851141045,"3.snow":"2018-05-21 00:19:01"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483641502,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483641502,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526855460839","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483641502,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-21 01:31:00","value":1526855460887},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483641502,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483641502,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526855460887,"3.snow":"2018-05-21 01:31:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483646362,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483646362,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526860320530","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483646362,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-21 02:52:00","value":1526860320550},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483646362,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483646362,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526860320550,"3.snow":"2018-05-21 02:52:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483650022,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483650022,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526863980433","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483650022,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-21 03:53:00","value":1526863980460},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483650022,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483650022,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526863980460,"3.snow":"2018-05-21 03:53:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483700606,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483700662,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483700703,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483701845,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702080,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702082,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702091,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702102,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702103,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702121,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702126,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702127,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702129,"event":{"category":"ToolsActivity","action":"start_marimba","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702131,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702132,"event":{"category":"ToolsActivity","action":"start_drum","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702134,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702135,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702154,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702158,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702219,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702219,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702951,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702953,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702955,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702965,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702966,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702967,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702969,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702994,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483702995,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703215,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703217,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703236,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703237,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703295,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703295,"event":{"category":"ToolsActivity","action":"start_drum","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703297,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703298,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703318,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703320,"event":{"category":"ToolsActivity","action":"start_drum","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703322,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483703322,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483707206,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483707209,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483707210,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483707218,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483707221,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483715479,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483715480,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483715741,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483718286,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719087,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526863980460,"3.snow":"2018-05-21 03:53:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719087,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719096,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719099,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719102,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719174,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483719175,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483720116,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526863980460,"3.snow":"2018-05-21 03:53:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483720116,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483720171,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721499,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721505,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721507,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721509,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721547,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721549,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721870,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483721870,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722184,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722211,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722938,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722940,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722944,"event":{"category":"ToolsActivity","action":"start_blackboard","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722948,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722951,"event":{"category":"ToolsActivity","action":"start_blackboard","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722960,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722963,"event":{"category":"ToolsActivity","action":"start_album","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722974,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483722976,"event":{"category":"ToolsActivity","action":"start_coloring","label":"","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723082,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723083,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723425,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526863980460,"3.snow":"2018-05-21 03:53:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723425,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723426,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723429,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723443,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723445,"event":{"category":"ToolsActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723447,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723717,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526863980460,"3.snow":"2018-05-21 03:53:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723717,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723718,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483723985,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483726468,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483728267,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483729137,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483729973,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483730136,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483731401,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483731415,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483731564,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483754579,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483755501,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483756578,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483757246,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761691,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526863980460,"3.snow":"2018-05-21 03:53:00"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761691,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761692,"event":{"category":"MainActivity","action":"tagScreen"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761696,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761696,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526975656525","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761696,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-22 10:54:16","value":1526975656538},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761696,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526975656538,"3.snow":"2018-05-22 10:54:16"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483761701,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483765329,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483765329,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526979289433","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483765329,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-22 11:54:49","value":1526979289450},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483765329,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483765329,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526979289450,"3.snow":"2018-05-22 11:54:49"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483768989,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483768989,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526982949284","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483768989,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-22 12:55:49","value":1526982949303},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483768989,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526982949303,"3.snow":"2018-05-22 12:55:49"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483768989,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483772621,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (time.google.com): Error","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483772621,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (192.168.0.1): 1526986581107","value":0},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483772621,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Converted (192.168.0.1): 2018-05-22 13:56:21","value":1526986581125},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483772621,"event":{"0.name":"activeSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526986581125,"3.snow":"2018-05-22 13:56:21"},"user":"user0"}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":1483772621,"event":{"category":"MainActivity","action":"SntpUpdater","label":"NTP Time (0.us.pool.ntp.org): Error","value":0},"user":"user0"}

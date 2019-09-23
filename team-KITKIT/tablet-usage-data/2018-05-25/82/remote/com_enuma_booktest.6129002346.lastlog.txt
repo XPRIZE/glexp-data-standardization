@@ -1,0 +1,21 @@
+{"appName":"com.enuma.booktest","timeStamp":1483935749,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526983776898,"3.snow":"2018-05-22 13:09:36"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935749,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935782,"event":{"action":"back_pressed","category":"MITI KUMI","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935792,"event":{"action":"tagScreen","category":"FAMILIA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935795,"event":{"action":"back_pressed","category":"FAMILIA","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935801,"event":{"action":"tagScreen","category":"HUU NI USO WANGU"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935807,"event":{"action":"back_pressed","category":"HUU NI USO WANGU","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935821,"event":{"action":"tagScreen","category":"NIKO TAYARI KUJIFUNZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935903,"event":{"action":"finish_read","category":"NIKO TAYARI KUJIFUNZA","label":"","value":7},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935926,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526983776898,"3.snow":"2018-05-22 13:09:36"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935926,"event":{"action":"tagScreen","category":"Raketi yangu iko wapi?"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935943,"event":{"action":"back_pressed","category":"Raketi yangu iko wapi?","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483935968,"event":{"action":"tagScreen","category":"SHAABAN NA DINOSAURIA ANAYECHEZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936056,"event":{"action":"finish_read","category":"SHAABAN NA DINOSAURIA ANAYECHEZA","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936103,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526983776898,"3.snow":"2018-05-22 13:09:36"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936103,"event":{"action":"tagScreen","category":"SIMBA NA TEMBO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936223,"event":{"action":"back_pressed","category":"SIMBA NA TEMBO","label":"","value":5},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936266,"event":{"action":"tagScreen","category":"WAPAKA RANGI WADOGO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936270,"event":{"action":"back_pressed","category":"WAPAKA RANGI WADOGO","label":"","value":-1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936280,"event":{"action":"tagScreen","category":"KYONU na ZIKNYO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483936328,"event":{"action":"finish_read","category":"KYONU na ZIKNYO","label":"","value":8},"user":"user0"}

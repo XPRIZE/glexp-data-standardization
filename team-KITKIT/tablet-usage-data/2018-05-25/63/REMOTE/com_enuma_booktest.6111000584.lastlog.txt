@@ -1,0 +1,9 @@
+{"appName":"com.enuma.booktest","timeStamp":1483708075,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526746960480,"3.snow":"2018-05-19 19:22:40"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708076,"event":{"action":"tagScreen","category":"TUJIFUNZE KUHUSU SIMBA!"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708114,"event":{"action":"finish_read","category":"TUJIFUNZE KUHUSU SIMBA!","label":"","value":4},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708133,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526746960480,"3.snow":"2018-05-19 19:22:40"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708133,"event":{"action":"tagScreen","category":"SHAABAN NA DINOSAURIA ANAYECHEZA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708210,"event":{"action":"finish_read","category":"SHAABAN NA DINOSAURIA ANAYECHEZA","label":"","value":8},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708223,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526746960480,"3.snow":"2018-05-19 19:22:40"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708223,"event":{"action":"tagScreen","category":"Hung-bu na nul-bu"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483708226,"event":{"action":"back_pressed","category":"Hung-bu na nul-bu","label":"","value":-1},"user":"user0"}

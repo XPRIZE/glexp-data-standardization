@@ -1,0 +1,9 @@
+{"appName":"com.enuma.booktest","timeStamp":1483760221,"event":{"0.name":"passiveSntpUpdate","1.serverSpec":"192.168.0.1","2.now":1526814160890,"3.snow":"2018-05-20 14:02:40"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760222,"event":{"action":"tagScreen","category":"MITI KUMI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760231,"event":{"action":"back_pressed","category":"MITI KUMI","label":"","value":1},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760235,"event":{"action":"tagScreen","category":"TAJA WANYAMA"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760239,"event":{"action":"back_pressed","category":"TAJA WANYAMA","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760244,"event":{"action":"tagScreen","category":"USINGIZI"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760250,"event":{"action":"back_pressed","category":"USINGIZI","label":"","value":0},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760256,"event":{"action":"tagScreen","category":"MTOTO"},"user":"user0"}
+{"appName":"com.enuma.booktest","timeStamp":1483760265,"event":{"action":"back_pressed","category":"MTOTO","label":"","value":1},"user":"user0"}
