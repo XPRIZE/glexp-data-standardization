@@ -23,7 +23,7 @@ data_collection_week_end_dates = [
     '2018-06-08', '2018-06-22', '2018-06-29',
     '2018-07-06', '2018-07-13', '2018-07-20', '2018-07-27',
     '2018-08-03', '2018-08-10', '2018-08-17', '2018-08-24', '2018-08-31',
-    '2018-09-07', #'2018-09-14', '2018-09-21', '2018-09-28',
+    '2018-09-07', '2018-09-14', #'2018-09-21', '2018-09-28',
     # '2018-10-05', '2018-10-12', '2018-10-19', '2018-10-26',
     '2018-10-19', '2018-10-26',
     '2018-11-02', '2018-11-09', '2018-11-16', '2018-11-23', '2018-11-30',
@@ -38,9 +38,6 @@ print(os.path.basename(__file__), "len(data_collection_week_end_dates): {}".form
 for week_end_date in data_collection_week_end_dates:
     directory_containing_weekly_data = BASE_PATH + os.sep + week_end_date
     print(os.path.basename(__file__), "directory_containing_weekly_data: \"{}\"".format(directory_containing_weekly_data))
-
-
-
     extract_tablet_serial_numbers.extract_from_week(directory_containing_weekly_data)
 
 # Combine each CSV file for one week of data into one file
