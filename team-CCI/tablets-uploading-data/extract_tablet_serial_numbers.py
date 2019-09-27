@@ -67,6 +67,7 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Expect the following directory structure:
                 #  - "2019-03-01/4/REMOTE/NjExMjAwMTE2Ni0xLS9hbmRyb2lkX2Fzc2V0L3d3dy9zY2hvb2wvdHV0b3JpYWxzL1N3SG93VG8vaW5kZXguaHRtbC1hbmFseXRpY3MtOTQ3MzEzNTk4MDEw.json"
+                #  - "2019-01-18/8/REMOTE/NjExMjAwMDAxNy0xLS9hbmRyb2lkX2Fzc2V0L3d3dy9zY2hvb2wvRXBpYyUyMFF1ZXN0L3VuaXQtRXBpY1F1ZXN0LUJvb2tzLUJvb2tzLUVRX0IxX1BldHJvcy5odG1sLWFuYWx5dGljcy0xNTQ3MTUzNjUxNjY5-Copy.json"
 
                 # Skip if the current item is a directory
                 if os.path.isdir(file_path):
@@ -79,15 +80,17 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Remove filename extension before decoding from Base64
                 # E.g. "NjExMjAwMTE2Ni0xLS9hbmRyb2lkX2Fzc2V0L3d3dy9zY2hvb2wvdHV0b3JpYWxzL1N3SG93VG8vaW5kZXguaHRtbC1hbmFseXRpY3MtOTQ3MzEzNTk4MDEw.json" --> ""NjExMjAwMTE2Ni0xLS9hbmRyb2lkX2Fzc2V0L3d3dy9zY2hvb2wvdHV0b3JpYWxzL1N3SG93VG8vaW5kZXguaHRtbC1hbmFseXRpY3MtOTQ3MzEzNTk4MDEw"
-                filename_without_extension = basename.replace(".json", "")
+                # or "NjExMjAwMDAxNy0xLS9hbmRyb2lkX2Fzc2V0L3d3dy9zY2hvb2wvRXBpYyUyMFF1ZXN0L3VuaXQtRXBpY1F1ZXN0LUJvb2tzLUJvb2tzLUVRX0IxX1BldHJvcy5odG1sLWFuYWx5dGljcy0xNTQ3MTUzNjUxNjY5-Copy.json" --> "NjExMjAwMDAxNy0xLS9hbmRyb2lkX2Fzc2V0L3d3dy9zY2hvb2wvRXBpYyUyMFF1ZXN0L3VuaXQtRXBpY1F1ZXN0LUJvb2tzLUJvb2tzLUVRX0IxX1BldHJvcy5odG1sLWFuYWx5dGljcy0xNTQ3MTUzNjUxNjY5"
+                filename_without_extension = basename.replace("-Copy.json", "")
+                filename_without_extension = filename_without_extension.replace(".json", "")
                 print(os.path.basename(__file__), "filename_without_extension: \"{}\"".format(filename_without_extension))
 
                 # Decode from Base64
-                # Expected format: "6112001166-1-/android_asset/www/school/tutorials/SwHowTo/index.html-analytics-947313598010"
                 decoded_value_as_bytes = base64.b64decode(filename_without_extension)
                 print(os.path.basename(__file__), "decoded_value_as_bytes: \"{}\"".format(decoded_value_as_bytes))
 
                 # Convert from bytes to String
+                # Expected format: "6112001166-1-/android_asset/www/school/tutorials/SwHowTo/index.html-analytics-947313598010"
                 decoded_value = decoded_value_as_bytes.decode("utf-8")
                 print(os.path.basename(__file__), "decoded_value: \"{}\"".format(decoded_value))
 
