@@ -1,0 +1,22 @@
+java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Try again
+
+--------- Stack trace ---------
+
+    java.lang.Thread.nativeCreate(Native Method)
+    java.lang.Thread.start(Thread.java:730)
+    android.media.MediaPlayer.setSubtitleAnchor(MediaPlayer.java:2190)
+    android.media.MediaPlayer.scanInternalSubtitleTracks(MediaPlayer.java:2341)
+    android.media.MediaPlayer.-wrap0(MediaPlayer.java)
+    android.media.MediaPlayer$EventHandler.handleMessage(MediaPlayer.java:2861)
+    android.os.Handler.dispatchMessage(Handler.java:102)
+    android.os.Looper.loop(Looper.java:154)
+    android.app.ActivityThread.main(ActivityThread.java:6119)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+

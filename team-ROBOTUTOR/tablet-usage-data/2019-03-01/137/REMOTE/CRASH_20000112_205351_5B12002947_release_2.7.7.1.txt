@@ -1,0 +1,35 @@
+java.lang.RuntimeException: An error occurred while executing doInBackground()
+
+--------- Stack trace ---------
+
+    android.os.AsyncTask$3.done(AsyncTask.java:325)
+    java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)
+    java.util.concurrent.FutureTask.setException(FutureTask.java:223)
+    java.util.concurrent.FutureTask.run(FutureTask.java:242)
+    android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+    java.lang.Thread.run(Thread.java:761)
+-------------------------------
+
+--------- Cause ---------
+
+java.lang.RuntimeException: android.os.DeadSystemException
+
+    android.os.storage.StorageManager.getVolumeList(StorageManager.java:983)
+    android.os.Environment$UserEnvironment.getExternalDirs(Environment.java:87)
+    android.os.Environment.getExternalStorageState(Environment.java:786)
+    cmu.xprize.ltkplus.CGlyph.loadGlyphFactory(CGlyph.java:799)
+    cmu.xprize.ltkplus.CGlyphSet.load(CGlyphSet.java:52)
+    cmu.xprize.ltkplus.CGlyphSet.<init>(CGlyphSet.java:38)
+    cmu.xprize.ltkplus.CRecognizerPlus.initialize(CRecognizerPlus.java:115)
+    cmu.xprize.robotutor.RoboTutor$tutorConfigTask.doInBackground(RoboTutor.java:487)
+    cmu.xprize.robotutor.RoboTutor$tutorConfigTask.doInBackground(RoboTutor.java:431)
+    android.os.AsyncTask$2.call(AsyncTask.java:305)
+    java.util.concurrent.FutureTask.run(FutureTask.java:237)
+    android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+    java.lang.Thread.run(Thread.java:761)
+-------------------------------
+

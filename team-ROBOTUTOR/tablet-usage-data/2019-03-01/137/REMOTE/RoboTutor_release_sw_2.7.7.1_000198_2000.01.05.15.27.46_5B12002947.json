@@ -1,0 +1,9 @@
+{"RT_log_version":"1.0.1","RT_log_data":[{"class":"VERBOSE","tag":"RTag","type":"TimeStamp","datetime":"01/05/2000 15:27:46","time":"947075266919","data":{"RoboTutor":"SessionStart"}},
+{"type":"LOG_DATA","tutor":"<undefined>","class":"INFO","tag":"RTag","time":"947075266920","data":{"EngineVersion":"2.7.7.1"}},
+{"type":"LOG_DATA","tutor":"<undefined>","class":"INFO","tag":"StudentId","time":"947075266981","data":{"RoboTutor":"setUniqueIdentifiers"}},
+{"type":"LOG_DATA","tutor":"<undefined>","class":"INFO","tag":"StudentId","time":"947075266981","data":{"StudentID":"5B12002947"}},
+{"type":"LOG_DATA","tutor":"activity_selector","class":"INFO","tag":"RTag","time":"947075272997","data":{"target":"ctutor","action":"create","tutorname":"activity_selector"}},
+{"class":"BATTERY","tag":"Battery","time":"947075272999","percent":"0.34","chargeType":"UNPLUGGED"},
+{"class":"ERROR","tag":"CTutor","type":"Exception","time":"947075274121","msg":"ERROR: Non-ITutor child view in:activity_selector","exception":"java.lang.ClassCastException: android.view.SurfaceView cannot be cast to cmu.xprize.robotutor.tutorengine.ITutorObject"},
+{"type":"LOG_DATA","tutor":"activity_selector","class":"INFO","tag":"RTag","time":"947075274121","data":{"target":"ctutorgraph","action":"preenterscene","setdatasource":"[file]dev_data.json"}},
+{"end":"end"}]}

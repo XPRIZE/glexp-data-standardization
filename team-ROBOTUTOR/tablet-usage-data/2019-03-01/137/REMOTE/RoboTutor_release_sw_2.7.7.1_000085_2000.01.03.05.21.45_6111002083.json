@@ -1,0 +1,6 @@
+{"RT_log_version":"1.0.1","RT_log_data":[{"class":"VERBOSE","tag":"RTag","type":"TimeStamp","datetime":"01/03/2000 05:21:45","time":"946866105317","data":{"RoboTutor":"SessionStart"}},
+{"type":"LOG_DATA","tutor":"activity_selector","class":"INFO","tag":"RTag","time":"946866105317","data":{"EngineVersion":"2.7.7.1"}},
+{"type":"LOG_DATA","tutor":"activity_selector","class":"INFO","tag":"StudentId","time":"946866105329","data":{"RoboTutor":"setUniqueIdentifiers"}},
+{"type":"LOG_DATA","tutor":"activity_selector","class":"INFO","tag":"StudentId","time":"946866105329","data":{"StudentID":"6111002083"}},
+{"class":"VERBOSE","tag":"RTag","type":"TimeStamp","datetime":"01/03/2000 05:21:45","time":"946866105762","data":{"RoboTutor":"SessionEnd"}},
+{"end":"end"}]}

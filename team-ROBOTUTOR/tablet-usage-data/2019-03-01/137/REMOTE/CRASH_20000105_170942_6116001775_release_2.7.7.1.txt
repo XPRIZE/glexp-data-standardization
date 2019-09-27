@@ -1,0 +1,13 @@
+java.util.concurrent.TimeoutException: android.view.ThreadedRenderer.finalize() timed out after 10 seconds
+
+--------- Stack trace ---------
+
+    java.lang.Daemons$Daemon.isRunning(Daemons.java)
+    java.lang.Daemons$FinalizerDaemon.run(Daemons.java:191)
+    java.lang.Thread.run(Thread.java:761)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+

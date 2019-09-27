@@ -1,0 +1,7 @@
+{"RT_log_version":"1.0.1","RT_log_data":[{"class":"VERBOSE","tag":"RTag","type":"TimeStamp","datetime":"01/06/2000 05:11:41","time":"947124701070","data":{"RoboTutor":"SessionStart"}},
+{"type":"LOG_DATA","tutor":"<undefined>","class":"INFO","tag":"RTag","time":"947124701071","data":{"EngineVersion":"2.7.7.1"}},
+{"type":"LOG_DATA","tutor":"<undefined>","class":"INFO","tag":"StudentId","time":"947124701195","data":{"RoboTutor":"setUniqueIdentifiers"}},
+{"type":"LOG_DATA","tutor":"<undefined>","class":"INFO","tag":"StudentId","time":"947124701196","data":{"StudentID":"5B12002947"}},
+{"type":"LOG_DATA","tutor":"activity_selector","class":"INFO","tag":"RTag","time":"947124730396","data":{"target":"ctutor","action":"create","tutorname":"activity_selector"}},
+{"class":"BATTERY","tag":"Battery","time":"947124730401","percent":"0.0","chargeType":"UNPLUGGED"},
+{"end":"end"}]}
