@@ -1,10 +1,10 @@
-# Extracts storybook assets from database, and stores them in a standardized format.
+# Extracts video assets from database, and stores them in a standardized format.
 #
 # Example usage:
-#     cd storybooks
-#     python3 extract_storybook_assets_from_db.py ../tablet-usage-data/2019-03-01
+#     cd videos
+#     python3 extract_video_assets_from_db.py ../tablet-usage-data/2019-03-01
 #
-# The extracted data will be stored in a file named `storybooks-ONEBILLION_<DATE>.csv`.
+# The extracted data will be stored in a file named `videos-ONEBILLION_<DATE>.csv`.
 
 import sys
 import datetime
@@ -89,44 +89,40 @@ def extract_from_week(directory_containing_weekly_data):
                 connection = sqlite3.connect(file_path)
                 cursor = connection.cursor()
 
-                # Extract the storybook's id, title and whether or not the story is being presented with comprehension questions
+                # Extract the video's id and title
                 try:
-                    cursor.execute("SELECT unitid, config, params FROM units WHERE config LIKE \"oc-reading/books/%\"")
+                    cursor.execute("SELECT unitid, config, params FROM units WHERE params LIKE \"%video=%\"")
                 except sqlite3.DatabaseError as e:
                     # Handle "sqlite3.DatabaseError: database disk image is malformed"
                     warnings.warn("Skipping invalid database file: \"{}\"".format(e))
                     continue
                 result = cursor.fetchall()
                 print(os.path.basename(__file__), "len(result): {}".format(len(result)))
-                for storybook_row in result:
-                    print(os.path.basename(__file__), "storybook_row: {}".format(storybook_row))
+                for video_row in result:
+                    print(os.path.basename(__file__), "video_row: {}".format(video_row))
 
-                    # unitid (integer, e.g. 7)
-                    storybook_row_unitid = storybook_row[0]
-                    storybook_id = storybook_row_unitid
+                    # unitid (integer, e.g. 1)
+                    video_row_unitid = video_row[0]
+                    video_id = video_row_unitid
 
-                    # config (text, e.g. "oc-reading/books/xr-averytallman")
-                    storybook_row_config = storybook_row[1]
-                    storybook_title = storybook_row_config[20:len(storybook_row_config)]
+                    # params (text, e.g. "vps/video=motivational_song_sw")
+                    video_row_params = video_row[2]
+                    video_title = video_row_params[10:len(video_row_params)]
 
-                    # params (text, e.g. "strdme/page=0/demo=false/arrowdemo=true" or "strdme/page=0/cq=true/demo=false/arrowdemo=true")
-                    storybook_row_params = storybook_row[2]
-                    storybook_comprehension_questions = ("cq=true" in storybook_row_params)
-
-                    csv_row = [storybook_id, storybook_title, storybook_comprehension_questions]
+                    csv_row = [video_id, video_title]
                     if csv_row not in csv_rows:
                         print(os.path.basename(__file__), "Adding CSV row: {}".format(csv_row))
                         csv_rows.append(csv_row)
 
         # Define columns
-        csv_fieldnames = ['id', 'title', 'comprehension_questions']
+        csv_fieldnames = ['id', 'title']
 
         # Sort rows by id (1st column)
         csv_rows = sorted(csv_rows, key=lambda x: x[0])
 
         # Export to a CSV file
-        csv_filename = "storybooks-ONEBILLION_" + date + ".csv"
-        print(os.path.basename(__file__), "Writing storybooks to the file \"" + csv_filename + "\"")
+        csv_filename = "videos-ONEBILLION_" + date + ".csv"
+        print(os.path.basename(__file__), "Writing videos to the file \"" + csv_filename + "\"")
         with open(csv_filename, mode='w') as csv_file:
             csv_writer = csv.writer(csv_file, csv_fieldnames)
             csv_writer.writerow(csv_fieldnames)
@@ -141,7 +137,7 @@ if __name__ == "__main__":
     # Expect an argument representing a directory containing one week of data, e.g. "../tablet-usage-data/2019-03-01"
     if len(sys.argv) < 2:
         # Abort execution
-        exit("Directory argument missing. Example usage: python3 extract_storybook_assets_from_db.py ../tablet-usage-data/2019-03-01")
+        exit("Directory argument missing. Example usage: python3 extract_video_assets_from_db.py ../tablet-usage-data/2019-03-01")
     dir_containing_weekly_data = sys.argv[1]
     print(os.path.basename(__file__), "dir_containing_weekly_data: \"{}\"".format(dir_containing_weekly_data))
 
