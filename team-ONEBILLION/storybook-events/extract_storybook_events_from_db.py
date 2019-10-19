@@ -121,8 +121,8 @@ def extract_from_week(directory_containing_weekly_data):
         # Define columns
         csv_fieldnames = ['tablet_serial', 'storybook_id', 'start_time', 'end_time']
 
-        # Sort rows by tablet_serial (1st column)
-        csv_rows = sorted(csv_rows, key=lambda x: x[0])
+        # Sort rows by tablet_serial (1st column), start_time (3rd column)
+        csv_rows = sorted(csv_rows, key=lambda x: (x[0], x[2]))
 
         # Export to a CSV file
         csv_filename = "storybook-events-ONEBILLION_" + date + ".csv"
