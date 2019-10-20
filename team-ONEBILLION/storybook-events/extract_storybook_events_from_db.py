@@ -103,14 +103,17 @@ def extract_from_week(directory_containing_weekly_data):
 
                     # unitid (integer, e.g. 3191)
                     storybook_row_unitid = storybook_event_row[0]
+                    # TODO: Introduce usage of one ID per storybook instead of multiple IDs per storybook?
                     storybook_id = storybook_row_unitid
 
                     # startTime (integer, e.g. 1544509669)
                     storybook_row_start_time = storybook_event_row[1]
+                    # TODO: Skip event if incorrect timestamp (from year 2000 due to tablet running out of battery)?
                     storybook_start_time = storybook_row_start_time
 
                     # endTime (integer, e.g. 1544509738)
                     storybook_row_end_time = storybook_event_row[2]
+                    # TODO: Skip event if incorrect timestamp (from year 2000 due to tablet running out of battery)?
                     storybook_end_time = storybook_row_end_time
 
                     csv_row = [tablet_serial, storybook_id, storybook_start_time, storybook_end_time]

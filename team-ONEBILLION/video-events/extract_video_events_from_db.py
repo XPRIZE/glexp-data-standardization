@@ -103,14 +103,17 @@ def extract_from_week(directory_containing_weekly_data):
 
                     # unitid (integer, e.g. 3888)
                     video_row_unitid = video_event_row[0]
+                    # TODO: Introduce usage of one ID per video instead of multiple IDs per video?
                     video_id = video_row_unitid
 
                     # startTime (integer, e.g. 1535557047)
                     video_row_start_time = video_event_row[1]
+                    # TODO: Skip event if incorrect timestamp (from year 2000 due to tablet running out of battery)?
                     video_start_time = video_row_start_time
 
                     # endTime (integer, e.g. 1535557102)
                     video_row_end_time = video_event_row[2]
+                    # TODO: Skip event if incorrect timestamp (from year 2000 due to tablet running out of battery)?
                     video_end_time = video_row_end_time
 
                     csv_row = [tablet_serial, video_id, video_start_time, video_end_time]
