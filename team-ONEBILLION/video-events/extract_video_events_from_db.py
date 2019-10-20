@@ -1,10 +1,10 @@
-# Extracts storybook events from database, and stores them in a standardized format.
+# Extracts video events from database, and stores them in a standardized format.
 #
 # Example usage:
-#     cd storybook-events
-#     python3 extract_storybook_events_from_db.py ../tablet-usage-data/2019-03-01
+#     cd video-events
+#     python3 extract_video_events_from_db.py ../tablet-usage-data/2019-03-01
 #
-# The extracted data will be stored in a file named `storybook-events-ONEBILLION_<DATE>.csv`.
+# The extracted data will be stored in a file named `video-events-ONEBILLION_<DATE>.csv`.
 
 import sys
 import datetime
@@ -89,47 +89,47 @@ def extract_from_week(directory_containing_weekly_data):
                 connection = sqlite3.connect(file_path)
                 cursor = connection.cursor()
 
-                # Extract instances of a child interacting with a storybook
+                # Extract instances of a child interacting with a video
                 try:
-                    cursor.execute("SELECT unitid, startTime, endTime FROM unitinstances WHERE unitid IN (SELECT unitid FROM units WHERE config LIKE \"oc-reading/books/%\")")
+                    cursor.execute("SELECT unitid, startTime, endTime FROM unitinstances WHERE unitid IN (SELECT unitid FROM units WHERE params LIKE \"%video=%\")")
                 except sqlite3.DatabaseError as e:
                     # Handle "sqlite3.DatabaseError: database disk image is malformed"
                     warnings.warn("Skipping invalid database file: \"{}\"".format(e))
                     continue
                 result = cursor.fetchall()
                 print(os.path.basename(__file__), "len(result): {}".format(len(result)))
-                for storybook_event_row in result:
-                    print(os.path.basename(__file__), "storybook_event_row: {}".format(storybook_event_row))
+                for video_event_row in result:
+                    print(os.path.basename(__file__), "video_event_row: {}".format(video_event_row))
 
-                    # unitid (integer, e.g. 3191)
-                    storybook_row_unitid = storybook_event_row[0]
-                    # TODO: Introduce usage of one ID per storybook instead of multiple IDs per storybook?
-                    storybook_id = storybook_row_unitid
+                    # unitid (integer, e.g. 3888)
+                    video_row_unitid = video_event_row[0]
+                    # TODO: Introduce usage of one ID per video instead of multiple IDs per video?
+                    video_id = video_row_unitid
 
-                    # startTime (integer, e.g. 1544509669)
-                    storybook_row_start_time = storybook_event_row[1]
+                    # startTime (integer, e.g. 1535557047)
+                    video_row_start_time = video_event_row[1]
                     # TODO: Skip event if incorrect timestamp (from year 2000 due to tablet running out of battery)?
-                    storybook_start_time = storybook_row_start_time
+                    video_start_time = video_row_start_time
 
-                    # endTime (integer, e.g. 1544509738)
-                    storybook_row_end_time = storybook_event_row[2]
+                    # endTime (integer, e.g. 1535557102)
+                    video_row_end_time = video_event_row[2]
                     # TODO: Skip event if incorrect timestamp (from year 2000 due to tablet running out of battery)?
-                    storybook_end_time = storybook_row_end_time
+                    video_end_time = video_row_end_time
 
-                    csv_row = [tablet_serial, storybook_id, storybook_start_time, storybook_end_time]
+                    csv_row = [tablet_serial, video_id, video_start_time, video_end_time]
                     if csv_row not in csv_rows:
                         print(os.path.basename(__file__), "Adding CSV row: {}".format(csv_row))
                         csv_rows.append(csv_row)
 
         # Define columns
-        csv_fieldnames = ['tablet_serial', 'storybook_id', 'start_time', 'end_time']
+        csv_fieldnames = ['tablet_serial', 'video_id', 'start_time', 'end_time']
 
         # Sort rows by tablet_serial (1st column), start_time (3rd column)
         csv_rows = sorted(csv_rows, key=lambda x: (x[0], x[2]))
 
         # Export to a CSV file
-        csv_filename = "storybook-events-ONEBILLION_" + date + ".csv"
-        print(os.path.basename(__file__), "Writing storybook events to the file \"" + csv_filename + "\"")
+        csv_filename = "video-events-ONEBILLION_" + date + ".csv"
+        print(os.path.basename(__file__), "Writing video events to the file \"" + csv_filename + "\"")
         with open(csv_filename, mode='w') as csv_file:
             csv_writer = csv.writer(csv_file, csv_fieldnames)
             csv_writer.writerow(csv_fieldnames)
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     # Expect an argument representing a directory containing one week of data, e.g. "../tablet-usage-data/2019-03-01"
     if len(sys.argv) < 2:
         # Abort execution
-        exit("Directory argument missing. Example usage: python3 extract_storybook_events_from_db.py ../tablet-usage-data/2019-03-01")
+        exit("Directory argument missing. Example usage: python3 extract_video_events_from_db.py ../tablet-usage-data/2019-03-01")
     dir_containing_weekly_data = sys.argv[1]
     print(os.path.basename(__file__), "dir_containing_weekly_data: \"{}\"".format(dir_containing_weekly_data))
 
