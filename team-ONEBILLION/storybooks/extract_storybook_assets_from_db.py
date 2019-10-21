@@ -113,13 +113,16 @@ def extract_from_week(directory_containing_weekly_data):
                     storybook_row_params = storybook_row[2]
                     storybook_comprehension_questions = ("cq=true" in storybook_row_params)
 
-                    csv_row = [storybook_id, storybook_title, storybook_comprehension_questions]
+                    # The folder path of the asset (e.g. "assets/oc-reading/books/xr-averytallman")
+                    asset_path = "assets/" + storybook_row_config
+
+                    csv_row = [storybook_id, storybook_title, storybook_comprehension_questions, asset_path]
                     if csv_row not in csv_rows:
                         print(os.path.basename(__file__), "Adding CSV row: {}".format(csv_row))
                         csv_rows.append(csv_row)
 
         # Define columns
-        csv_fieldnames = ['id', 'title', 'comprehension_questions']
+        csv_fieldnames = ['id', 'title', 'comprehension_questions', 'asset_path']
 
         # Sort rows by id (1st column)
         csv_rows = sorted(csv_rows, key=lambda x: x[0])
