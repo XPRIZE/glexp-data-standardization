@@ -1,0 +1,24 @@
+Following is the list of data fields 
+
+Kitkit school						
+gameStart : timestamp, app name, game name,	game level		
+gameQuit : timestamp, app name,	game name, game level, duration of game play time	
+gameComplete : timestamp, app name,	game name, game level, duration of game play time, game result
+Day select popup show :	timestamp, app name, daily, level id			
+Day select popup show clear : timestamp, app name, daily level id			
+Day select popup select day : timestamp, app name, daily level id, day		
+						
+launcher						
+tag screen : timestamp, app name, screen name			
+						
+library						
+tag screen : timestamp,	app name, screen name			
+start video	: timestamp, app name, video title			
+exit video : timestamp,	app name, video title, elapsed time		
+pause video : timestamp, app name, video title,	elapsed time		
+start book : timestamp,	app name, book title			
+						
+book						
+esc pressed : timestamp, app name, book title, current page		
+back pressed : timestamp, app name, book title,	current page		
+finish read : timestamp, app name, book title, current page		
