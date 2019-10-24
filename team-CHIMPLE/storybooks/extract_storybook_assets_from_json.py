@@ -20,7 +20,7 @@ def extract_from_json(file_containing_storybooks):
 
     csv_rows = []
 
-    with open("titles.json") as json_file:
+    with open(file_containing_storybooks) as json_file:
         storybook_json_object = json.load(json_file)
         print(os.path.basename(__file__), "storybook_json_object: {}".format(storybook_json_object))
         json_file.close()

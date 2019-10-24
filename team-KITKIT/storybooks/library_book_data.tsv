@@ -1,0 +1,143 @@
+# 데이터를 변경하려면:						
+# 우선 Google Spreadsheet상에서 이 파일을 수정한 후에						
+# File > Download as > Tab-separated values (.tsv) 를 선택합니다.						
+# 다운로드한 파일 이름을 library_book_data.tsv 으로 변경합니다.						
+# 테스트할 기기의 Documents/Books에 tsv 파일과 thumbnail을 복사해 넣습니다.						
+# Category field는 코드에서 사용하는 부분이기 때문에 한번 추가 되면 변경하지 마시고 categoryname을 변경해주시기 바랍니다						
+#id	category	categoryname	title	author	thumbnail	foldername
+sw_111	cate_2	Wasomaji Wapya	Ninaweza	Written by: Mike Jaffe Illustrated by: Josh McGill  Translated by: Lucy Geay	book_sw_111_thumbnail.png	sw_111
+sw_101	cate_2	Wasomaji Wapya	Taja Wanyama	Written by: Mike Jaffe Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_101_thumbnail.png	sw_101
+sw_112	cate_2	Wasomaji Wapya	Ninajisikia	Written by: Mike Jaffe Illustrated by: Tory DeOrian  Translated by: Lucy Geay	book_sw_112_thumbnail.png	sw_112
+sw_102	cate_2	Wasomaji Wapya	Chakula Kitamu	Written by: Pam Vachatimanont Illustrated by: Nigel Sussman  Translated by: Lucy Geay	book_sw_102_thumbnail.png	sw_102
+sw_103	cate_2	Wasomaji Wapya	Mkubwa na Mdogo	Written by: Pam Vachatimanont Illustrated by: Chris Rooney  Translated by: Lucy Geay	book_sw_103_thumbnail.png	sw_103
+sw_105	cate_2	Wasomaji Wapya	Mtoto	Written by: Mike Jaffe Illustrated by: Tory DeOrian  Translated by: Lucy Geay	book_sw_105_thumbnail.png	sw_105
+sw_104	cate_2	Wasomaji Wapya	Ninaona Maumbo	Written by: Mike Jaffe Illustrated by: Nigel Sussman  Translated by: Lucy Geay	book_sw_104_thumbnail.png	sw_104
+sw_109	cate_2	Wasomaji Wapya	Anga	Written by: Pam Vachatimanont Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_109_thumbnail.png	sw_109
+sw_106	cate_2	Wasomaji Wapya	Ninapenda Rangi	Original title: Rangi za upinde Written by: Caren Echesa, Jesse Breytenbach Adapted by: Mike Jaffe Illustrated by: Jesse Breytenbach  Translated by: Lucy Geay	book_sw_106_thumbnail.png	sw_106
+sw_107	cate_2	Wasomaji Wapya	Watu Wangapi?	Written by: Mike Jaffe Illustrated by: Jose Galeano  Translated by: Lucy Geay	book_sw_107_thumbnail.png	sw_107
+sw_224	cate_2	Wasomaji Wapya	Niangalie Nikienda	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_224_thumbnail.png	sw_224
+sw_108	cate_2	Wasomaji Wapya	Nguo Tatu	Written by: Simone Yingst Illustrated by: Tory DeOrian  Translated by: Lucy Geay	book_sw_108_thumbnail.png	sw_108
+sw_208	cate_2	Wasomaji Wapya	Habari, Wanyama	Written by: Simone Yingst Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_208_thumbnail.png	sw_208
+sw_219	cate_2	Wasomaji Wapya	Paka na Panya	Original title: Cube Cat, Cone Cat Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Rajiv Eipe  Translated by: Lucy Geay	book_sw_219_thumbnail.png	sw_219
+sw_216	cate_2	Wasomaji Wapya	Miti Kumi	Original title: Every Tree Counts Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Sangeetha Kadur  Translated by: Lucy Geay	book_sw_216_thumbnail.png	sw_216
+sw_202	cate_2	Wasomaji Wapya	Huu ni Uso Wangu	Written by: Zack Kushner Illustrated by: Heleen Steyn  Translated by: Lucy Geay	book_sw_202_thumbnail.png	sw_202
+sw_206	cate_2	Wasomaji Wapya	Familia	Written by: Zack Kushner Illustrated by: Lisa Steyn  Translated by: Lucy Geay	book_sw_206_thumbnail.png	sw_206
+sw_201	cate_2	Wasomaji Wapya	Twende	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_201_thumbnail.png	sw_201
+sw_222	cate_2	Wasomaji Wapya	Nani Anataka Kucheza?	Original title: Hide and Seek Written by: Kanchan Bannerjee Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Harshvardhan Gantha  Translated by: Lucy Geay	book_sw_222_thumbnail.png	sw_222
+sw_210	cate_2	Wasomaji Wapya	Niko Tayari Kujifunza	Written by: Zack Kushner Illustrated by: Heleen Steyn  Translated by: Lucy Geay	book_sw_210_thumbnail.png	sw_210
+sw_223	cate_3	Wasomaji wa Mapema	Wanyama Wakubwa na Wadogo	Written by: Zack Kushner Illustrated by: Chris Rooney  Translated by: Lucy Geay	book_sw_223_thumbnail.png	sw_223
+sw_221	cate_3	Wasomaji wa Mapema	Mimi ni Mimi	Original title: What Makes You Special Written by: Nalini Sorensen Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Greystroke  Translated by: Lucy Geay	book_sw_221_thumbnail.png	sw_221
+sw_226	cate_3	Wasomaji wa Mapema	Mwili Wangu	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_226_thumbnail.png	sw_226
+sw_227	cate_3	Wasomaji wa Mapema	Mimi napenda nini?	Written by: Pam Vachatimanont Illustrated by: JC Hernandez  Translated by: Hamza S Mrisho	book_sw_227_thumbnail.png	sw_227
+sw_209	cate_3	Wasomaji wa Mapema	Nani Ana Meno?	Written by: Pam Vachatimanont Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_209_thumbnail.png	sw_209
+sw_204	cate_3	Wasomaji wa Mapema	Panya	Written by: Pam Vachatimanont Illustrated by: Josh McGill  Translated by: Lucy Geay	book_sw_204_thumbnail.png	sw_204
+sw_230	cate_3	Wasomaji wa Mapema	Tunaisema Kila Siku!	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_230_thumbnail.png	sw_230
+sw_229	cate_3	Wasomaji wa Mapema	Hali ya Hewa Ikoje?	Written by: Minnie Mills Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_229_thumbnail.png	sw_229
+sw_228	cate_3	Wasomaji wa Mapema	Nauona Ulimwengu	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_228_thumbnail.png	sw_228
+sw_203	cate_3	Wasomaji wa Mapema	Sauti za Wanyama	Written by: Mike Jaffe Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_203_thumbnail.png	sw_203
+sw_220	cate_3	Wasomaji wa Mapema	Usingizi	Original title: Bheema, the sleepyhead Written by: Rajesh Khar Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Shweta Mohapatra  Translated by: Lucy Geay	book_sw_220_thumbnail.png	sw_220
+sw_212	cate_3	Wasomaji wa Mapema	Maembe Matano	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_212_thumbnail.png	sw_212
+sw_231	cate_3	Wasomaji wa Mapema	Siku ya Neema	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_231_thumbnail.png	sw_231
+sw_207	cate_3	Wasomaji wa Mapema	Mti	Written by: Mike Jaffe Illustrated by: Nigel Sussman  Translated by: Lucy Geay	book_sw_207_thumbnail.png	sw_207
+sw_211	cate_3	Wasomaji wa Mapema	Mamba	Written by: Zack Kushner Illustrated by: Daniel Galeano  Translated by: Lucy Geay	book_sw_211_thumbnail.png	sw_211
+sw_213	cate_3	Wasomaji wa Mapema	Ninaweza Kusaidia	Written by: Mary Malhotra Illustrated by: Josh McGill  Translated by: Lucy Geay	book_sw_213_thumbnail.png	sw_213
+sw_218	cate_3	Wasomaji wa Mapema	Tunaweza Kutengeneza Vitu	Original title: Paper Play Written by: Mala Kumar  Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Ruchi Shah  Translated by: Lucy Geay	book_sw_218_thumbnail.png	sw_218
+sw_225	cate_3	Wasomaji wa Mapema	Je, Ninaweza?	Written by: Mary Malhotra Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_225_thumbnail.png	sw_225
+sw_232	cate_3	Wasomaji wa Mapema	Baiskeli ya Hamisi	Written by: Lucy Geay Illustrated by: JC Hernandez 	book_sw_232_thumbnail.png	sw_232
+sw_234	cate_4	Wasomaji wa Mwanzo	Mvua!	Written by: Minnie Mills Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_234_thumbnail.png	sw_234
+sw_233	cate_4	Wasomaji wa Mwanzo	Kuchakuro na Mbegu	Written by: Simone Yingst Illustrated by: JC Hernandez  Translated by: Hamza S Mrisho	book_sw_233_thumbnail.png	sw_233
+sw_217	cate_4	Wasomaji wa Mwanzo	Koti Langu la Mvua	Original title: The Red Raincoat Written by: Praba Ram, Sheela Preuitt Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Zinab Tambawalla  Translated by: Lucy Geay	book_sw_217_thumbnail.png	sw_217
+sw_306	cate_4	Wasomaji wa Mwanzo	Ninaweza Kufanya	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_306_thumbnail.png	sw_306
+sw_302	cate_4	Wasomaji wa Mwanzo	Kutoka Kichwani Mpaka Mguuni	Written by: Zack Kushner Illustrated by: Lisa Steyn  Translated by: Lucy Geay	book_sw_302_thumbnail.png	sw_302
+sw_332	cate_4	Wasomaji wa Mwanzo	Neema Akiwa Nyumbani	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_332_thumbnail.png	sw_332
+sw_333	cate_4	Wasomaji wa Mwanzo	Tina na Mpira	Written by: Simone Yingst Illustrated by: JC Hernandez  Translated by: Hamza S Mrisho	book_sw_333_thumbnail.png	sw_333
+sw_309	cate_4	Wasomaji wa Mwanzo	Aina Zote za Wanyama	Written by: Zack Kushner Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_309_thumbnail.png	sw_309
+sw_310	cate_4	Wasomaji wa Mwanzo	Tuna Maembe	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_310_thumbnail.png	sw_310
+sw_215	cate_4	Wasomaji wa Mwanzo	Paka Kila Mahali	Original title: Wild Cat! Wild Cat! Written by: Sejal Mehta Source: StoryWeaver by Pratham Books Adapted by: Mia Malhotra Illustrated by: Rohan Chakravarty  Translated by: Lucy Geay	book_sw_215_thumbnail.png	sw_215
+sw_317	cate_4	Wasomaji wa Mwanzo	Je, Sisi Sote Tuko Sawa?	Original title: Why is Nita Upside Down? Written by: Roxana Bouwer, Emma Hearne, and Sarah Bouwer Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Sarah Bouwer  Translated by: Lucy Geay	book_sw_317_thumbnail.png	sw_317
+sw_214	cate_4	Wasomaji wa Mwanzo	Kuhesabu Wanyama	Original title: Counting Animals Written by: Clare Verbeek, Thembani Dladla, Zanele Buthelezi Adapted by: Pam Vachatimanont Illustrated by: Rob Owen  Translated by: Lucy Geay	book_sw_214_thumbnail.png	sw_214
+sw_205	cate_4	Wasomaji wa Mwanzo	Dunia	Written by: Pam Vachatimanont Illustrated by: Daniel Galeano  Translated by: Lucy Geay	book_sw_205_thumbnail.png	sw_205
+sw_312	cate_4	Wasomaji wa Mwanzo	Kumsaidia Mama	Written by: Zack Kushner Illustrated by: Tory DeOrian  Translated by: Lucy Geay	book_sw_312_thumbnail.png	sw_312
+sw_303	cate_4	Wasomaji wa Mwanzo	Mpira Wangu	Written by: Zack Kushner Illustrated by: Tory DeOrian  Translated by: Lucy Geay	book_sw_303_thumbnail.png	sw_303
+sw_335	cate_4	Wasomaji wa Mwanzo	Paulo na Mbuzi	Written by: Simone Yingst Illustrated by: JC Hernandez  Translated by: Hamza S Mrisho	book_sw_335_thumbnail.png	sw_335
+sw_345	cate_4	Wasomaji wa Mwanzo	Milango Yangu ya Fahamu Mitano	Written by: Mary Malhotra Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_345_thumbnail.png	sw_345
+sw_339	cate_4	Wasomaji wa Mwanzo	"Alama za   Majengo"	Written by: Lucy Geay Illustrated by: JC Hernandez 	book_sw_339_thumbnail.png	sw_339
+sw_341	cate_4	Wasomaji wa Mwanzo	Unajisikiaje?	Written by: Mary Malhotra Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_341_thumbnail.png	sw_341
+sw_334	cate_4	Wasomaji wa Mwanzo	Kinyume	Written by: Mary Malhotra Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_334_thumbnail.png	sw_334
+sw_328	cate_4	Wasomaji wa Mwanzo	Rangi Mtaani	Original title: Colours on the Street Written by: Mala Kumar  Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Priya Kuriyan  Translated by: Lucy Geay	book_sw_328_thumbnail.png	sw_328
+sw_307	cate_5	Wasomaji Wenye Ujuzi	Barua kwa Rafiki yangu	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_307_thumbnail.png	sw_307
+sw_340	cate_5	Wasomaji Wenye Ujuzi	Kupika Maharage na Neema	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_340_thumbnail.png	sw_340
+sw_311	cate_5	Wasomaji Wenye Ujuzi	Paka ni Marafiki	Written by: Zack Kushner Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_311_thumbnail.png	sw_311
+sw_301	cate_5	Wasomaji Wenye Ujuzi	Namtafuta Paka Wangu	Written by: Zack Kushner Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_301_thumbnail.png	sw_301
+sw_305	cate_5	Wasomaji Wenye Ujuzi	Raketi Yangu Iko Wapi?	Original title: Wapi kigoe changu? Written by: Meera Tendolkar, Madhav Chavan Source: www.africanstorybook.org Adapted by: Pam Vachatimanont Illustrated by: Rijuta Ghate  Translated by: Lucy Geay	book_sw_305_thumbnail.png	sw_305
+sw_316	cate_5	Wasomaji Wenye Ujuzi	Tujifunze Kuhusu Simba!	Original title: Lion's Written by: Eli Haynes Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Jayaprakash Bojan  Translated by: Lucy Geay	book_sw_316_thumbnail.png	sw_316
+sw_344	cate_5	Wasomaji Wenye Ujuzi	"Zahanati   ya Amana"	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_344_thumbnail.png	sw_344
+sw_337	cate_5	Wasomaji Wenye Ujuzi	Farida Anakwenda Sokoni	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_337_thumbnail.png	sw_337
+sw_338	cate_5	Wasomaji Wenye Ujuzi	Catherine akiwa Gizani	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_338_thumbnail.png	sw_338
+sw_342	cate_5	Wasomaji Wenye Ujuzi	Mama Yuko Wapi?	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum  Translated by: Hamza S Mrisho	book_sw_342_thumbnail.png	sw_342
+sw_329	cate_5	Wasomaji Wenye Ujuzi	Jogoo na Mnyoo	Written by: Lucy Geay Illustrated by: Nesia Anindita  Translated by: Lucy Geay	book_sw_329_thumbnail.png	sw_329
+sw_314	cate_5	Wasomaji Wenye Ujuzi	Ng'ombe Wetu	Original title: Ng'ombe wetu Pendo Written by: Ruth Odondi Adapted by: Zack Kushner Illustrated by: Nesia Anindita  Translated by: Lucy Geay	book_sw_314_thumbnail.png	sw_314
+sw_325	cate_5	Wasomaji Wenye Ujuzi	Wapaka Rangi Wadogo	Original title: Little Painters Written by: Cheryl Rao Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Tanvi Bhat  Translated by: Lucy Geay	book_sw_325_thumbnail.png	sw_325
+sw_343	cate_5	Wasomaji Wenye Ujuzi	Kama Tembo	Written by: Zack Kushner Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_343_thumbnail.png	sw_343
+sw_346	cate_5	Wasomaji Wenye Ujuzi	Neema Akiwa Zahanati	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_346_thumbnail.png	sw_346
+sw_347	cate_5	Wasomaji Wenye Ujuzi	Rafiki yetu Ng'ombe	Written by: Zack Kushner Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_347_thumbnail.png	sw_347
+sw_349	cate_5	Wasomaji Wenye Ujuzi	Kelvin na Baba	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum  Translated by: Hamza S Mrisho	book_sw_349_thumbnail.png	sw_349
+sw_315	cate_5	Wasomaji Wenye Ujuzi	Jua Moja	Original title: Sayari Jua ya Saba Written by: Kamundi Mutugi Adapted by: Mary Malhotra Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_315_thumbnail.png	sw_315
+sw_355	cate_5	Wasomaji Wenye Ujuzi	Nina Kila Ninachohitaji	Written by: Zack Kushner Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_355_thumbnail.png	sw_355
+sw_322	cate_5	Wasomaji Wenye Ujuzi	Ndege	Original title: How Do Aeroplanes Fly? Written by: Aditi Sarawagi Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Lavanya Karthik  Translated by: Lucy Geay	book_sw_322_thumbnail.png	sw_322
+sw_348	cate_6	Wasomaji Wazoefu	Safari ya  Neema Sokoni	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_348_thumbnail.png	sw_348
+sw_353	cate_6	Wasomaji Wazoefu	Nyumba ya Mdudu	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum  Translated by: Hamza S Mrisho	book_sw_353_thumbnail.png	sw_353
+sw_350	cate_6	Wasomaji Wazoefu	Neema Anasaidia Marafiki Zake	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_350_thumbnail.png	sw_350
+sw_419	cate_6	Wasomaji Wazoefu	Edith na Kitabu Chake	Written by: Simone Yingst Illustrated by: Katie Kleinbaum  Translated by: Hamza S Mrisho	book_sw_419_thumbnail.png	sw_419
+sw_354	cate_6	Wasomaji Wazoefu	Jifunze Kuhusu Milango ya Fahamu	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_354_thumbnail.png	sw_354
+sw_330	cate_6	Wasomaji Wazoefu	Vyakula Vyenye Ladha	Written by: Simone Yingst Illustrated by: Nigel Sussman  Translated by: Lucy Geay	book_sw_330_thumbnail.png	sw_330
+sw_313	cate_6	Wasomaji Wazoefu	Maumbo Yako Wapi?	Written by: Pam Vachatimanont Illustrated by: Nigel Sussman  Translated by: Lucy Geay	book_sw_313_thumbnail.png	sw_313
+sw_318	cate_6	Wasomaji Wazoefu	Juu na Chini	Original title: I Can Climb! Written by: Mini Shrinivasan Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Deval Maniar  Translated by: Lucy Geay	book_sw_318_thumbnail.png	sw_318
+sw_351	cate_6	Wasomaji Wazoefu	Ndege na Eropleni Hupaa	Written by: Zack Kushner Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_351_thumbnail.png	sw_351
+sw_352	cate_6	Wasomaji Wazoefu	Kupanda Chakula	Written by: Zack Kushner Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_352_thumbnail.png	sw_352
+sw_420	cate_6	Wasomaji Wazoefu	Huu ni Mwili Wangu	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_420_thumbnail.png	sw_420
+sw_421	cate_6	Wasomaji Wazoefu	Siku ya Soko	Written by: Simone Yingst Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_421_thumbnail.png	sw_421
+sw_324	cate_6	Wasomaji Wazoefu	Tunaweza Kuwa Marafiki?	Original title: Is There Anyone Like Me? Written by: Fred Strydom Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Jess Jardim-Wedepohl  Translated by: Lucy Geay	book_sw_324_thumbnail.png	sw_324
+sw_304	cate_6	Wasomaji Wazoefu	Upinde wa Mvua	Original title: Rangi za upinde Written by: Caren Echesa, Jesse Breytenbach Adapted by: Pam Vachatimanont Illustrated by: Jesse Breytenbach  Translated by: Lucy Geay	book_sw_304_thumbnail.png	sw_304
+sw_402	cate_6	Wasomaji Wazoefu	Kucheza	Original title: Marafiki Written by: Zimbili Dlamini, Hlengiwe Zondi, Ursula Nafula, and Catherine Groenewald Adapted by: Lucy Geay Illustrated by: Catherine Croenewald 	book_sw_402_thumbnail.png	sw_402
+sw_423	cate_6	Wasomaji Wazoefu	Kuwa Mdundo	Written by: Zack Kushner Illustrated by: Katie Kleinbaum  Translated by: Aritamba Bisansaba	book_sw_423_thumbnail.png	sw_423
+sw_425	cate_6	Wasomaji Wazoefu	Je, Unaweza Kujenga Picha Akilini?	Written by: Zack Kushner Illustrated by: Katie Kleinbaum  Translated by: Aritamba Bisansaba	book_sw_425_thumbnail.png	sw_425
+sw_336	cate_6	Wasomaji Wazoefu	Julius Nyerere	Written by: Lucy Geay Illustrated by: Nesia Anindita 	book_sw_336_thumbnail.png	sw_336
+sw_426	cate_6	Wasomaji Wazoefu	Maisha ya Baharini	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_426_thumbnail.png	sw_426
+sw_422	cate_7	Wasomaji Walioendelea	Hisabati Rahisi za Kujumlisha	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_422_thumbnail.png	sw_422
+sw_321	cate_7	Wasomaji Walioendelea	Miti ya Matunda	Original title: A Walk Among Trees Written by: Nimret Handa Source: StoryWeaver by Pratham Books Adapted by: Simone Yingst Illustrated by: Nimret Handa  Translated by: Lucy Geay	book_sw_321_thumbnail.png	sw_321
+sw_308	cate_7	Wasomaji Walioendelea	Hebu Tujifunze Kuhusu Maumbo	Written by: Mike Jaffe Illustrated by: Dalrae Kim  Translated by: Lucy Geay	book_sw_308_thumbnail.png	sw_308
+sw_320	cate_7	Wasomaji Walioendelea	Njoo Tuvue Samaki	Original title: My Fish!" "No, my fish! Written by: Suraj J Menon Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Soumya Menon  Translated by: Lucy Geay	book_sw_320_thumbnail.png	sw_320
+sw_406	cate_7	Wasomaji Walioendelea	Wanyama wa Baharini	Original title: Inhabitants of the Sea Written by: Payoshni Saraf Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Muniza Shariq & Sangeeta Das  Translated by: Lucy Geay	book_sw_406_thumbnail.png	sw_406
+sw_319	cate_7	Wasomaji Walioendelea	Mamba Aliyepotea	Original title: Ghum-Ghum Gharial’s Glorious Adventure Written by: Aparna Kapur Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Roshan Kurichiyanil  Translated by: Lucy Geay	book_sw_319_thumbnail.png	sw_319
+sw_326	cate_7	Wasomaji Walioendelea	Soksi Ndogo Imepata Makazi	Original title: Little Sock and the Tiny Creatures Written by: Jon Keevy Source: StoryWeaver by Pratham Books Adapted by: Simone Yingst Illustrated by: Lili Probart  Translated by: Lucy Geay	book_sw_326_thumbnail.png	sw_326
+sw_424	cate_7	Wasomaji Walioendelea	Hebu Tujifunze Kuhusu Saa ya Ukutani	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_424_thumbnail.png	sw_424
+sw_427	cate_7	Wasomaji Walioendelea	Hesabu Rahisi za Kutoa	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_427_thumbnail.png	sw_427
+sw_323	cate_7	Wasomaji Walioendelea	Tembo Mkubwa na Sungura Mdogo	Original title: Playtime Written by: Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Mike Jaffe Illustrated by: Ajit Narayan  Translated by: Lucy Geay	book_sw_323_thumbnail.png	sw_323
+sw_414	cate_7	Wasomaji Walioendelea	Maelekezo Katika Barua	Written by: Mary Malhotra Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_414_thumbnail.png	sw_414
+sw_415	cate_7	Wasomaji Walioendelea	Maisha katika Msitu	Written by: Zack Kushner Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_415_thumbnail.png	sw_415
+sw_327	cate_7	Wasomaji Walioendelea	Msituni	Original title: Up World, Down World Written by: Padmaparna Ghosh Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Sunaina Coelho  Translated by: Lucy Geay	book_sw_327_thumbnail.png	sw_327
+sw_401	cate_7	Wasomaji Walioendelea	Panya na Simba	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_401_thumbnail.png	sw_401
+sw_416	cate_7	Wasomaji Walioendelea	Hebu tufanye Hesabu!	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Aritamba Bisansaba	book_sw_416_thumbnail.png	sw_416
+sw_403	cate_7	Wasomaji Walioendelea	Kuna Miguu Mingapi?	Written by: Mary Malhotra Illustrated by: Katie Kleinbaum  Translated by: Lucy Geay	book_sw_403_thumbnail.png	sw_403
+sw_405	cate_7	Wasomaji Walioendelea	Usiku na Mchana	Original title: Usiku unaingia kijijini Written by: Robert Ekula, Ursula Nafula, and Wiehan de Jager Adapted by: Zack Kushner Illustrated by: Wiehan de Jager  Translated by: Lucy Geay	book_sw_405_thumbnail.png	sw_405
+sw_408	cate_7	Wasomaji Walioendelea	Mvua	Original title: The Day It Rained Fish Written by: Ramendra Kumar Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Delwyn Remedios  Translated by: Lucy Geay	book_sw_408_thumbnail.png	sw_408
+sw_417	cate_7	Wasomaji Walioendelea	Je, Unaweza Kuzidisha?	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Hamza S Mrisho	book_sw_417_thumbnail.png	sw_417
+sw_407	cate_8	Wasomaji Bingwa	Kulungu	Original title: Smile Please! Written by: Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Pam Vachatimanont Illustrated by: Ajit Narayan  Translated by: Lucy Geay	book_sw_407_thumbnail.png	sw_407
+sw_411	cate_8	Wasomaji Bingwa	Wanyama Wanahitaji Kula	Original title: Who Ate All That Up? Written by: Sejal Mehta Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Rohan Chakravarty  Translated by: Lucy Geay	book_sw_411_thumbnail.png	sw_411
+sw_331	cate_8	Wasomaji Bingwa	Wakati na Jua	Written by: Mike Jaffe Illustrated by: Nigel Sussman  Translated by: Lucy Geay	book_sw_331_thumbnail.png	sw_331
+sw_404	cate_8	Wasomaji Bingwa	Nia na Mazimwi Wachafu	Original title: Bunty na Bubbly Written by: Sorit Gupto and Brigid Simiyu Adapted by: Mary Malhotra Illustrated by: Sorit Gupto  Translated by: Lucy Geay	book_sw_404_thumbnail.png	sw_404
+sw_410	cate_8	Wasomaji Bingwa	Wanyama wa Usiku	Original title: Goodnight, Tinku Written by: Preethi Nambiar Source: StoryWeaver by Pratham Books Adapted by: Lucy Geay Illustrated by: Sonal Goyal & Sumit Sakhuja  Translated by: Lucy Geay	book_sw_410_thumbnail.png	sw_410
+sw_418	cate_8	Wasomaji Bingwa	Kwenye Mnazi	Written by: Zack Kushner Illustrated by: Katie Kleinbaum  Translated by: Hamza S Mrisho	book_sw_418_thumbnail.png	sw_418
+sw_412	cate_8	Wasomaji Bingwa	Wangari Maathai	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Lucy Geay	book_sw_412_thumbnail.png	sw_412
+sw_409	cate_8	Wasomaji Bingwa	Shaaban na Dinosauria Anayecheza	Original title: Singing in the Rain Written by: Mala Kumar, Manisha Chaudhry Source: StoryWeaver by Pratham Books Adapted by: Mary Malhotra Illustrated by: Rajiv Eipe  Translated by: Lucy Geay	book_sw_409_thumbnail.png	sw_409
+sw_413	cate_8	Wasomaji Bingwa	Mwezini	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Lucy Geay	book_sw_413_thumbnail.png	sw_413
+sw_502	cate_8	Wasomaji Bingwa	Matembezi ya Lucy	Written by: Mary Malhotra Illustrated by: Tory DeOrian  Translated by: Lucy Geay	book_sw_502_thumbnail.png	sw_502
+sw_504	cate_8	Wasomaji Bingwa	Usikate Tamaa	Written by: Mary Malhotra Illustrated by: JC Hernandez  Translated by: Lucy Geay	book_sw_504_thumbnail.png	sw_504
+sw_506	cate_8	Wasomaji Bingwa	Simba na Tembo	Original title: Ndovu na vyura Written by: Ingrid Schechter, Caren Echesa, and Amir Bachir António Necas Adapted by: Mary Malhotra Illustrated by: Amir Bachir António Necas  Translated by: Lucy Geay	book_sw_506_thumbnail.png	sw_506
+sw_501	cate_8	Wasomaji Bingwa	Nitaendaje Shule?	Written by: Lucy Geay Illustrated by: JC Hernandez 	book_sw_501_thumbnail.png	sw_501
+sw_510	cate_8	Wasomaji Bingwa	Mvua ni Nini?	Written by: Mike Jaffe Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_510_thumbnail.png	sw_510
+sw_503	cate_8	Wasomaji Bingwa	Mariam Ana Hasira	Original title: Angry Akku Written by: Vinayak Varma Source: StoryWeaver by Pratham Books Adapted by: Zack Kushner Illustrated by: Vinayak Varma  Translated by: Lucy Geay	book_sw_503_thumbnail.png	sw_503
+sw_509	cate_8	Wasomaji Bingwa	Kuwaelewa Tembo	Written by: Zack Kushner Photo by Enuma, Inc. Translated by: Aritamba Bisansaba	book_sw_509_thumbnail.png	sw_509
+sw_507	cate_8	Wasomaji Bingwa	Tumo Mrefu	Written by: Mike Jaffe Illustrated by: Nesia Anindita  Translated by: Lucy Geay	book_sw_507_thumbnail.png	sw_507
+sw_508	cate_8	Wasomaji Bingwa	Ufalme Wenye Furaha	Original title: Maguru apatiana miguu Written by: Mutugi Kamundi, Ursula Nafula, Wiehan de Jager Adapted by: Mary Malhotra Illustrated by: Wiehan de Jager  Translated by: Lucy Geay	book_sw_508_thumbnail.png	sw_508
