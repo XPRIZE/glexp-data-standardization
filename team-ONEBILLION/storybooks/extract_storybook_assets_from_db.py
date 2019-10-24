@@ -114,7 +114,7 @@ def extract_from_week(directory_containing_weekly_data):
                     storybook_comprehension_questions = ("cq=true" in storybook_row_params)
 
                     # The folder path of the asset (e.g. "assets/oc-reading/books/xr-averytallman")
-                    asset_path = "assets/" + storybook_row_config
+                    asset_path = "onecourse-assets-sw-v3.0.1.tar.gz:assets/" + storybook_row_config + "/"
 
                     csv_row = [storybook_id, storybook_title, storybook_comprehension_questions, asset_path]
                     if csv_row not in csv_rows:
