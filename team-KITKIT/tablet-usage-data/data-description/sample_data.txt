@@ -1,0 +1,136 @@
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949514331,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515572,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515572,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515641,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515647,"event":{"category":"AboutActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515655,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515658,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515660,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515753,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515755,"event":{"category":"AboutActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949515756,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949516337,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949516339,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_M_0","value":1}}
+{"appName":"com.enuma.xprize","timeStamp":949516341,"event":{"action":"gameStart","class":"","course":"","game":"Tapping","level":1,"student":"","timestamp":9.49516341939304E8}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949516353,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949516474,"event":{"action":"gameComplete","class":"","course":"","duration":132.25993704795837,"game":"Tapping","level":1,"result":1,"student":"","timestamp":9.49516474199001E8}}
+{"appName":"com.enuma.xprize","timeStamp":949516527,"event":{"action":"gameStart","class":"","course":"","game":"NumberMatching","level":1,"student":"","timestamp":9.49516527717179E8}}
+{"appName":"com.enuma.xprize","timeStamp":949517755,"event":{"action":"gameComplete","class":"","course":"","duration":1227.3978480100632,"game":"NumberMatching","level":1,"result":1,"student":"","timestamp":9.49517755114786E8}}
+{"appName":"com.enuma.xprize","timeStamp":949517809,"event":{"action":"gameStart","class":"","course":"","game":"FindTheMatch","level":1,"student":"","timestamp":9.49517809538952E8}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949517813,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949517890,"event":{"action":"gameComplete","class":"","course":"","duration":81.27648997306824,"game":"FindTheMatch","level":1,"result":1,"student":"","timestamp":9.49517890815205E8}}
+{"appName":"com.enuma.xprize","timeStamp":949517896,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949517896,"event":{"action":"show_clear","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518371,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_M_0","value":3}}
+{"appName":"com.enuma.xprize","timeStamp":949518374,"event":{"action":"gameStart","class":"","course":"","game":"NumberMatching","level":2,"student":"","timestamp":9.49518374542594E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518388,"event":{"action":"gameComplete","class":"","course":"","duration":13.57424008846283,"game":"NumberMatching","level":2,"result":1,"student":"","timestamp":9.49518388116598E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518396,"event":{"action":"gameStart","class":"","course":"","game":"FindTheMatch","level":3,"student":"","timestamp":9.49518396878222E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518432,"event":{"action":"gameComplete","class":"","course":"","duration":35.76374697685242,"game":"FindTheMatch","level":3,"result":1,"student":"","timestamp":9.49518432641723E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518434,"event":{"action":"gameStart","class":"","course":"","game":"Tapping","level":3,"student":"","timestamp":9.49518434272961E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518466,"event":{"action":"gameComplete","class":"","course":"","duration":32.0495730638504,"game":"Tapping","level":3,"result":1,"student":"","timestamp":9.4951846632229E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518472,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518472,"event":{"action":"show_clear","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518474,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518476,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_M_0","value":2}}
+{"appName":"com.enuma.xprize","timeStamp":949518483,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_M_0","value":2}}
+{"appName":"com.enuma.xprize","timeStamp":949518485,"event":{"action":"gameStart","class":"","course":"","game":"Tapping","level":2,"student":"","timestamp":9.49518485423538E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518538,"event":{"action":"gameComplete","class":"","course":"","duration":53.33564007282257,"game":"Tapping","level":2,"result":1,"student":"","timestamp":9.49518538758936E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518540,"event":{"action":"gameStart","class":"","course":"","game":"FindTheMatch","level":2,"student":"","timestamp":9.49518540872381E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518591,"event":{"action":"gameComplete","class":"","course":"","duration":50.94510304927826,"game":"FindTheMatch","level":2,"result":1,"student":"","timestamp":9.49518591817241E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518593,"event":{"action":"gameStart","class":"","course":"","game":"NumberMatching","level":2,"student":"","timestamp":9.49518593463319E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518605,"event":{"action":"gameComplete","class":"","course":"","duration":11.647244095802307,"game":"NumberMatching","level":2,"result":1,"student":"","timestamp":9.49518605110313E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518617,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518622,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518626,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518728,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518731,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949518732,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_L_0","value":1}}
+{"appName":"com.enuma.xprize","timeStamp":949518734,"event":{"action":"gameStart","class":"","course":"","game":"TutorialTrace","level":1,"student":"","timestamp":9.49518734564179E8}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949518757,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949518768,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949518774,"event":{"action":"gameStart","class":"","course":"","game":"TutorialTrace","level":1,"student":"","timestamp":9.49518774419988E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518817,"event":{"action":"gameComplete","class":"","course":"","duration":43.21230494976044,"game":"TutorialTrace","level":1,"result":1,"student":"","timestamp":9.49518817631809E8}}
+{"appName":"com.enuma.xprize","timeStamp":949518818,"event":{"action":"gameStart","class":"","course":"","game":"AnimalPuzzle","level":1,"student":"","timestamp":9.49518818683393E8}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949518833,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949519118,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949519944,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949519950,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_M_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949519965,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_M_0","value":1}}
+{"appName":"com.enuma.xprize","timeStamp":949520224,"event":{"action":"gameStart","class":"","course":"","game":"Tapping","level":1,"student":"","timestamp":9.49520224962475E8}}
+{"appName":"com.enuma.xprize","timeStamp":949520267,"event":{"action":"gameComplete","class":"","course":"","duration":42.83339297771454,"game":"Tapping","level":1,"result":1,"student":"","timestamp":9.49520267795603E8}}
+{"appName":"com.enuma.xprize","timeStamp":949520282,"event":{"action":"gameStart","class":"","course":"","game":"Tapping","level":1,"student":"","timestamp":9.49520282409731E8}}
+{"appName":"com.enuma.xprize","timeStamp":949520314,"event":{"action":"gameComplete","class":"","course":"","duration":31.67432200908661,"game":"Tapping","level":1,"result":1,"student":"","timestamp":9.49520314083784E8}}
+{"appName":"com.enuma.xprize","timeStamp":949521707,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949521710,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_L_0","value":1}}
+{"appName":"com.enuma.xprize","timeStamp":949521934,"event":{"action":"gameStart","class":"","course":"","game":"AnimalPuzzle","level":1,"student":"","timestamp":9.4952193460432E8}}
+{"appName":"com.enuma.xprize","timeStamp":949522327,"event":{"action":"gameQuit","class":"","course":"","duration":392.95390498638153,"game":"AnimalPuzzle","level":1,"student":"","timestamp":9.49522327558002E8}}
+{"appName":"com.enuma.xprize","timeStamp":949522331,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_1","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949522333,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_L_1","value":8}}
+{"appName":"com.enuma.xprize","timeStamp":949522337,"event":{"action":"gameStart","class":"","course":"","game":"AnimalPuzzle","level":4,"student":"","timestamp":9.49522337345897E8}}
+{"appName":"com.enuma.xprize","timeStamp":949522344,"event":{"action":"gameQuit","class":"","course":"","duration":7.290547013282776,"game":"AnimalPuzzle","level":4,"student":"","timestamp":9.49522344636202E8}}
+{"appName":"com.enuma.xprize","timeStamp":949522500,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949522503,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_L_0","value":1}}
+{"appName":"com.enuma.xprize","timeStamp":949522903,"event":{"action":"gameStart","class":"","course":"","game":"AnimalPuzzle","level":1,"student":"","timestamp":9.49522903506953E8}}
+{"appName":"com.enuma.xprize","timeStamp":949524096,"event":{"action":"gameComplete","class":"","course":"","duration":1192.8448910713196,"game":"AnimalPuzzle","level":1,"result":1,"student":"","timestamp":9.49524096351598E8}}
+{"appName":"com.enuma.xprize","timeStamp":949524098,"event":{"action":"gameStart","class":"","course":"","game":"LetterMatching","level":1,"student":"","timestamp":9.49524098051247E8}}
+{"appName":"com.enuma.xprize","timeStamp":949524128,"event":{"action":"gameComplete","class":"","course":"","duration":30.013251900672913,"game":"LetterMatching","level":1,"result":1,"student":"","timestamp":9.49524128064257E8}}
+{"appName":"com.enuma.xprize","timeStamp":949524134,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949524134,"event":{"action":"show_clear","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949524141,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_L_0","value":2}}
+{"appName":"com.enuma.xprize","timeStamp":949524143,"event":{"action":"gameStart","class":"","course":"","game":"TutorialTrace","level":2,"student":"","timestamp":9.4952414363533E8}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949524237,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949524248,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949524646,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949524822,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949524824,"event":{"action":"select_day","category":"DaySelectPopup","label":"sw-TZ_L_0","value":2}}
+{"appName":"com.enuma.xprize","timeStamp":949524981,"event":{"action":"gameStart","class":"","course":"","game":"TutorialTrace","level":2,"student":"","timestamp":9.49524981729007E8}}
+{"appName":"com.enuma.xprize","timeStamp":949525879,"event":{"action":"gameComplete","class":"","course":"","duration":897.7735230922699,"game":"TutorialTrace","level":2,"result":1,"student":"","timestamp":9.49525879502285E8}}
+{"appName":"com.enuma.xprize","timeStamp":949525881,"event":{"action":"gameStart","class":"","course":"","game":"AnimalPuzzle","level":2,"student":"","timestamp":9.49525881256991E8}}
+{"appName":"com.enuma.xprize","timeStamp":949525948,"event":{"action":"gameComplete","class":"","course":"","duration":67.67014801502228,"game":"AnimalPuzzle","level":2,"result":1,"student":"","timestamp":9.49525948926862E8}}
+{"appName":"com.enuma.xprize","timeStamp":949525961,"event":{"action":"gameStart","class":"","course":"","game":"LetterMatching","level":2,"student":"","timestamp":9.4952596100529E8}}
+{"appName":"com.enuma.xprize","timeStamp":949526221,"event":{"action":"gameComplete","class":"","course":"","duration":260.0338159799576,"game":"LetterMatching","level":2,"result":1,"student":"","timestamp":9.49526221038864E8}}
+{"appName":"com.enuma.xprize","timeStamp":949526227,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"com.enuma.xprize","timeStamp":949526227,"event":{"action":"show_clear","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526238,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"com.enuma.xprize","timeStamp":949526251,"event":{"action":"show","category":"DaySelectPopup","label":"sw-TZ_L_0","value":0}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526260,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526266,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526269,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949526272,"event":{"category":"VideoFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949526272,"event":{"category":"BookFragment","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526274,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526275,"event":{"category":"ToolsActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526277,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526279,"event":{"category":"AboutActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526285,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949526460,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949527266,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949527430,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949529711,"event":{"category":"SettingActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949529716,"event":{"category":"AboutActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949529736,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529744,"event":{"category":"VideoFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529744,"event":{"category":"BookFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529747,"event":{"category":"library","action":"start_video","label":"Namna ya kutunza tabuleti","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529747,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Namna ya kutunza tabuleti","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529882,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Namna ya kutunza tabuleti","value":135146}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529883,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Namna ya kutunza tabuleti","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529893,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Namna ya kutunza tabuleti","value":134995}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949529893,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529895,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Namna ya kutunza tabuleti","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529898,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Namna ya kutunza tabuleti","value":133032}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529898,"event":{"category":"VideoFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529898,"event":{"category":"BookFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529898,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Namna ya kutunza tabuleti","value":133032}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529906,"event":{"category":"library","action":"start_video","label":"Maumbo ya rangi","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949529906,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Maumbo ya rangi","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530001,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vifaranga 100","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530214,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vifaranga 100","value":180353}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530578,"event":{"category":"VideoPlayerActivity","action":"start_video","label":"Vifaranga 100","value":0}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530581,"event":{"category":"VideoPlayerActivity","action":"pause_video","label":"Vifaranga 100","value":182781}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530581,"event":{"category":"VideoFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530581,"event":{"category":"BookFragment","action":"tagScreen"}}
+{"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":949530581,"event":{"category":"VideoPlayerActivity","action":"exit_video","label":"Vifaranga 100","value":182781}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949530585,"event":{"category":"MainActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949530588,"event":{"category":"AboutActivity","action":"tagScreen"}}
+{"appName":"todoschoollauncher.enuma.com.todoschoollauncher","timeStamp":949530594,"event":{"category":"SettingActivity","action":"tagScreen"}}
