@@ -14,6 +14,7 @@ import glob
 import ntpath
 import csv
 import json
+import zipfile
 
 import serial_number_util
 
@@ -85,15 +86,25 @@ def extract_from_week(directory_containing_weekly_data):
                     warnings.warn("Skipping file: \"{}\"".format(basename))
                     continue
 
-                # Skip if the current file is a ZIP file, e.g. "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
-                # TODO: add support for ZIP files
-                if basename.endswith(".zip"):
-                    warnings.warn("Skipping ZIP file: \"{}\"".format(basename))
-                    continue
-
                 # Extract the tablet serial number from the filename
-                # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt"
+                # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
+                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
                 tablet_serial = basename[47:57]
+
+                # If ZIP, unzip file. E.g. "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip".
+                # Expect the ZIP file to contain only one file, and with the same name as the ZIP file itself
+                # (but with ".log.txt" extension instead of ".log.zip").
+                unzipped_file_to_be_deleted = None
+                if basename.endswith(".zip"):
+                    print(os.path.basename(__file__), "Unzipping: {}".format(file_path))
+                    with zipfile.ZipFile(file_path) as zip_ref:
+                        # Extract log file temporarily to the storybook-events/ directory
+                        zip_ref.extractall()
+
+                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file
+                        file_path = basename
+                        file_path = file_path.replace(".log.zip", ".log.txt")
+                        unzipped_file_to_be_deleted = file_path
 
                 with open(file_path) as txt_file:
                     for txt_line in txt_file:
@@ -123,6 +134,14 @@ def extract_from_week(directory_containing_weekly_data):
                             if csv_row not in csv_rows:
                                 print(os.path.basename(__file__), "Adding CSV row: {}".format(csv_row))
                                 csv_rows.append(csv_row)
+
+                    txt_file.close()
+
+                    # If the file was unzipped, delete it.
+                    print(os.path.basename(__file__), "unzipped_file_to_be_deleted: {}".format(unzipped_file_to_be_deleted))
+                    if unzipped_file_to_be_deleted is not None:
+                        # Delete the unzipped file
+                        os.remove(unzipped_file_to_be_deleted)
 
         # Define columns
         csv_fieldnames = ['tablet_serial', 'storybook_id', 'start_time', 'end_time']
