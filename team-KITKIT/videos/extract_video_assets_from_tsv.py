@@ -46,14 +46,18 @@ def extract_from_tsv(file_containing_videos):
             # title
             video.title = video_row[3]
 
-            csv_row = [video.id, video.title]
+            # filename
+            file_name = video_row[5]
+            video.asset_path = "library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/" + file_name
+
+            csv_row = [video.id, video.title, video.asset_path]
             print("Adding CSV row: {}".format(csv_row))
             csv_rows.append(csv_row)
 
             video_id += 1
 
         # Define columns
-        csv_fieldnames = ['id', 'title']
+        csv_fieldnames = ['id', 'title', 'asset_path']
 
         # Sort rows by id (1st column)
         csv_rows = sorted(csv_rows, key=lambda x: x[0])

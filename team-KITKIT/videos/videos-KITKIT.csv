@@ -1,123 +1,123 @@
-id,title
-1,Karibu Kitkit Shule
-2,Namna ya kutumia tabuleti
-3,Namna ya kutunza tabuleti
-4,Namna ya kuchaji tabuleti
-5,Namna ya kutumia tabuleti darasani
-6,Kupitia mchezo wa shule ya Kitkit
-7,Namna ya kutumia kitabu cha kielektroniki
-8,Namna ya kutumia vifaa
-9,Namna ya kutumia maktaba
-10,Maumbo ya rangi
-11,Vifaranga 100
-12,Wimbo wa herufi kuu
-13,Najua kuhesabu namba
-14,Wimbo wa Herufi
-15,Nyosha Vidole Vitano!
-16,Hesabu Vidole Kumi
-17,Hesabu na Mamba!
-18,Treni ya Namba
-19,Moja mpaka ishirini!
-20,Vyura ya Hesabu
-21,Kujumlisha na Kutoa
-22,"Iliyojaa, Ujazo Nusu na Tupu"
-23,Namba Kamili
-24,Shughuli za Kila Siku
-25,Siku za Juma
-26,Miezi katika Mwaka
-27,"Zaidi, Pungufu, Sawa"
-28,Vinyume
-29,Sampuli na Umbo
-30,Mstari wa Namba
-31,Hesabu Rahisi za Kugawanya
-32,Hesabu Rahisi za Kuzidisha
-33,Vitu Vinavyotuzunguka
-34,Maneno Yana Sauti za Mwanzo na za Mwisho
-35,Jifunze Kuhusu Sifuri
-36,Ndege yuko wapi?
-37,Sura
-38,Mwili
-39,Kusoma pamoja: Usafiri
-40,Kanuni za herufi Kubwa
-41,Herufi kubwa na ndogo
-42,Alama za Uandishi
-43,Twende
-44,Hebu Tujifunze Sauti za Herufi
-45,Linaanza na Sauti Gani?
-46,Hebu Tutamke Silabi kwa Sauti
-47,Kusoma Maneno Yanayofahamika
-48,Kujifunza Kosoma Maneno
-49,Hebu Tusikilize Hadithi!
-50,Hebu Tusome Hadithi!
-51,Hebu Tuandike Maneno!
-52,Hebu Tuandike Sentensi!
-53,Jinsi ya Kushika Penseli
-54,Jinsi ya kuzitambua sauti za mwanzo za maneno
-55,Shughuli za Ufahamu wa Kusikiliza
-56,Upatanifu wa Kiwakilishi na Kitenzi
-57,Namna ya Kuunda Maneno ya Silabi Tatu
-58,Ndege ya maumbo
-59,Nusuduara
-60,Maumbo
-61,Mafungu ya thamani
-62,Kibonyezo
-63,Kubwa na ndogo
-64,Kujumlisha na kutoa
-65,Kujumlisha
-66,Kujumlisha kwa tarakimu mbili
-67,Kujumlisha kwa tarakimu mbili: sehemu ya pili
-68,Kutoa
-69,Kutoa kwa tarakimu mbili
-70,Kutoa kwa tarakimu mbili: sehemu ya pili
-71,"Sawa, kubwa kuliko na ndogo kuliko"
-72,Hesabu za Mafumbo
-73,Mafumbo ya Kuzidisha
-74,Mafumbo ya Kugawana
-75,Mpangilio/Kulinganisha namba kumi na moja hadi tisini na tisa.
-76,Mpangilio/Kulinganisha namba za Tarakimu Tatu.
-77,Kutafuta namba zinazokosekana katika idadi ya 20.
-78,Kutafuta namba za tarakimu mbili zinazokosekana
-79,Kutafuta namba za tarakimu tatu zinazokosekana
-80,Kujumlisha ndani ya kumi
-81,Kujumlisha ndani ya 20 bila kuweka katika makundi
-82,Kujumlisha namba za tarakimu mbili katika makundi.
-83,Kutoa Ndani Ya Kumi
-84,Kutoa namba zisizozidi 20 katika makundi
-85,Kutoa namba za tarakimu mbili bila kuziweka katika makundi
-86,Kutoa namba za tarakimu mbili katika makundi
-87,Mafumbo ya Kujumlisha
-88,Mafumbo ya Kutoa
-89,Hesabu za mafumbo: kulinganisha - tofauti haijulikani 1
-90,Hesabu za mafumbo: kulinganisha - tofauti haijulikani 2
-91,Hesabu za mafumbo: kulinganisha - kubwa haijulikani 1
-92,Hesabu za mafumbo: kulinganisha - kubwa haijulikani 2
-93,Hesabu za mafumbo: kuongeza - badiliko halijulikani
-94,Hesabu za mafumbo: kuongeza - ya kuanzia haijulikani
-95,Hesabu za mafumbo: kuondoa - badiliko halijulikani
-96,Hesabu za mafumbo: kuondoa - inayoanza haijulikani
-97,A
-98,B
-99,Ch
-100,D
-101,E
-102,F
-103,G
-104,H
-105,I
-106,J
-107,K
-108,L
-109,M
-110,N
-111,O
-112,P
-113,R
-114,S
-115,T
-116,U
-117,V
-118,W
-119,Y
-120,Z
-121,Sh
-122,Ny
+id,title,asset_path
+1,Karibu Kitkit Shule,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_welcome.mp4
+2,Namna ya kutumia tabuleti,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_tablet.mp4
+3,Namna ya kutunza tabuleti,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_care.mp4
+4,Namna ya kuchaji tabuleti,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_charge.mp4
+5,Namna ya kutumia tabuleti darasani,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_class.mp4
+6,Kupitia mchezo wa shule ya Kitkit,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_gameplay2.mp4
+7,Namna ya kutumia kitabu cha kielektroniki,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_book.mp4
+8,Namna ya kutumia vifaa,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_tools.mp4
+9,Namna ya kutumia maktaba,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_tut_library.mp4
+10,Maumbo ya rangi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_shapes.mp4
+11,Vifaranga 100,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_100chickens.mp4
+12,Wimbo wa herufi kuu,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_vowel.mp4
+13,Najua kuhesabu namba,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_count10.mp4
+14,Wimbo wa Herufi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_abc.mp4
+15,Nyosha Vidole Vitano!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_count5.mp4
+16,Hesabu Vidole Kumi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_count10.mp4
+17,Hesabu na Mamba!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_croc10.mp4a
+18,Treni ya Namba,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_train10.mp4a
+19,Moja mpaka ishirini!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_truck20.mp4
+20,Vyura ya Hesabu,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_addsub.mp4
+21,Kujumlisha na Kutoa,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_1.mp4
+22,"Iliyojaa, Ujazo Nusu na Tupu",library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_2.mp4
+23,Namba Kamili,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_3.mp4
+24,Shughuli za Kila Siku,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_4.mp4
+25,Siku za Juma,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_5.mp4
+26,Miezi katika Mwaka,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_6.mp4
+27,"Zaidi, Pungufu, Sawa",library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_7.mp4
+28,Vinyume,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_8.mp4
+29,Sampuli na Umbo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_9.mp4
+30,Mstari wa Namba,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_10.mp4
+31,Hesabu Rahisi za Kugawanya,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_11.mp4
+32,Hesabu Rahisi za Kuzidisha,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_12.mp4
+33,Vitu Vinavyotuzunguka,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_13.mp4
+34,Maneno Yana Sauti za Mwanzo na za Mwisho,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_14.mp4
+35,Jifunze Kuhusu Sifuri,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_fifteen_15.mp4
+36,Ndege yuko wapi?,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_311_t.mp4
+37,Sura,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_108_t.mp4
+38,Mwili,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_107_t.mp4
+39,Kusoma pamoja: Usafiri,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_101.mp4
+40,Kanuni za herufi Kubwa,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_uppercase.mp4
+41,Herufi kubwa na ndogo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_upperlowercase.mp4
+42,Alama za Uandishi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_punctuation.mp4
+43,Twende,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_201_rt.mp4
+44,Hebu Tujifunze Sauti za Herufi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1025.mp4
+45,Linaanza na Sauti Gani?,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1026.mp4
+46,Hebu Tutamke Silabi kwa Sauti,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1027.mp4
+47,Kusoma Maneno Yanayofahamika,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1028.mp4
+48,Kujifunza Kosoma Maneno,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1029.mp4
+49,Hebu Tusikilize Hadithi!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1030.mp4
+50,Hebu Tusome Hadithi!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1032.mp4
+51,Hebu Tuandike Maneno!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1033.mp4
+52,Hebu Tuandike Sentensi!,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1034.mp4
+53,Jinsi ya Kushika Penseli,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1045.mp4
+54,Jinsi ya kuzitambua sauti za mwanzo za maneno,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_initialsound.mp4
+55,Shughuli za Ufahamu wa Kusikiliza,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_lc.mp4
+56,Upatanifu wa Kiwakilishi na Kitenzi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_sentence.mp4
+57,Namna ya Kuunda Maneno ya Silabi Tatu,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_syllable.mp4
+58,Ndege ya maumbo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_airshapes.mp4
+59,Nusuduara,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_semicircle.mp4
+60,Maumbo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_shapesevery.mp4
+61,Mafungu ya thamani,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_placevalues.mp4
+62,Kibonyezo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_keypad.mp4
+63,Kubwa na ndogo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_bigsmall.mp4
+64,Kujumlisha na kutoa,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_plusminus.mp4
+65,Kujumlisha,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_verticaladd.mp4
+66,Kujumlisha kwa tarakimu mbili,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_verticaladd2.mp4
+67,Kujumlisha kwa tarakimu mbili: sehemu ya pili,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_verticaladd3.mp4
+68,Kutoa,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_verticalsub.mp4
+69,Kutoa kwa tarakimu mbili,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_verticalsub2.mp4
+70,Kutoa kwa tarakimu mbili: sehemu ya pili,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_verticalsub3.mp4
+71,"Sawa, kubwa kuliko na ndogo kuliko",library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_equalsgreatless.mp4
+72,Hesabu za Mafumbo,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1050.mp4
+73,Mafumbo ya Kuzidisha,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1051.mp4
+74,Mafumbo ya Kugawana,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1052.mp4
+75,Mpangilio/Kulinganisha namba kumi na moja hadi tisini na tisa.,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_order2digit.mp4
+76,Mpangilio/Kulinganisha namba za Tarakimu Tatu.,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_order3digit.mp4
+77,Kutafuta namba zinazokosekana katika idadi ya 20.,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_skipcounting1.mp4
+78,Kutafuta namba za tarakimu mbili zinazokosekana,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_skipcounting2.mp4
+79,Kutafuta namba za tarakimu tatu zinazokosekana,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_skipcounting3.mp4
+80,Kujumlisha ndani ya kumi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_addition1.mp4
+81,Kujumlisha ndani ya 20 bila kuweka katika makundi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_addition2.mp4
+82,Kujumlisha namba za tarakimu mbili katika makundi.,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_addition3.mp4
+83,Kutoa Ndani Ya Kumi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_subtraction1.mp4
+84,Kutoa namba zisizozidi 20 katika makundi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_subtraction2.mp4
+85,Kutoa namba za tarakimu mbili bila kuziweka katika makundi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_subtraction3.mp4
+86,Kutoa namba za tarakimu mbili katika makundi,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_subtraction4.mp4
+87,Mafumbo ya Kujumlisha,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1048.mp4
+88,Mafumbo ya Kutoa,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_1049.mp4
+89,Hesabu za mafumbo: kulinganisha - tofauti haijulikani 1,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem1.mp4
+90,Hesabu za mafumbo: kulinganisha - tofauti haijulikani 2,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem2.mp4
+91,Hesabu za mafumbo: kulinganisha - kubwa haijulikani 1,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem3.mp4
+92,Hesabu za mafumbo: kulinganisha - kubwa haijulikani 2,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem4.mp4
+93,Hesabu za mafumbo: kuongeza - badiliko halijulikani,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem5.mp4
+94,Hesabu za mafumbo: kuongeza - ya kuanzia haijulikani,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem6.mp4
+95,Hesabu za mafumbo: kuondoa - badiliko halijulikani,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem7.mp4
+96,Hesabu za mafumbo: kuondoa - inayoanza haijulikani,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_sc_wordproblem8.mp4
+97,A,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_a.mp4
+98,B,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_b.mp4
+99,Ch,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_ch.mp4
+100,D,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_d.mp4
+101,E,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_e.mp4
+102,F,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_f.mp4
+103,G,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_g.mp4
+104,H,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_h.mp4
+105,I,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_i.mp4
+106,J,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_j.mp4
+107,K,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_k.mp4
+108,L,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_l.mp4
+109,M,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_m.mp4
+110,N,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_n.mp4
+111,O,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_o.mp4
+112,P,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_p.mp4
+113,R,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_r.mp4
+114,S,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_s.mp4
+115,T,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_t.mp4
+116,U,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_u.mp4
+117,V,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_v.mp4
+118,W,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_w.mp4
+119,Y,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_y.mp4
+120,Z,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_z.mp4
+121,Sh,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_sh.mp4
+122,Ny,library_sw_tz.tar.gz:library_sw_tz/localized/sw-tz/res/raw/sw_vdo_ub_ny.mp4
