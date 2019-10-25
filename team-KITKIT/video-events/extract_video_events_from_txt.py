@@ -1,10 +1,10 @@
-# Extracts storybook events from log files collected from tablets, and stores them in a standardized format.
+# Extracts video events from log files collected from tablets, and stores them in a standardized format.
 #
 # Example usage:
-#     cd storybook-events
-#     python3 extract_storybook_events_from_txt.py ../tablet-usage-data/2018-05-25
+#     cd video-events
+#     python3 extract_video_events_from_txt.py ../tablet-usage-data/2018-05-25
 #
-# The extracted data will be stored in a file named `storybook-events-KITKIT_<DATE>.csv`.
+# The extracted data will be stored in a file named `video-events-KITKIT_<DATE>.csv`.
 
 import sys
 import datetime
@@ -104,7 +104,7 @@ def extract_from_week(directory_containing_weekly_data):
                 if basename.endswith(".zip"):
                     print(os.path.basename(__file__), "Unzipping: {}".format(file_path))
                     with zipfile.ZipFile(file_path) as zip_ref:
-                        # Extract log file temporarily to the storybook-events/ directory
+                        # Extract log file temporarily to the video-events/ directory
                         zip_ref.extractall()
 
                         # Update the path of the current file so that it points to the unzipped file instead of the ZIP file
@@ -114,29 +114,30 @@ def extract_from_week(directory_containing_weekly_data):
 
                 with open(file_path) as txt_file:
                     for txt_line in txt_file:
-                        # Look for lines containing "action":"start_book"
-                        if "start_book" in txt_line:
+                        # Look for lines containing "action":"start_video"
+                        if "start_video" in txt_line:
                             print(os.path.basename(__file__), "txt_line: {}".format(txt_line))
-                            # Extract storybook event from JSON object
-                            # Example: {"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1483935746,"event":{"category":"library","action":"start_book","label":"sw_216","value":0},"user":"user0"}
+                            # Extract video event from JSON object
+                            # Example: {"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1483707668,"event":{"category":"library","action":"start_video","label":"Namna ya kuchaji tabuleti","value":0},"user":"user0"}
                             json_object = json.loads(txt_line)
 
                             json_object_event = json_object["event"]
                             print(os.path.basename(__file__), "json_object_event: {}".format(json_object_event))
 
-                            # label (e.g. "sw_216")
-                            label = json_object_event["label"]
-                            storybook_id = label[3:len(label)]
+                            # label (e.g. "Namna ya kuchaji tabuleti")
+                            video_title = json_object_event["label"]
+                            # TODO: lookup ID based on title
+                            video_id = video_title
 
                             # timeStamp (e.g. 1483935746)
                             timestamp = json_object["timeStamp"]
-                            storybook_start_time = timestamp
+                            video_start_time = timestamp
 
-                            # Storybook end time is not stored, so set to None
-                            # TODO: can "action":"finish_read" events be linked to "action":"start_book" events for the same book ID?
-                            storybook_end_time = None
+                            # Video end time is not stored, so set to None
+                            # TODO: can "action":"finish_read" events be linked to "action":"start_video" events for the same video ID?
+                            video_end_time = None
 
-                            csv_row = [tablet_serial, storybook_id, storybook_start_time, storybook_end_time]
+                            csv_row = [tablet_serial, video_id, video_start_time, video_end_time]
                             if csv_row not in csv_rows:
                                 print(os.path.basename(__file__), "Adding CSV row: {}".format(csv_row))
                                 csv_rows.append(csv_row)
@@ -150,14 +151,14 @@ def extract_from_week(directory_containing_weekly_data):
                         os.remove(unzipped_file_to_be_deleted)
 
         # Define columns
-        csv_fieldnames = ['tablet_serial', 'storybook_id', 'start_time', 'end_time']
+        csv_fieldnames = ['tablet_serial', 'video_id', 'start_time', 'end_time']
 
         # Sort rows by tablet_serial (1st column), start_time (3rd column)
         csv_rows = sorted(csv_rows, key=lambda x: (x[0], x[2]))
 
         # Export to a CSV file
-        csv_filename = "storybook-events-KITKIT_" + date + ".csv"
-        print("Writing storybook events to the file \"" + csv_filename + "\"")
+        csv_filename = "video-events-KITKIT_" + date + ".csv"
+        print("Writing video events to the file \"" + csv_filename + "\"")
         with open(csv_filename, mode='w') as csv_file:
             csv_writer = csv.writer(csv_file, csv_fieldnames)
             csv_writer.writerow(csv_fieldnames)
@@ -172,7 +173,7 @@ if __name__ == "__main__":
     # Expect an argument representing a directory containing one week of data, e.g. "../tablet-usage-data/2018-05-25"
     if len(sys.argv) < 2:
         # Abort execution
-        exit("Directory argument missing. Example usage: python3 extract_storybook_events_from_txt.py ../tablet-usage-data/2018-05-25")
+        exit("Directory argument missing. Example usage: python3 extract_video_events_from_txt.py ../tablet-usage-data/2018-05-25")
     dir_containing_weekly_data = sys.argv[1]
     print(os.path.basename(__file__), "dir_containing_weekly_data: \"{}\"".format(dir_containing_weekly_data))
 
