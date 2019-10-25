@@ -17,6 +17,8 @@ import sqlite3
 
 import serial_number_util
 
+from Video import Video
+
 
 def verify_date(date_text):
     print(os.path.basename(__file__), "verify_date")
@@ -101,21 +103,30 @@ def extract_from_week(directory_containing_weekly_data):
                 for video_row in result:
                     print(os.path.basename(__file__), "video_row: {}".format(video_row))
 
+                    video = Video()
+
                     # unitid (integer, e.g. 1)
                     video_row_unitid = video_row[0]
-                    video_id = video_row_unitid
+                    video.id = video_row_unitid
 
                     # params (text, e.g. "vps/video=motivational_song_sw")
                     video_row_params = video_row[2]
-                    video_title = video_row_params[10:len(video_row_params)]
+                    video.title = video_row_params[10:len(video_row_params)]
 
-                    csv_row = [video_id, video_title]
+                    # There are multiple directories containing videos:
+                    #  - onecourse-assets-sw-v3.0.1.tar.gz:assets/oc-video/img/movies/*.mp4
+                    #  - onecourse-assets-sw-v3.0.1.tar.gz:assets/oc-videos-gen/local/sw/*.mp4
+                    # The database file does not contain information about which of these directories a video belongs to,
+                    # so we'll use an asterisk instead.
+                    video.asset_path = "onecourse-assets-sw-v3.0.1.tar.gz:assets/oc-video*"
+
+                    csv_row = [video.id, video.title, video.asset_path]
                     if csv_row not in csv_rows:
                         print(os.path.basename(__file__), "Adding CSV row: {}".format(csv_row))
                         csv_rows.append(csv_row)
 
         # Define columns
-        csv_fieldnames = ['id', 'title']
+        csv_fieldnames = ['id', 'title', 'asset_path']
 
         # Sort rows by id (1st column)
         csv_rows = sorted(csv_rows, key=lambda x: x[0])
