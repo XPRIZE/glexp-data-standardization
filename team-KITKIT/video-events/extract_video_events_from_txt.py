@@ -107,23 +107,38 @@ def extract_from_week(directory_containing_weekly_data):
                 #  - "2018-11-09/83/REMOTE/crashlog.com_enuma_todoschoollockscreen.txt
                 #  - "2018-11-09/83/REMOTE/crashlog.library_todoschool_enuma_com_todoschoollibrary.txt
 
-                # Separate log files for each Android app where not introduced until 2018-05-25, so we can expect a
-                # different file structure before this date.
-                # TODO
-
-                # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
-                # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
-                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
                 basename = ntpath.basename(file_path)
                 print(os.path.basename(__file__), "basename: \"{}\"".format(basename))
-                if not basename.startswith("library_todoschool_enuma_com_todoschoollibrary."):
-                    warnings.warn("Skipping file: \"{}\"".format(basename))
-                    continue
 
-                # Extract the tablet serial number from the filename
-                # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
-                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
-                tablet_serial = basename[47:57]
+                # Separate log files for each Android app where not introduced until 2018-05-25, so we can expect a
+                # different file structure before this date.
+                date_of_1st_software_update = datetime.datetime(2018, 5, 25)
+                date_as_datetime = datetime.datetime.strptime(date, '%Y-%m-%d')
+                if date_as_datetime < date_of_1st_software_update:
+                    print(os.path.basename(__file__), "date_as_datetime < date_of_1st_software_update")
+
+                    # Skip if the current file's name does not end with ".txt", e.g. "5A27001661_log_1.txt"
+                    if not basename.endswith(".txt"):
+                        warnings.warn("Skipping file: \"{}\"".format(basename))
+                        continue
+
+                    # Extract the tablet serial number from the filename.
+                    # E.g. "5A27001661_log_1.txt" or "5A27001661_log_10.txt"
+                    tablet_serial = basename[0:10]
+                else:
+                    print(os.path.basename(__file__), "date_as_datetime >= date_of_1st_software_update")
+
+                    # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
+                    # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
+                    # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
+                    if not basename.startswith("library_todoschool_enuma_com_todoschoollibrary."):
+                        warnings.warn("Skipping file: \"{}\"".format(basename))
+                        continue
+
+                    # Extract the tablet serial number from the filename
+                    # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
+                    # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
+                    tablet_serial = basename[47:57]
 
                 # Skip if the filename does not contain a valid tablet serial number
                 is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
