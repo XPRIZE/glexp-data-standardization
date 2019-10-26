@@ -27,6 +27,33 @@ def verify_date(date_text):
         raise ValueError("Incorrect date format. Should be YYYY-mm-dd")
 
 
+# Prepares a set of key:value pairs for the videos in videos-KITKIT.csv. This will make it possible to map a
+# video's title to its corresponding ID. E.g. "Wimbo wa Herufi" --> 14.
+video_title_dictionary = {}
+def initialize_video_title_dictionary():
+    print(os.path.basename(__file__), "initialize_video_title_dictionary")
+    with open("../videos/videos-KITKIT.csv") as csv_file:
+        csv_data = csv.reader(csv_file)
+        csv_data_row_count = 0
+        for csv_data_row in csv_data:
+            csv_data_row_count += 1
+            if csv_data_row_count == 1:
+                # Skip header row
+                continue
+            print(os.path.basename(__file__), "csv_data_row: {}".format(csv_data_row))
+
+            video_id = csv_data_row[0]
+
+            video_title = csv_data_row[1]
+            # Convert title to lowercase to avoid problems when comparing values like
+            # "KUJUMLISHA KWA TARAKIMU MBILI" and "Kujumlisha kwa tarakimu mbili"
+            video_title = video_title.lower()
+
+            video_title_dictionary[video_title] = video_id
+    print(os.path.basename(__file__), "video_title_dictionary: {}".format(video_title_dictionary))
+    return video_title_dictionary
+
+
 def extract_from_week(directory_containing_weekly_data):
     print(os.path.basename(__file__), "extract_from_week")
 
@@ -126,15 +153,17 @@ def extract_from_week(directory_containing_weekly_data):
 
                             # label (e.g. "Namna ya kuchaji tabuleti")
                             video_title = json_object_event["label"]
-                            # TODO: lookup ID based on title
-                            video_id = video_title
+                            # Convert to lowercase before looking up a matching title in the video_title_dictionary
+                            video_title = video_title.lower()
+                            # Lookup ID based on title (e.g. "Namna ya kuchaji tabuleti" --> 4)
+                            video_id = video_title_dictionary[video_title]
 
                             # timeStamp (e.g. 1483935746)
                             timestamp = json_object["timeStamp"]
                             video_start_time = timestamp
 
                             # Video end time is not stored, so set to None
-                            # TODO: can "action":"finish_read" events be linked to "action":"start_video" events for the same video ID?
+                            # TODO: can "action":"exit_video" events be linked to "action":"start_video" events for the same video ID?
                             video_end_time = None
 
                             csv_row = [tablet_serial, video_id, video_start_time, video_end_time]
@@ -177,4 +206,5 @@ if __name__ == "__main__":
     dir_containing_weekly_data = sys.argv[1]
     print(os.path.basename(__file__), "dir_containing_weekly_data: \"{}\"".format(dir_containing_weekly_data))
 
+    initialize_video_title_dictionary()
     extract_from_week(dir_containing_weekly_data)
