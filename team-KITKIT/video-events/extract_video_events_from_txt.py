@@ -139,21 +139,37 @@ def extract_from_week(directory_containing_weekly_data):
                     print(os.path.basename(__file__), "Unzipping: {}".format(file_path))
                     with zipfile.ZipFile(file_path) as zip_ref:
                         # Extract log file temporarily to the video-events/ directory
-                        zip_ref.extractall()
+                        try:
+                            zip_ref.extractall()
+                        except zipfile.BadZipFile:
+                            # Handle "zipfile.BadZipFile: Bad magic number for file header"
+                            # Example of corrupt ZIP file: 2018-06-22/62/REMOTE/remote/library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip
+                            warnings.warn("Skipping corrupt ZIP file: {}".format(file_path))
+                            continue
 
-                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file
+                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file.
+                        # E.g. "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.txt"
                         file_path = basename
                         file_path = file_path.replace(".log.zip", ".log.txt")
+                        print(os.path.basename(__file__), "file_path: {}".format(file_path))
                         unzipped_file_to_be_deleted = file_path
 
                 with open(file_path) as txt_file:
                     for txt_line in txt_file:
                         # Look for lines containing "action":"start_video"
                         if "start_video" in txt_line:
+                            print(os.path.basename(__file__), "file_path: {}".format(file_path))
                             print(os.path.basename(__file__), "txt_line: {}".format(txt_line))
                             # Extract video event from JSON object
                             # Example: {"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1483707668,"event":{"category":"library","action":"start_video","label":"Namna ya kuchaji tabuleti","value":0},"user":"user0"}
-                            json_object = json.loads(txt_line)
+                            try:
+                                json_object = json.loads(txt_line)
+                            except json.decoder.JSONDecodeError:
+                                # In some cases, a row of JSON data may end abruptly.
+                                # Example: {"category":"library","action":"start_video","label":"B"
+                                warnings.warn("JSON decoding failed")
+                                continue
 
                             json_object_event = json_object["event"]
                             print(os.path.basename(__file__), "json_object_event: {}".format(json_object_event))
