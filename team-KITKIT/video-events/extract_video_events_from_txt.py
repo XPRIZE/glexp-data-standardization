@@ -57,6 +57,8 @@ def initialize_video_title_dictionary():
 def extract_from_week(directory_containing_weekly_data):
     print(os.path.basename(__file__), "extract_from_week")
 
+    initialize_video_title_dictionary()
+
     # Extract the date (the last 10 characters) from the directory path
     date = directory_containing_weekly_data[len(directory_containing_weekly_data) - 10:len(directory_containing_weekly_data)]
     print(os.path.basename(__file__), "date: \"{}\"".format(date))
@@ -93,6 +95,7 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Expect the following file structure:
                 #  - "2017-12-22/57/remote/5A27001661_log_1.txt"
+                #  - "2017-12-22/57/remote/5A27001661_log_2.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_booktest.6115000540.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.5A23001564.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.6116002162.A.log.zip"
@@ -103,6 +106,10 @@ def extract_from_week(directory_containing_weekly_data):
                 #  - "2018-06-22/84/remote/5A28000934_.aux.zip"
                 #  - "2018-11-09/83/REMOTE/crashlog.com_enuma_todoschoollockscreen.txt
                 #  - "2018-11-09/83/REMOTE/crashlog.library_todoschool_enuma_com_todoschoollibrary.txt
+
+                # Separate log files for each Android app where not introduced until 2018-05-25, so we can expect a
+                # different file structure before this date.
+                # TODO
 
                 # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
                 # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
@@ -206,5 +213,4 @@ if __name__ == "__main__":
     dir_containing_weekly_data = sys.argv[1]
     print(os.path.basename(__file__), "dir_containing_weekly_data: \"{}\"".format(dir_containing_weekly_data))
 
-    initialize_video_title_dictionary()
     extract_from_week(dir_containing_weekly_data)
