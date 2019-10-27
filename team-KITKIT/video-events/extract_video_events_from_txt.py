@@ -158,7 +158,7 @@ def extract_from_week(directory_containing_weekly_data):
                     except zipfile.BadZipFile:
                         # Handle "zipfile.BadZipFile: Bad magic number for central directory"
                         # Example: 2018-07-27/78/REMOTE/library_todoschool_enuma_com_todoschoollibrary.6118002322.A.log.zip
-                        warnings.warn("Skipping bad ZIP file (zipfile.ZipFile(file_path)): {}".format(file_path))
+                        warnings.warn("zipfile.BadZipFile. Skipping bad ZIP file (zipfile.ZipFile(file_path)): {}".format(file_path))
                         continue
                     with zip_file as zip_ref:
                         # Extract log file temporarily to the video-events/ directory
@@ -167,7 +167,12 @@ def extract_from_week(directory_containing_weekly_data):
                         except zipfile.BadZipFile:
                             # Handle "zipfile.BadZipFile: Bad magic number for file header"
                             # Example: 2018-06-22/62/REMOTE/remote/library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip
-                            warnings.warn("Skipping bad ZIP file (zip_ref.extractall()): {}".format(file_path))
+                            warnings.warn("zipfile.BadZipFile. Skipping bad ZIP file (zip_ref.extractall()): {}".format(file_path))
+                            continue
+                        except OSError:
+                            # Handle "OSError: [Errno 22] Invalid argument"
+                            # Example: 2018-11-02/62/REMOTE/remote/library_todoschool_enuma_com_todoschoollibrary.6118001612.C16.log.zip
+                            warnings.warn("OSError. Unzipping failed. Skipping file.")
                             continue
 
                         # Update the path of the current file so that it points to the unzipped file instead of the ZIP file.
