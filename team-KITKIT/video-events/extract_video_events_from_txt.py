@@ -96,6 +96,7 @@ def extract_from_week(directory_containing_weekly_data):
                 # Expect the following file structure:
                 #  - "2017-12-22/57/remote/5A27001661_log_1.txt"
                 #  - "2017-12-22/57/remote/5A27001661_log_2.txt"
+                #  - "2018-08-03/80/remote/library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip"
                 #  - "2018-05-25/57/REMOTE/com_enuma_booktest.6115000540.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.5A23001564.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.6116002162.A.log.zip"
@@ -172,10 +173,30 @@ def extract_from_week(directory_containing_weekly_data):
                         # Update the path of the current file so that it points to the unzipped file instead of the ZIP file.
                         # E.g. "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip" -->
                         #      "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log_(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log_(1)_(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
                         file_path = basename
                         file_path = file_path.replace(".log.zip", ".log.txt")
+                        file_path = file_path.replace(".log(1)(1).zip", ".log.txt")
+                        file_path = file_path.replace(".log_(1).zip", ".log.txt")
+                        file_path = file_path.replace(".log_(1)_(1).zip", ".log.txt")
                         print(os.path.basename(__file__), "file_path: {}".format(file_path))
                         unzipped_file_to_be_deleted = file_path
+
+                # Skip if the filename extension is not ".txt" nor ".zip".
+                # In some cases, a file contains "(1)" or "(1)(1)" in the filename (with or without spaces), which caused
+                # files to be copied with a wrong file extension. E.g. "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip"
+                # --> "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log". This left a file with the
+                # extension ".log", even though it's actuallty a ZIP file, thus causing an error when calling `with open(file_path) as txt_file`:
+                # "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdd in position 97: invalid continuation byte".
+                # In this case, skip the file.
+                if basename.endswith(".log"):
+                    warnings.warn("Skipping unexpected .log filename")
+                    continue
 
                 with open(file_path) as txt_file:
                     for txt_line in txt_file:
