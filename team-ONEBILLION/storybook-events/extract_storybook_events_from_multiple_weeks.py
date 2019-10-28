@@ -44,7 +44,7 @@ for week_end_date in data_collection_week_end_dates:
 
 # Combine each CSV file for one week of data into one file
 print(os.path.basename(__file__), "Writing data to \"storybook-events-ONEBILLION.csv\"...")
-with open('storybook-events-KITKIT.csv', 'w') as outfile:
+with open('storybook-events-ONEBILLION.csv', 'w') as outfile:
     infile_count = 0
     for week_end_date in data_collection_week_end_dates:
         print(os.path.basename(__file__), "\n\n"
