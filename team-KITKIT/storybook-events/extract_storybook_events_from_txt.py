@@ -125,9 +125,21 @@ def extract_from_week(directory_containing_weekly_data):
                             warnings.warn("OSError. Unzipping failed. Skipping file.")
                             continue
 
-                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file
+                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file.
+                        # E.g. "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log_(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log_(1)_(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
                         file_path = basename
                         file_path = file_path.replace(".log.zip", ".log.txt")
+                        file_path = file_path.replace(".log(1)(1).zip", ".log.txt")
+                        file_path = file_path.replace(".log_(1).zip", ".log.txt")
+                        file_path = file_path.replace(".log_(1)_(1).zip", ".log.txt")
+                        print(os.path.basename(__file__), "file_path: {}".format(file_path))
                         unzipped_file_to_be_deleted = file_path
 
                 with open(file_path) as txt_file:
