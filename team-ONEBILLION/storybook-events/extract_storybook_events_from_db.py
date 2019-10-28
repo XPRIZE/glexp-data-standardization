@@ -32,8 +32,9 @@ tablet_mac_to_serial_mappings = {}
 def initialize_tablet_mac_to_serial_mappings():
     print(os.path.basename(__file__), "initialize_tablet_mac_to_serial_mappings")
 
-    # Reset (to prevent KeyError while executing extract_storybook_events_from_multiple_weeks.py)
-    tablet_mac_to_serial_mappings = {}
+    if len(tablet_mac_to_serial_mappings) > 0:
+        # The key set has already been initialized
+        return tablet_mac_to_serial_mappings
 
     with open("../tablet-tracker/tablet-mac-to-serial-mappings.csv") as csv_file:
         csv_data = csv.reader(csv_file)
@@ -53,7 +54,7 @@ def initialize_tablet_mac_to_serial_mappings():
                 # The MAC address has already been added as a key.
                 raise ValueError("MAC address has already been added: \"{}\". Skipping.".format(mac_address))
             except KeyError:
-                # The MAC address has not yet been added as a key.
+                # The MAC address has not yet been added as a key. Add it.
                 print(os.path.basename(__file__), "Adding MAC address: \"{}\"".format(mac_address))
                 tablet_mac_to_serial_mappings[mac_address] = serial_number
 
