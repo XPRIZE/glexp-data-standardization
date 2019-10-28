@@ -46,9 +46,12 @@ def initialize_tablet_mac_to_serial_mappings():
 
             try:
                 existing_key = tablet_mac_to_serial_mappings[mac_address]
-                tablet_mac_to_serial_mappings[mac_address] = serial_number
+                # The MAC address has already been added as a key.
+                raise ValueError("MAC address has already been added: \"{}\". Skipping.".format(mac_address))
             except KeyError:
-                raise ValueError("MAC address has already been added: \"{}\"".format(mac_address))
+                # The MAC address has not yet been added as a key.
+                print(os.path.basename(__file__), "Adding MAC address: \"{}\"".format(mac_address))
+                tablet_mac_to_serial_mappings[mac_address] = serial_number
 
     print(os.path.basename(__file__), "tablet_mac_to_serial_mappings: {}".format(tablet_mac_to_serial_mappings))
     return tablet_mac_to_serial_mappings
