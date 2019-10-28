@@ -1,14 +1,15 @@
-# Collects tablet serials numbers from multiple weeks of data and combines them into one file.
+# Collects storybook events from multiple weeks of data and combines them into one file.
 #
 # Example usage:
-#     python3 extract_tablet_serial_numbers_from_multiple_weeks.py ../tablet-usage-data
+#     cd storybook-events
+#     python3 extract_storybook_events_from_multiple_weeks.py ../tablet-usage-data
 #
-# The extracted data will be stored in a file named `tablets-uploading-data-ONEBILLION.csv`.
+# The extracted data will be stored in a file named `storybook-events-ONEBILLION.csv`.
 
 import sys
 import os
 
-import extract_tablet_serial_numbers
+import extract_storybook_events_from_db
 
 # A directory containing multiple subdirectories on the format "2017-12-22", "2017-12-29", etc.
 BASE_PATH = "../tablet-usage-data"
@@ -35,20 +36,20 @@ data_collection_week_end_dates = [
 ]
 print(os.path.basename(__file__), "len(data_collection_week_end_dates): {}".format(len(data_collection_week_end_dates)))
 
-# Extract tablet serial numbers and store them in a CSV file for each week of data
+# Extract storybook events and store them in a CSV file for each week of data
 for week_end_date in data_collection_week_end_dates:
     directory_containing_weekly_data = BASE_PATH + os.sep + week_end_date
     print(os.path.basename(__file__), "directory_containing_weekly_data: \"{}\"".format(directory_containing_weekly_data))
-    extract_tablet_serial_numbers.extract_from_week(directory_containing_weekly_data)
+    extract_storybook_events_from_db.extract_from_week(directory_containing_weekly_data)
 
 # Combine each CSV file for one week of data into one file
-print(os.path.basename(__file__), "Writing data to \"tablets-uploading-data-ONEBILLION.csv\"...")
-with open('tablets-uploading-data-ONEBILLION.csv', 'w') as outfile:
+print(os.path.basename(__file__), "Writing data to \"storybook-events-ONEBILLION.csv\"...")
+with open('storybook-events-KITKIT.csv', 'w') as outfile:
     infile_count = 0
     for week_end_date in data_collection_week_end_dates:
         print(os.path.basename(__file__), "\n\n"
                                           "**********\n")
-        csv_filename_weekly = "tablets-uploading-data-ONEBILLION_" + week_end_date + ".csv"
+        csv_filename_weekly = "storybook-events-ONEBILLION_" + week_end_date + ".csv"
         print(os.path.basename(__file__), "csv_filename: \"{}\"".format(csv_filename_weekly))
         with open(csv_filename_weekly) as infile:
             infile_row_count = 0
@@ -67,4 +68,4 @@ with open('tablets-uploading-data-ONEBILLION.csv', 'w') as outfile:
 
                 infile_row_count += 1
         infile_count += 1
-print(os.path.basename(__file__), "Writing data to \"tablets-uploading-data-ONEBILLION.csv\" complete!")
+print(os.path.basename(__file__), "Writing data to \"storybook-events-ONEBILLION.csv\" complete!")
