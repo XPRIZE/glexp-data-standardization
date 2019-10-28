@@ -182,7 +182,13 @@ def extract_from_week(directory_containing_weekly_data):
                             print(os.path.basename(__file__), "txt_line: {}".format(txt_line))
                             # Extract storybook event from JSON object
                             # Example: {"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1483935746,"event":{"category":"library","action":"start_book","label":"sw_216","value":0},"user":"user0"}
-                            json_object = json.loads(txt_line)
+                            try:
+                                json_object = json.loads(txt_line)
+                            except json.decoder.JSONDecodeError:
+                                # In some cases, a row of JSON data may end abruptly.
+                                # Example: {"category":"library","action":"start_video","label":"B"
+                                warnings.warn("JSON decoding failed")
+                                continue
 
                             json_object_event = json_object["event"]
                             print(os.path.basename(__file__), "json_object_event: {}".format(json_object_event))
