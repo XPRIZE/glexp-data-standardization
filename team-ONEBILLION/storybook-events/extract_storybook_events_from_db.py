@@ -31,6 +31,10 @@ def verify_date(date_text):
 tablet_mac_to_serial_mappings = {}
 def initialize_tablet_mac_to_serial_mappings():
     print(os.path.basename(__file__), "initialize_tablet_mac_to_serial_mappings")
+
+    # Reset (to prevent KeyError while executing extract_storybook_events_from_multiple_weeks.py)
+    tablet_mac_to_serial_mappings = {}
+
     with open("../tablet-tracker/tablet-mac-to-serial-mappings.csv") as csv_file:
         csv_data = csv.reader(csv_file)
         csv_data_row_count = 0
