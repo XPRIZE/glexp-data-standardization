@@ -91,6 +91,12 @@ def extract_from_week(directory_containing_weekly_data):
                 # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
                 tablet_serial = basename[47:57]
 
+                # Skip if the filename does not contain a valid tablet serial number
+                is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
+                print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
+                if not is_valid_tablet_serial_number:
+                    raise ValueError("Invalid tablet_serial: \"{}\"".format(tablet_serial))
+
                 # If ZIP, unzip file. E.g. "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip".
                 # Expect the ZIP file to contain only one file, and with the same name as the ZIP file itself
                 # (but with ".log.txt" extension instead of ".log.zip").
