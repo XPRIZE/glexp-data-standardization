@@ -142,6 +142,17 @@ def extract_from_week(directory_containing_weekly_data):
                         print(os.path.basename(__file__), "file_path: {}".format(file_path))
                         unzipped_file_to_be_deleted = file_path
 
+                # Skip if the filename extension is not ".txt" nor ".zip".
+                # In some cases, a file contains "(1)" or "(1)(1)" in the filename (with or without spaces), which caused
+                # files to be copied with a wrong file extension. E.g. "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip"
+                # --> "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log". This left a file with the
+                # extension ".log", even though it's actuallty a ZIP file, thus causing an error when calling `with open(file_path) as txt_file`:
+                # "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdd in position 97: invalid continuation byte".
+                # In this case, skip the file.
+                if basename.endswith(".log"):
+                    warnings.warn("Skipping unexpected .log filename")
+                    continue
+
                 with open(file_path) as txt_file:
                     for txt_line in txt_file:
                         # Look for lines containing "action":"start_book"
