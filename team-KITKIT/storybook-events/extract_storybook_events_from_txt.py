@@ -66,6 +66,8 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Expect the following file structure:
                 #  - "2017-12-22/57/remote/5A27001661_log_1.txt"
+                #  - "2017-12-22/57/remote/5A27001661_log_2.txt"
+                #  - "2018-08-03/80/remote/library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip"
                 #  - "2018-05-25/57/REMOTE/com_enuma_booktest.6115000540.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.5A23001564.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.6116002162.A.log.zip"
@@ -77,19 +79,38 @@ def extract_from_week(directory_containing_weekly_data):
                 #  - "2018-11-09/83/REMOTE/crashlog.com_enuma_todoschoollockscreen.txt
                 #  - "2018-11-09/83/REMOTE/crashlog.library_todoschool_enuma_com_todoschoollibrary.txt
 
-                # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
-                # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
-                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
                 basename = ntpath.basename(file_path)
                 print(os.path.basename(__file__), "basename: \"{}\"".format(basename))
-                if not basename.startswith("library_todoschool_enuma_com_todoschoollibrary."):
-                    warnings.warn("Skipping file: \"{}\"".format(basename))
-                    continue
 
-                # Extract the tablet serial number from the filename
-                # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
-                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
-                tablet_serial = basename[47:57]
+                # Separate log files for each Android app where not introduced until 2018-05-25, so we can expect a
+                # different file structure before this date.
+                date_of_1st_software_update = datetime.datetime(2018, 5, 25)
+                date_as_datetime = datetime.datetime.strptime(date, '%Y-%m-%d')
+                if date_as_datetime < date_of_1st_software_update:
+                    print(os.path.basename(__file__), "date_as_datetime < date_of_1st_software_update")
+
+                    # Skip if the current file's name does not end with ".txt", e.g. "5A27001661_log_1.txt"
+                    if not basename.endswith(".txt"):
+                        warnings.warn("Skipping file: \"{}\"".format(basename))
+                        continue
+
+                    # Extract the tablet serial number from the filename.
+                    # E.g. "5A27001661_log_1.txt" or "5A27001661_log_10.txt"
+                    tablet_serial = basename[0:10]
+                else:
+                    print(os.path.basename(__file__), "date_as_datetime >= date_of_1st_software_update")
+
+                    # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
+                    # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
+                    # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
+                    if not basename.startswith("library_todoschool_enuma_com_todoschoollibrary."):
+                        warnings.warn("Skipping file: \"{}\"".format(basename))
+                        continue
+
+                    # Extract the tablet serial number from the filename
+                    # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
+                    # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
+                    tablet_serial = basename[47:57]
 
                 # Skip if the filename does not contain a valid tablet serial number
                 is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
@@ -103,23 +124,71 @@ def extract_from_week(directory_containing_weekly_data):
                 unzipped_file_to_be_deleted = None
                 if basename.endswith(".zip"):
                     print(os.path.basename(__file__), "Unzipping: {}".format(file_path))
-                    with zipfile.ZipFile(file_path) as zip_ref:
+                    try:
+                        zip_file = zipfile.ZipFile(file_path)
+                    except zipfile.BadZipFile:
+                        # Handle "zipfile.BadZipFile: Bad magic number for central directory"
+                        # Example: 2018-07-27/78/REMOTE/library_todoschool_enuma_com_todoschoollibrary.6118002322.A.log.zip
+                        warnings.warn("zipfile.BadZipFile. Skipping bad ZIP file (zipfile.ZipFile(file_path)): {}".format(file_path))
+                        continue
+                    with zip_file as zip_ref:
                         # Extract log file temporarily to the storybook-events/ directory
-                        zip_ref.extractall()
+                        try:
+                            zip_ref.extractall()
+                        except zipfile.BadZipFile:
+                            # Handle "zipfile.BadZipFile: Bad magic number for file header"
+                            # Example: 2018-06-22/62/REMOTE/remote/library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip
+                            warnings.warn("zipfile.BadZipFile. Skipping bad ZIP file (zip_ref.extractall()): {}".format(file_path))
+                            continue
+                        except OSError:
+                            # Handle "OSError: [Errno 22] Invalid argument"
+                            # Example: 2018-11-02/62/REMOTE/remote/library_todoschool_enuma_com_todoschoollibrary.6118001612.C16.log.zip
+                            warnings.warn("OSError. Unzipping failed. Skipping file.")
+                            continue
 
-                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file
+                        # Update the path of the current file so that it points to the unzipped file instead of the ZIP file.
+                        # E.g. "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6118002087.B1.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log_(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
+                        # or   "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log_(1)_(1).zip" -->
+                        #      "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log.txt"
                         file_path = basename
                         file_path = file_path.replace(".log.zip", ".log.txt")
+                        file_path = file_path.replace(".log(1)(1).zip", ".log.txt")
+                        file_path = file_path.replace(".log_(1).zip", ".log.txt")
+                        file_path = file_path.replace(".log_(1)_(1).zip", ".log.txt")
+                        print(os.path.basename(__file__), "file_path: {}".format(file_path))
                         unzipped_file_to_be_deleted = file_path
+
+                # Skip if the filename extension is not ".txt" nor ".zip".
+                # In some cases, a file contains "(1)" or "(1)(1)" in the filename (with or without spaces), which caused
+                # files to be copied with a wrong file extension. E.g. "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip"
+                # --> "library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log". This left a file with the
+                # extension ".log", even though it's actuallty a ZIP file, thus causing an error when calling `with open(file_path) as txt_file`:
+                # "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdd in position 97: invalid continuation byte".
+                # In this case, skip the file.
+                if basename.endswith(".log"):
+                    warnings.warn("Skipping unexpected .log filename")
+                    continue
 
                 with open(file_path) as txt_file:
                     for txt_line in txt_file:
                         # Look for lines containing "action":"start_book"
                         if "start_book" in txt_line:
+                            print(os.path.basename(__file__), "file_path: {}".format(file_path))
                             print(os.path.basename(__file__), "txt_line: {}".format(txt_line))
                             # Extract storybook event from JSON object
                             # Example: {"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1483935746,"event":{"category":"library","action":"start_book","label":"sw_216","value":0},"user":"user0"}
-                            json_object = json.loads(txt_line)
+                            try:
+                                json_object = json.loads(txt_line)
+                            except json.decoder.JSONDecodeError:
+                                # In some cases, a row of JSON data may end abruptly.
+                                # Example: {"category":"library","action":"start_video","label":"B"
+                                warnings.warn("JSON decoding failed")
+                                continue
 
                             json_object_event = json_object["event"]
                             print(os.path.basename(__file__), "json_object_event: {}".format(json_object_event))
