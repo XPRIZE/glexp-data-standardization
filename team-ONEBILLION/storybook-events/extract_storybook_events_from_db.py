@@ -98,6 +98,7 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Expect the following directory structure:
                 #  - "2018-03-09/86/REMOTE/80a5896b547_2018_02_28_10_25_09.db"
+                #  - "2018-03-09/99/REMOTE/80a589ae9551_2018_03_05_09_46_10.db"
                 #  - "2018-03-23/86/REMOTE/5A29000653_2018_03_19_07_12_18.db"
                 #  - "2019-03-01/96/REMOTE/5B12002485_2019_02_23_12_20_22.db"
 
@@ -106,22 +107,45 @@ def extract_from_week(directory_containing_weekly_data):
                     # warnings.warn("os.path.isdir(file_path): {}".format(file_path))
                     continue
 
-                # TODO: implement MAC to serial mapping for data collected before 2018-03-23
-
-                # Get the filename, e.g. "5B12002485_2019_02_23_12_20_22.db"
+                # Get the filename, e.g. "80a589aef1ef_2017_12_20_05_03_56.db" or "5B12002485_2019_02_23_12_20_22.db"
                 basename = ntpath.basename(file_path)
                 print(os.path.basename(__file__), "\n")
                 print(os.path.basename(__file__), "basename: \"{}\"".format(basename))
 
-                # Extract the tablet serial number from the filename
-                tablet_serial = basename[0:10]
-                print(os.path.basename(__file__), "tablet_serial: \"{}\"".format(tablet_serial))
+                # Up until 2018-03-09, filenames were generated using tablet MAC addresses instead of tablet serial numbers.
+                #  - Example MAC address: "80a5896b547_2018_02_28_10_25_09.db"
+                #  - Example serial number: "5A29000653_2018_03_19_07_12_18.db"
+                # The first week of data collection using the new file format was 2018-03-23.
+                date_of_1st_software_update = datetime.datetime(2018, 3, 23)
+                date_as_datetime = datetime.datetime.strptime(date, '%Y-%m-%d')
+                if date_as_datetime < date_of_1st_software_update:
+                    print(os.path.basename(__file__), "date_as_datetime < date_of_1st_software_update")
 
-                # Skip if the current filename does not contain a valid tablet serial number (on the format "5B12002485_2019_02_23_12_20_22.db")
-                is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
-                print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
-                if not is_valid_tablet_serial_number:
-                    raise ValueError("Invalid tablet_serial: \"{}\"".format(tablet_serial))
+                    # Extract the MAC address from the filename (e.g. "80a589aef1ef_2017_12_20_05_03_56.db").
+                    # Note that some of the filenames contained MAC addresses consisting of only 11 characters! (e.g.
+                    # "80a5896b547_2018_02_28_10_25_09.db").
+                    mac_address = basename[0:len(basename)-23]
+                    print(os.path.basename(__file__), "mac_address: \"{}\"".format(mac_address))
+
+                    # Get the corresponding serial number
+                    try:
+                        tablet_serial = tablet_mac_to_serial_mappings[mac_address]
+                    except KeyError:
+                        # No match
+                        tablet_serial = ""
+                    print(os.path.basename(__file__), "tablet_serial looked up from tablet_mac_to_serial_mappings: \"{}\"".format(tablet_serial))
+                else:
+                    print(os.path.basename(__file__), "date_as_datetime >= date_of_1st_software_update")
+
+                    # Extract the tablet serial number from the filename (e.g. "5A29000653_2018_03_19_07_12_18.db")
+                    tablet_serial = basename[0:10]
+                    print(os.path.basename(__file__), "tablet_serial: \"{}\"".format(tablet_serial))
+
+                    # Skip if the current filename does not contain a valid tablet serial number (on the format "5B12002485_2019_02_23_12_20_22.db")
+                    is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
+                    print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
+                    if not is_valid_tablet_serial_number:
+                        raise ValueError("Invalid tablet_serial: \"{}\"".format(tablet_serial))
 
                 # Connect to the database
                 connection = sqlite3.connect(file_path)
