@@ -66,6 +66,8 @@ def extract_from_week(directory_containing_weekly_data):
 
                 # Expect the following file structure:
                 #  - "2017-12-22/57/remote/5A27001661_log_1.txt"
+                #  - "2017-12-22/57/remote/5A27001661_log_2.txt"
+                #  - "2018-08-03/80/remote/library_todoschool_enuma_com_todoschoollibrary.6111000373.A.log(1)(1).zip"
                 #  - "2018-05-25/57/REMOTE/com_enuma_booktest.6115000540.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.5A23001564.lastlog.txt"
                 #  - "2018-05-25/57/REMOTE/com_enuma_xprize.6116002162.A.log.zip"
@@ -77,19 +79,38 @@ def extract_from_week(directory_containing_weekly_data):
                 #  - "2018-11-09/83/REMOTE/crashlog.com_enuma_todoschoollockscreen.txt
                 #  - "2018-11-09/83/REMOTE/crashlog.library_todoschool_enuma_com_todoschoollibrary.txt
 
-                # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
-                # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
-                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
                 basename = ntpath.basename(file_path)
                 print(os.path.basename(__file__), "basename: \"{}\"".format(basename))
-                if not basename.startswith("library_todoschool_enuma_com_todoschoollibrary."):
-                    warnings.warn("Skipping file: \"{}\"".format(basename))
-                    continue
 
-                # Extract the tablet serial number from the filename
-                # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
-                # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
-                tablet_serial = basename[47:57]
+                # Separate log files for each Android app where not introduced until 2018-05-25, so we can expect a
+                # different file structure before this date.
+                date_of_1st_software_update = datetime.datetime(2018, 5, 25)
+                date_as_datetime = datetime.datetime.strptime(date, '%Y-%m-%d')
+                if date_as_datetime < date_of_1st_software_update:
+                    print(os.path.basename(__file__), "date_as_datetime < date_of_1st_software_update")
+
+                    # Skip if the current file's name does not end with ".txt", e.g. "5A27001661_log_1.txt"
+                    if not basename.endswith(".txt"):
+                        warnings.warn("Skipping file: \"{}\"".format(basename))
+                        continue
+
+                    # Extract the tablet serial number from the filename.
+                    # E.g. "5A27001661_log_1.txt" or "5A27001661_log_10.txt"
+                    tablet_serial = basename[0:10]
+                else:
+                    print(os.path.basename(__file__), "date_as_datetime >= date_of_1st_software_update")
+
+                    # Skip if the current file's name does not start with "library_todoschool_enuma_com_todoschoollibrary.",
+                    # e.g. "library_todoschool_enuma_com_todoschoollibrary.6129002346.lastlog.txt" or
+                    # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
+                    if not basename.startswith("library_todoschool_enuma_com_todoschoollibrary."):
+                        warnings.warn("Skipping file: \"{}\"".format(basename))
+                        continue
+
+                    # Extract the tablet serial number from the filename
+                    # E.g. "library_todoschool_enuma_com_todoschoollibrary.6111001905.lastlog.txt" or
+                    # "library_todoschool_enuma_com_todoschoollibrary.6118002503.A.log.zip"
+                    tablet_serial = basename[47:57]
 
                 # Skip if the filename does not contain a valid tablet serial number
                 is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
@@ -157,6 +178,7 @@ def extract_from_week(directory_containing_weekly_data):
                     for txt_line in txt_file:
                         # Look for lines containing "action":"start_book"
                         if "start_book" in txt_line:
+                            print(os.path.basename(__file__), "file_path: {}".format(file_path))
                             print(os.path.basename(__file__), "txt_line: {}".format(txt_line))
                             # Extract storybook event from JSON object
                             # Example: {"appName":"library.todoschool.enuma.com.todoschoollibrary","timeStamp":1483935746,"event":{"category":"library","action":"start_book","label":"sw_216","value":0},"user":"user0"}
