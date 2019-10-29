@@ -127,7 +127,13 @@ def extract_from_week(directory_containing_weekly_data):
                                 storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZZZ YYYY").timestamp
                             elif len(userlog_logged_at) == 28:
                                 # E.g. "Wed Jan 09 09:55:25 PST 2019"
-                                storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZ YYYY").timestamp
+                                try:
+                                    storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZ YYYY").timestamp
+                                except arrow.parser.ParserError:
+                                    # Handle "arrow.parser.ParserError: Could not parse timezone expression "AST"".
+                                    # E.g. "Sun Jan 09 21:51:30 AST 2000"
+                                    warnings.warn("Skipping invalid timezone expression")
+                                    continue
                             print(os.path.basename(__file__), "storybook_start_time: {}".format(storybook_start_time))
 
                             # Storybook end time is not stored, so set to None
