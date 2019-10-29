@@ -27,7 +27,7 @@ def verify_date(date_text):
 
 
 # Prepares a set of key:value pairs for the MAC addresses listed in tablet-mac-to-serial-mappings.csv. This will make it
-# possible to map a MAC address (used in filenames before 2018-03-23) to its corresponding tablet serial number.
+# possible to map a MAC address (used in filenames before March 2018) to its corresponding tablet serial number.
 tablet_mac_to_serial_mappings = {}
 def initialize_tablet_mac_to_serial_mappings():
     print(os.path.basename(__file__), "initialize_tablet_mac_to_serial_mappings")
