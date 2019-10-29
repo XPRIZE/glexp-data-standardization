@@ -77,7 +77,9 @@ def extract_from_week(directory_containing_weekly_data):
                     continue
 
                 # Extract tablet serial number from the parent folder's name
-                # E.g. "2019-02-08/29/REMOTE/5A27001390/userlog.1548797314282.csv" --> "5A27001390"
+                # E.g. "2019-02-08/29/REMOTE/5A27001390/userlog.1548797314282.csv"
+                #  --> "2019-02-08/29/REMOTE/5A27001390"
+                #  --> "5A27001390"
                 tablet_serial = file_path.replace("/" + basename, "")
                 tablet_serial = tablet_serial[len(tablet_serial)-10:len(tablet_serial)]
                 print(os.path.basename(__file__), "tablet_serial: \"{}\"".format(tablet_serial))
@@ -86,11 +88,25 @@ def extract_from_week(directory_containing_weekly_data):
                 is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
                 print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
                 if not is_valid_tablet_serial_number:
-                    raise ValueError("Invalid tablet_serial: \"{}\"".format(tablet_serial))
+                    # Invalid serial number. Skip file.
+                    warnings.warn("The parent folder does not represent a 10-character serial number: \"{}\"".format(tablet_serial))
+                    continue
 
                 # Extract storybook events from CSV
                 with open(file_path) as csv_file:
                     csv_data = csv.reader(csv_file)
+
+                    # Skip if corrupt file content
+                    try:
+                        for storybook_event_row in csv_data:
+                            # Only check if the first line in the file is valid, and then skip iteration of the rest of the file.
+                            break
+                    except csv.Error:
+                        # Handle "_csv.Error: line contains NULL byte"
+                        # Example: 2018-09-07/35/REMOTE/6111001892/userlog.1532930088249.csv contains "^@^@^@^@^@^@^@^@^@^@"
+                        warnings.warn("Skipping file which contains NULL byte")
+                        continue
+
                     for storybook_event_row in csv_data:
                         print(os.path.basename(__file__), "storybook_event_row: {}".format(storybook_event_row))
 
@@ -123,7 +139,13 @@ def extract_from_week(directory_containing_weekly_data):
                                 storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZZZ YYYY").timestamp
                             elif len(userlog_logged_at) == 28:
                                 # E.g. "Wed Jan 09 09:55:25 PST 2019"
-                                storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZ YYYY").timestamp
+                                try:
+                                    storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZ YYYY").timestamp
+                                except arrow.parser.ParserError:
+                                    # Handle "arrow.parser.ParserError: Could not parse timezone expression "AST"".
+                                    # E.g. "Sun Jan 09 21:51:30 AST 2000" or "Thu Aug 29 15:25:29 EDT 2019"
+                                    warnings.warn("Skipping invalid timezone expression")
+                                    continue
                             print(os.path.basename(__file__), "storybook_start_time: {}".format(storybook_start_time))
 
                             # Storybook end time is not stored, so set to None
