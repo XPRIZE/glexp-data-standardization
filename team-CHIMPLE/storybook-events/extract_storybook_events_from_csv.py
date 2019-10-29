@@ -77,7 +77,9 @@ def extract_from_week(directory_containing_weekly_data):
                     continue
 
                 # Extract tablet serial number from the parent folder's name
-                # E.g. "2019-02-08/29/REMOTE/5A27001390/userlog.1548797314282.csv" --> "5A27001390"
+                # E.g. "2019-02-08/29/REMOTE/5A27001390/userlog.1548797314282.csv"
+                #  --> "2019-02-08/29/REMOTE/5A27001390"
+                #  --> "5A27001390"
                 tablet_serial = file_path.replace("/" + basename, "")
                 tablet_serial = tablet_serial[len(tablet_serial)-10:len(tablet_serial)]
                 print(os.path.basename(__file__), "tablet_serial: \"{}\"".format(tablet_serial))
@@ -86,7 +88,9 @@ def extract_from_week(directory_containing_weekly_data):
                 is_valid_tablet_serial_number = serial_number_util.is_valid(tablet_serial)
                 print(os.path.basename(__file__), "is_valid_tablet_serial_number: {}".format(is_valid_tablet_serial_number))
                 if not is_valid_tablet_serial_number:
-                    raise ValueError("Invalid tablet_serial: \"{}\"".format(tablet_serial))
+                    # Invalid serial number. Skip file.
+                    warnings.warn("The parent folder does not represent a 10-character serial number: \"{}\"".format(tablet_serial))
+                    continue
 
                 # Extract storybook events from CSV
                 with open(file_path) as csv_file:
