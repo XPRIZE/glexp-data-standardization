@@ -95,6 +95,18 @@ def extract_from_week(directory_containing_weekly_data):
                 # Extract storybook events from CSV
                 with open(file_path) as csv_file:
                     csv_data = csv.reader(csv_file)
+
+                    # Skip if corrupt file content
+                    try:
+                        for storybook_event_row in csv_data:
+                            # Only check if the first line in the file is valid, and then skip iteration of the rest of the file.
+                            break
+                    except csv.Error:
+                        # Handle "_csv.Error: line contains NULL byte"
+                        # Example: 2018-09-07/35/REMOTE/6111001892/userlog.1532930088249.csv contains "^@^@^@^@^@^@^@^@^@^@"
+                        warnings.warn("Skipping file which contains NULL byte")
+                        continue
+
                     for storybook_event_row in csv_data:
                         print(os.path.basename(__file__), "storybook_event_row: {}".format(storybook_event_row))
 
@@ -131,7 +143,7 @@ def extract_from_week(directory_containing_weekly_data):
                                     storybook_start_time = arrow.get(userlog_logged_at, "ddd MMM DD HH:mm:ss ZZZ YYYY").timestamp
                                 except arrow.parser.ParserError:
                                     # Handle "arrow.parser.ParserError: Could not parse timezone expression "AST"".
-                                    # E.g. "Sun Jan 09 21:51:30 AST 2000"
+                                    # E.g. "Sun Jan 09 21:51:30 AST 2000" or "Thu Aug 29 15:25:29 EDT 2019"
                                     warnings.warn("Skipping invalid timezone expression")
                                     continue
                             print(os.path.basename(__file__), "storybook_start_time: {}".format(storybook_start_time))
