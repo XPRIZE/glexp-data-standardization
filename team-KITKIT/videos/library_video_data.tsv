@@ -1,0 +1,129 @@
+# 데이터를 변경하려면:					
+#     우선 Google Spreadsheet상에서 이 파일을 수정한 후에					
+#     File > Download as > Tab-separated values (.tsv) 를 선택합니다.					
+#     다운로드한 파일 이름을 library_video_data.tsv 으로 변경합니다.					
+#     테스트할 기기의 Movies/Library에 tsv 파일과 thumbnail, 동영상파일을 복사해 넣습니다.					
+#          Category field는 코드에서 사용하는 부분이기 때문에 한번 추가 되면 변경하지 마시고 categoryname을 변경해주시기 바랍니다					
+#id	category	categoryname	title	thumbnail	filename
+tutorial1	tutorial	Namna ya kutumia shule ya Kitkit	Karibu Kitkit Shule	sw_welcome.png	sw_vdo_tut_welcome.mp4
+tutorial2	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kutumia tabuleti	tutorial1.png	sw_vdo_tut_tablet.mp4
+tutorial3	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kutunza tabuleti	tutorial2.png	sw_vdo_tut_care.mp4
+tutorial4	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kuchaji tabuleti	tutorial3.png	sw_vdo_tut_charge.mp4
+tutorial5	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kutumia tabuleti darasani	tutorial4.png	sw_vdo_tut_class.mp4
+tutorial6	tutorial	Namna ya kutumia shule ya Kitkit	Kupitia mchezo wa shule ya Kitkit	logo_sw.png	sw_vdo_tut_gameplay2.mp4
+tutorial7	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kutumia kitabu cha kielektroniki	tutorial6.png	sw_vdo_tut_book.mp4
+tutorial8	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kutumia vifaa	tutorial7.png	sw_vdo_tut_tools.mp4
+tutorial9	tutorial	Namna ya kutumia shule ya Kitkit	Namna ya kutumia maktaba	tutorial8.png	sw_vdo_tut_library.mp4
+mv1	music_video	Nyimbo za mafunzo	Maumbo ya rangi	shapes.png	sw_vdo_shapes.mp4
+mv2	music_video	Nyimbo za mafunzo	Vifaranga 100	100chickens.png	sw_vdo_100chickens.mp4
+mv3	music_video	Nyimbo za mafunzo	Wimbo wa herufi kuu	vowels.png	sw_vdo_vowel.mp4
+mv4	music_video	Nyimbo za mafunzo	Najua kuhesabu namba	count10.png	sw_vdo_count10.mp4
+mv5	music_video	Nyimbo za mafunzo	Wimbo wa Herufi	abc.png	sw_vdo_abc.mp4
+mv6	music_video	Nyimbo za mafunzo	Nyosha Vidole Vitano!	ubcount5.png	sw_vdo_ub_count5.mp4
+mv7	music_video	Nyimbo za mafunzo	Hesabu Vidole Kumi	ubcount10.png	sw_vdo_ub_count10.mp4
+mv8	music_video	Nyimbo za mafunzo	Hesabu na Mamba!	ubcroc10.png	sw_vdo_ub_croc10.mp4a
+mv9	music_video	Nyimbo za mafunzo	Treni ya Namba	ubtrain10.png	sw_vdo_ub_train10.mp4a
+mv10	music_video	Nyimbo za mafunzo	Moja mpaka ishirini!	ubtruck20.png	sw_vdo_ub_truck20.mp4
+mv11	music_video	Nyimbo za mafunzo	Vyura ya Hesabu	sw_vdo_ub_addsub.png	sw_vdo_ub_addsub.mp4
+mv2_1	music_video_2	Nyimbo za mafunzo 2	Kujumlisha na Kutoa	sw_vdo_ub_fifteen_1.png	sw_vdo_ub_fifteen_1.mp4
+mv2_2	music_video_2	Nyimbo za mafunzo 2	Iliyojaa, Ujazo Nusu na Tupu	sw_vdo_ub_fifteen_2.png	sw_vdo_ub_fifteen_2.mp4
+mv2_3	music_video_2	Nyimbo za mafunzo 2	Namba Kamili	sw_vdo_ub_fifteen_3.png	sw_vdo_ub_fifteen_3.mp4
+mv2_4	music_video_2	Nyimbo za mafunzo 2	Shughuli za Kila Siku	sw_vdo_ub_fifteen_4.png	sw_vdo_ub_fifteen_4.mp4
+mv2_5	music_video_2	Nyimbo za mafunzo 2	Siku za Juma	sw_vdo_ub_fifteen_5.png	sw_vdo_ub_fifteen_5.mp4
+mv2_6	music_video_2	Nyimbo za mafunzo 2	Miezi katika Mwaka	sw_vdo_ub_fifteen_6.png	sw_vdo_ub_fifteen_6.mp4
+mv2_7	music_video_2	Nyimbo za mafunzo 2	Zaidi, Pungufu, Sawa	sw_vdo_ub_fifteen_7.png	sw_vdo_ub_fifteen_7.mp4
+mv2_8	music_video_2	Nyimbo za mafunzo 2	Vinyume	sw_vdo_ub_fifteen_8.png	sw_vdo_ub_fifteen_8.mp4
+mv2_9	music_video_2	Nyimbo za mafunzo 2	Sampuli na Umbo	sw_vdo_ub_fifteen_9.png	sw_vdo_ub_fifteen_9.mp4
+mv2_10	music_video_2	Nyimbo za mafunzo 2	Mstari wa Namba	sw_vdo_ub_fifteen_10.png	sw_vdo_ub_fifteen_10.mp4
+mv2_11	music_video_2	Nyimbo za mafunzo 2	Hesabu Rahisi za Kugawanya	sw_vdo_ub_fifteen_11.png	sw_vdo_ub_fifteen_11.mp4
+mv2_12	music_video_2	Nyimbo za mafunzo 2	Hesabu Rahisi za Kuzidisha	sw_vdo_ub_fifteen_12.png	sw_vdo_ub_fifteen_12.mp4
+mv2_13	music_video_2	Nyimbo za mafunzo 2	Vitu Vinavyotuzunguka	sw_vdo_ub_fifteen_13.png	sw_vdo_ub_fifteen_13.mp4
+mv2_14	music_video_2	Nyimbo za mafunzo 2	Maneno Yana Sauti za Mwanzo na za Mwisho	sw_vdo_ub_fifteen_14.png	sw_vdo_ub_fifteen_14.mp4
+mv2_15	music_video_2	Nyimbo za mafunzo 2	Jifunze Kuhusu Sifuri	sw_vdo_ub_fifteen_15.png	sw_vdo_ub_fifteen_15.mp4
+l_vdo1	literacy_video	Video ya Kiswahili	Ndege yuko wapi?	bird.png	sw_vdo_311_t.mp4
+l_vdo2	literacy_video	Video ya Kiswahili	Sura	face.png	sw_vdo_108_t.mp4
+l_vdo3	literacy_video	Video ya Kiswahili	Mwili	body.png	sw_vdo_107_t.mp4
+l_vdo4	literacy_video	Video ya Kiswahili	Kusoma pamoja: Usafiri	abc.png	sw_vdo_101.mp4
+l_vdo5	literacy_video	Video ya Kiswahili	Kanuni za herufi Kubwa	sw_vdo_uppercase.png	sw_vdo_uppercase.mp4
+l_vdo6	literacy_video	Video ya Kiswahili	Herufi kubwa na ndogo	sw_vdo_upperlowercase.png	sw_vdo_upperlowercase.mp4
+l_vdo7	literacy_video	Video ya Kiswahili	Alama za Uandishi	sw_vdo_punctuation.png	sw_vdo_punctuation.mp4
+l_vdo8	literacy_video	Video ya Kiswahili	Twende	sw_vdo_201_rt.png	sw_vdo_201_rt.mp4
+l2_vdo1	literacy_video_2	Video ya Kiswahili 2	Hebu Tujifunze Sauti za Herufi	sw_vdo_1025_thumbnail.png	sw_vdo_1025.mp4
+l2_vdo2	literacy_video_2	Video ya Kiswahili 2	Linaanza na Sauti Gani?	sw_vdo_1026_thumbnail.png	sw_vdo_1026.mp4
+l2_vdo3	literacy_video_2	Video ya Kiswahili 2	Hebu Tutamke Silabi kwa Sauti	sw_vdo_1027_thumbnail.png	sw_vdo_1027.mp4
+l2_vdo4	literacy_video_2	Video ya Kiswahili 2	Kusoma Maneno Yanayofahamika	sw_vdo_1028_thumbnail.png	sw_vdo_1028.mp4
+l2_vdo5	literacy_video_2	Video ya Kiswahili 2	Kujifunza Kosoma Maneno	sw_vdo_1029_thumbnail.png	sw_vdo_1029.mp4
+l2_vdo6	literacy_video_2	Video ya Kiswahili 2	Hebu Tusikilize Hadithi!	sw_vdo_1030_thumbnail.png	sw_vdo_1030.mp4
+l2_vdo7	literacy_video_2	Video ya Kiswahili 2	Hebu Tusome Hadithi!	sw_vdo_1032_thumbnail.png	sw_vdo_1032.mp4
+l2_vdo8	literacy_video_2	Video ya Kiswahili 2	Hebu Tuandike Maneno!	sw_vdo_1033_thumbnail.png	sw_vdo_1033.mp4
+l2_vdo9	literacy_video_2	Video ya Kiswahili 2	Hebu Tuandike Sentensi!	sw_vdo_1034_thumbnail.png	sw_vdo_1034.mp4
+l2_vdo10	literacy_video_2	Video ya Kiswahili 2	Jinsi ya Kushika Penseli	sw_vdo_1045_thumbnail.png	sw_vdo_1045.mp4
+l2_vdo11	literacy_video_2	Video ya Kiswahili 2	Jinsi ya kuzitambua sauti za mwanzo za maneno	sw_vdo_sc_initialsound_thumbnail.png	sw_vdo_sc_initialsound.mp4
+l2_vdo12	literacy_video_2	Video ya Kiswahili 2	Shughuli za Ufahamu wa Kusikiliza	sw_vdo_sc_lc_thumbnail.png	sw_vdo_sc_lc.mp4
+l2_vdo13	literacy_video_2	Video ya Kiswahili 2	Upatanifu wa Kiwakilishi na Kitenzi	sw_vdo_sc_sentence_thumbnail.png	sw_vdo_sc_sentence.mp4
+l2_vdo14	literacy_video_2	Video ya Kiswahili 2	Namna ya Kuunda Maneno ya Silabi Tatu	sw_vdo_sc_syllable_thumbnail.png	sw_vdo_sc_syllable.mp4
+m_vdo1	math_video	Video ya Hesabu	Ndege ya maumbo	airshapes.png	sw_vdo_airshapes.mp4
+m_vdo2	math_video	Video ya Hesabu	Nusuduara	semicircles.png	sw_vdo_semicircle.mp4
+m_vdo3	math_video	Video ya Hesabu	Maumbo	sw_vdo_shapesevery.png	sw_vdo_shapesevery.mp4
+m_vdo4	math_video	Video ya Hesabu	Mafungu ya thamani	sw_vdo_placevalues.png	sw_vdo_placevalues.mp4
+m_vdo5	math_video	Video ya Hesabu	Kibonyezo	sw_vdo_keypad.png	sw_vdo_keypad.mp4
+m_vdo6	math_video	Video ya Hesabu	Kubwa na ndogo	sw_vdo_bigsmall.png	sw_vdo_bigsmall.mp4
+m_vdo7	math_video	Video ya Hesabu	Kujumlisha na kutoa	sw_vdo_plusminus.png	sw_vdo_plusminus.mp4
+m_vdo8	math_video	Video ya Hesabu	Kujumlisha	sw_vdo_verticaladd.png	sw_vdo_verticaladd.mp4
+m_vdo9	math_video	Video ya Hesabu	Kujumlisha kwa tarakimu mbili	sw_vdo_verticaladd2.png	sw_vdo_verticaladd2.mp4
+m_vdo10	math_video	Video ya Hesabu	Kujumlisha kwa tarakimu mbili: sehemu ya pili	sw_vdo_verticaladd3.png	sw_vdo_verticaladd3.mp4
+m_vdo11	math_video	Video ya Hesabu	Kutoa	sw_vdo_verticalsub.png	sw_vdo_verticalsub.mp4
+m_vdo12	math_video	Video ya Hesabu	Kutoa kwa tarakimu mbili	sw_vdo_verticalsub2.png	sw_vdo_verticalsub2.mp4
+m_vdo13	math_video	Video ya Hesabu	Kutoa kwa tarakimu mbili: sehemu ya pili	sw_vdo_verticalsub3.png	sw_vdo_verticalsub3.mp4
+m_vdo14	math_video	Video ya Hesabu	Sawa, kubwa kuliko na ndogo kuliko	sw_vdo_equalsgreatless.png	sw_vdo_equalsgreatless.mp4
+m2_vdo1	math_video_2	Video ya Hesabu 2	Hesabu za Mafumbo	sw_vdo_1050_thumbnail.png	sw_vdo_1050.mp4
+m2_vdo2	math_video_2	Video ya Hesabu 2	Mafumbo ya Kuzidisha	sw_vdo_1051_thumbnail.png	sw_vdo_1051.mp4
+m2_vdo3	math_video_2	Video ya Hesabu 2	Mafumbo ya Kugawana	sw_vdo_1052_thumbnail.png	sw_vdo_1052.mp4
+m2_vdo4	math_video_2	Video ya Hesabu 2	Mpangilio/Kulinganisha namba kumi na moja hadi tisini na tisa.	sw_vdo_sc_order2digit_thumbnail.png	sw_vdo_sc_order2digit.mp4
+m2_vdo5	math_video_2	Video ya Hesabu 2	Mpangilio/Kulinganisha namba za Tarakimu Tatu.	sw_vdo_sc_order3digit_thumbnail.png	sw_vdo_sc_order3digit.mp4
+m2_vdo6	math_video_2	Video ya Hesabu 2	Kutafuta namba zinazokosekana katika idadi ya 20.	sw_vdo_sc_skipcounting1_thumbnail.png	sw_vdo_sc_skipcounting1.mp4
+m2_vdo7	math_video_2	Video ya Hesabu 2	Kutafuta namba za tarakimu mbili zinazokosekana	sw_vdo_sc_skipcounting2_thumbnail.png	sw_vdo_sc_skipcounting2.mp4
+m2_vdo8	math_video_2	Video ya Hesabu 2	Kutafuta namba za tarakimu tatu zinazokosekana	sw_vdo_sc_skipcounting3_thumbnail.png	sw_vdo_sc_skipcounting3.mp4
+m2_vdo9	math_video_2	Video ya Hesabu 2	Kujumlisha ndani ya kumi	sw_vdo_sc_addition1_thumbnail.png	sw_vdo_sc_addition1.mp4
+m2_vdo10	math_video_2	Video ya Hesabu 2	Kujumlisha ndani ya 20 bila kuweka katika makundi	sw_vdo_sc_addition2_thumbnail.png	sw_vdo_sc_addition2.mp4
+m2_vdo11	math_video_2	Video ya Hesabu 2	Kujumlisha namba za tarakimu mbili katika makundi.	sw_vdo_sc_addition3_thumbnail.png	sw_vdo_sc_addition3.mp4
+m2_vdo12	math_video_2	Video ya Hesabu 2	Kutoa Ndani Ya Kumi	sw_vdo_sc_subtraction1_thumbnail.png	sw_vdo_sc_subtraction1.mp4
+m2_vdo13	math_video_2	Video ya Hesabu 2	Kutoa namba zisizozidi 20 katika makundi	sw_vdo_sc_subtraction2_thumbnail.png	sw_vdo_sc_subtraction2.mp4
+m2_vdo14	math_video_2	Video ya Hesabu 2	Kutoa namba za tarakimu mbili bila kuziweka katika makundi	sw_vdo_sc_subtraction3_thumbnail.png	sw_vdo_sc_subtraction3.mp4
+m2_vdo15	math_video_2	Video ya Hesabu 2	Kutoa namba za tarakimu mbili katika makundi	sw_vdo_sc_subtraction4_thumbnail.png	sw_vdo_sc_subtraction4.mp4
+m2_vdo16	math_video_2	Video ya Hesabu 2	Mafumbo ya Kujumlisha	sw_vdo_1048_thumbnail.png	sw_vdo_1048.mp4
+m2_vdo17	math_video_2	Video ya Hesabu 2	Mafumbo ya Kutoa	sw_vdo_1049_thumbnail.png	sw_vdo_1049.mp4
+m2_vdo18	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kulinganisha - tofauti haijulikani 1	sw_vdo_sc_wordproblem1_thumbnail.png	sw_vdo_sc_wordproblem1.mp4
+m2_vdo19	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kulinganisha - tofauti haijulikani 2	sw_vdo_sc_wordproblem2_thumbnail.png	sw_vdo_sc_wordproblem2.mp4
+m2_vdo20	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kulinganisha - kubwa haijulikani 1	sw_vdo_sc_wordproblem3_thumbnail.png	sw_vdo_sc_wordproblem3.mp4
+m2_vdo21	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kulinganisha - kubwa haijulikani 2	sw_vdo_sc_wordproblem4_thumbnail.png	sw_vdo_sc_wordproblem4.mp4
+m2_vdo22	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kuongeza - badiliko halijulikani	sw_vdo_sc_wordproblem5_thumbnail.png	sw_vdo_sc_wordproblem5.mp4
+m2_vdo23	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kuongeza - ya kuanzia haijulikani	sw_vdo_sc_wordproblem6_thumbnail.png	sw_vdo_sc_wordproblem6.mp4
+m2_vdo24	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kuondoa - badiliko halijulikani	sw_vdo_sc_wordproblem7_thumbnail.png	sw_vdo_sc_wordproblem7.mp4
+m2_vdo25	math_video_2	Video ya Hesabu 2	Hesabu za mafumbo: kuondoa - inayoanza haijulikani	sw_vdo_sc_wordproblem8_thumbnail.png	sw_vdo_sc_wordproblem8.mp4
+a_vdo1	alphabet_video	Video za alfabeti	A	sw_vdo_ub_a_thumbnail.png	sw_vdo_ub_a.mp4
+a_vdo2	alphabet_video	Video za alfabeti	B	sw_vdo_ub_b_thumbnail.png	sw_vdo_ub_b.mp4
+a_vdo3	alphabet_video	Video za alfabeti	Ch	sw_vdo_ub_ch_thumbnail.png	sw_vdo_ub_ch.mp4
+a_vdo4	alphabet_video	Video za alfabeti	D	sw_vdo_ub_d_thumbnail.png	sw_vdo_ub_d.mp4
+a_vdo5	alphabet_video	Video za alfabeti	E	sw_vdo_ub_e_thumbnail.png	sw_vdo_ub_e.mp4
+a_vdo6	alphabet_video	Video za alfabeti	F	sw_vdo_ub_f_thumbnail.png	sw_vdo_ub_f.mp4
+a_vdo7	alphabet_video	Video za alfabeti	G	sw_vdo_ub_g_thumbnail.png	sw_vdo_ub_g.mp4
+a_vdo8	alphabet_video	Video za alfabeti	H	sw_vdo_ub_h_thumbnail.png	sw_vdo_ub_h.mp4
+a_vdo9	alphabet_video	Video za alfabeti	I	sw_vdo_ub_i_thumbnail.png	sw_vdo_ub_i.mp4
+a_vdo10	alphabet_video	Video za alfabeti	J	sw_vdo_ub_j_thumbnail.png	sw_vdo_ub_j.mp4
+a_vdo11	alphabet_video	Video za alfabeti	K	sw_vdo_ub_k_thumbnail.png	sw_vdo_ub_k.mp4
+a_vdo12	alphabet_video	Video za alfabeti	L	sw_vdo_ub_l_thumbnail.png	sw_vdo_ub_l.mp4
+a_vdo13	alphabet_video	Video za alfabeti	M	sw_vdo_ub_m_thumbnail.png	sw_vdo_ub_m.mp4
+a_vdo14	alphabet_video	Video za alfabeti	N	sw_vdo_ub_n_thumbnail.png	sw_vdo_ub_n.mp4
+a_vdo15	alphabet_video	Video za alfabeti	O	sw_vdo_ub_o_thumbnail.png	sw_vdo_ub_o.mp4
+a_vdo16	alphabet_video	Video za alfabeti	P	sw_vdo_ub_p_thumbnail.png	sw_vdo_ub_p.mp4
+a_vdo17	alphabet_video	Video za alfabeti	R	sw_vdo_ub_r_thumbnail.png	sw_vdo_ub_r.mp4
+a_vdo18	alphabet_video	Video za alfabeti	S	sw_vdo_ub_s_thumbnail.png	sw_vdo_ub_s.mp4
+a_vdo19	alphabet_video	Video za alfabeti	T	sw_vdo_ub_t_thumbnail.png	sw_vdo_ub_t.mp4
+a_vdo20	alphabet_video	Video za alfabeti	U	sw_vdo_ub_u_thumbnail.png	sw_vdo_ub_u.mp4
+a_vdo21	alphabet_video	Video za alfabeti	V	sw_vdo_ub_v_thumbnail.png	sw_vdo_ub_v.mp4
+a_vdo22	alphabet_video	Video za alfabeti	W	sw_vdo_ub_w_thumbnail.png	sw_vdo_ub_w.mp4
+a_vdo23	alphabet_video	Video za alfabeti	Y	sw_vdo_ub_y_thumbnail.png	sw_vdo_ub_y.mp4
+a_vdo24	alphabet_video	Video za alfabeti	Z	sw_vdo_ub_z_thumbnail.png	sw_vdo_ub_z.mp4
+a_vdo25	alphabet_video	Video za alfabeti	Sh	sw_vdo_ub_sh_thumbnail.png	sw_vdo_ub_sh.mp4
+a_vdo26	alphabet_video	Video za alfabeti	Ny	sw_vdo_ub_ny_thumbnail.png	sw_vdo_ub_ny.mp4
