@@ -1,6 +1,7 @@
 # Extracts tablet serial numbers from log files collected from tablets, and stores them in a standardized format.
 #
 # Example usage:
+#     cd tablets-uploading-data
 #     python3 extract_tablet_serial_numbers.py ../tablet-usage-data/2019-03-01
 #
 # The extracted data will be stored in a file named `tablets-uploading-data-CCI_<DATE>.csv`.
