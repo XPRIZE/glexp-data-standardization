@@ -16,6 +16,7 @@ if len(sys.argv) > 1:
     BASE_PATH = sys.argv[1]
 print(os.path.basename(__file__), "BASE_PATH: {}".format(BASE_PATH))
 
+# Data was not collected during the week of 2019-02-15.
 data_collection_week_end_dates = [
     '2017-12-22', '2017-12-29',
     '2018-01-05', '2018-01-12', '2018-01-19', '2018-01-26',
