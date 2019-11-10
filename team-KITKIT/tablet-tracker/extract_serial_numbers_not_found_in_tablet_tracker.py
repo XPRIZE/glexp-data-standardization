@@ -25,10 +25,10 @@ with open('tablet-tracker-KITKIT.csv') as in_file:
 
         logging.debug("csv_row: {}".format(csv_row))
 
-        # Iterate serial columns ("Serial #1" --> "Serial #7")
+        # Iterate serial columns ("Serial #1" --> "Serial #14")
         removal_count = 1
         column_index = 2
-        while removal_count <= 7:
+        while removal_count <= 14:
             serial_number = csv_row[column_index]
             logging.debug("Serial #{0}: {1}".format(removal_count, serial_number))
 
