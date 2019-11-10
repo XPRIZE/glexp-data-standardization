@@ -1,4 +1,4 @@
-# Extracts serial numbers found in tablet usage data, but not tablet in tracker.
+# Extracts serial numbers found in tablet usage data, but not in tablet tracker.
 #
 # Usage:
 #     cd tablet-tracker
@@ -11,7 +11,8 @@ import logging
 
 logging.basicConfig(format='%(levelname)s | %(asctime)s | %(message)s', level=logging.DEBUG)
 
-# Extract serial numbers from tablet tracker and add them to an array
+
+# Extract serial numbers from tablet tracker, and add them to an array
 serial_numbers_in_tablet_tracker = []
 with open('tablet-tracker-ROBOTUTOR.csv') as in_file:
     csv_data = csv.reader(in_file)
