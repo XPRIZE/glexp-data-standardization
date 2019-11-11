@@ -78,6 +78,9 @@ with open('tablet-tracker-ROBOTUTOR.csv') as in_file:
     logging.debug("serial_numbers_not_found_in_tablet_usage_data: {}".format(serial_numbers_not_found_in_tablet_usage_data))
     logging.debug("len(serial_numbers_not_found_in_tablet_usage_data): {}".format(len(serial_numbers_not_found_in_tablet_usage_data)))
 
+    # Sort the serial numbers alphabetically
+    serial_numbers_not_found_in_tablet_usage_data = sorted(serial_numbers_not_found_in_tablet_usage_data)
+
     # Write results to a CSV file
     csv_filename = "serial-numbers-not-found-in-tablet-usage-data.csv"
     print("Writing list of missing tablet serials to the file \"" + csv_filename + "\"")
