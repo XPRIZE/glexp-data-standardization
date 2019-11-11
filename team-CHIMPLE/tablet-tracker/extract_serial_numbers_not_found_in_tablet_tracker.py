@@ -78,6 +78,9 @@ with open('../tablets-uploading-data/tablets-uploading-data-CHIMPLE.csv') as in_
     logging.debug("serial_numbers_not_found_in_tablet_tracker: {}".format(serial_numbers_not_found_in_tablet_tracker))
     logging.debug("len(serial_numbers_not_found_in_tablet_tracker): {}".format(len(serial_numbers_not_found_in_tablet_tracker)))
 
+    # Sort the serial numbers alphabetically
+    serial_numbers_not_found_in_tablet_tracker = sorted(serial_numbers_not_found_in_tablet_tracker, key=lambda x: x[0])
+
     # Write results to a CSV file
     csv_filename = "serial-numbers-not-found-in-tablet-tracker.csv"
     print("Writing list of missing tablet serials to the file \"" + csv_filename + "\"")
