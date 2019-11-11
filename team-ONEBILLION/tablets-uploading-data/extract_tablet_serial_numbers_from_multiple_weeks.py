@@ -1,6 +1,7 @@
 # Collects tablet serials numbers from multiple weeks of data and combines them into one file.
 #
 # Example usage:
+#     cd tablets-uploading-data
 #     python3 extract_tablet_serial_numbers_from_multiple_weeks.py ../tablet-usage-data
 #
 # The extracted data will be stored in a file named `tablets-uploading-data-ONEBILLION.csv`.
