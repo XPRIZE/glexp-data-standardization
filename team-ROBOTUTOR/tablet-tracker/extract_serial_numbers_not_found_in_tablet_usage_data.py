@@ -45,6 +45,23 @@ with open('../tablets-uploading-data/tablets-uploading-data-ROBOTUTOR.csv') as i
     logging.debug("len(serial_numbers_in_tablet_usage_data): {}".format(len(serial_numbers_in_tablet_usage_data)))
 
 
+# Returns a percentage indicating how similar two tablet serial numbers are.
+# Example: (5A23002711, 5A23002751) --> 0.8
+def get_serial_match_ratio(serial1, serial2):
+    logging.debug("get_serial_match_ratio")
+
+    # Calculate number of matches
+    serial_match_count = 0
+    for index in range(0, 9):
+        if serial1[index] == serial2[index]:
+            serial_match_count += 1
+
+    serial_match_ratio = serial_match_count / 10
+    logging.debug("sequence_match({0}, {1}): {2}".format(serial1, serial2, serial_match_ratio))
+
+    return serial_match_ratio
+
+
 # Iterate the serial numbers in the tablet tracker
 with open('tablet-tracker-ROBOTUTOR.csv') as in_file:
     serial_numbers_not_found_in_tablet_usage_data = []
@@ -83,11 +100,20 @@ with open('tablet-tracker-ROBOTUTOR.csv') as in_file:
 
     # Write results to a CSV file
     csv_filename = "serial-numbers-not-found-in-tablet-usage-data.csv"
-    print("Writing list of missing tablet serials to the file \"" + csv_filename + "\"")
+    logging.debug("Writing list of missing tablet serials to the file \"" + csv_filename + "\"")
     with open(csv_filename, mode='w') as csv_file:
-        csv_fieldnames = ['serial_number']
+        csv_fieldnames = ['serial_number', 'closest_match', 'closest_match_percentage']
         csv_writer = csv.writer(csv_file, csv_fieldnames)
         csv_writer.writerow(csv_fieldnames)
         for serial_number in serial_numbers_not_found_in_tablet_usage_data:
-            serial_number_as_list = [serial_number]
-            csv_writer.writerow(serial_number_as_list)
+            # Find the closest match in the tablet usage data
+            closest_match = None
+            closest_match_percentage = None
+            for serial_number_in_tablet_usage_data in serial_numbers_in_tablet_usage_data:
+                serial_match_ratio = get_serial_match_ratio(serial_number, serial_number_in_tablet_usage_data)
+                if (closest_match_percentage is None) or (closest_match_percentage < serial_match_ratio):
+                    closest_match_percentage = serial_match_ratio
+                    closest_match = serial_number_in_tablet_usage_data
+
+            csv_row = [serial_number, closest_match, closest_match_percentage]
+            csv_writer.writerow(csv_row)
